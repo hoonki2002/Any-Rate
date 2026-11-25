@@ -1,0 +1,14 @@
+{
+ "model": "THUDM/CogVideoX-2b",
+ "parts": "DiT and T5 text encoder in the same mode",
+ "settings": {
+  "num_inference_steps": 50,
+  "guidance_scale": 6,
+  "num_frames": 49,
+  "fps": 8,
+  "seed": 42,
+  "negative_prompt": ""
+ },
+ "prompt": "A robotic arm picks up a tiny chip and places it onto a circuit board in a clean factory, camera slowly panning",
+ "file names": "robot_<method>_<bits>bit_dit+t5.mp4 (robot_fp16.mp4: original model); method ar = Any-Rate, mg = MG (2/3/4)"
+}

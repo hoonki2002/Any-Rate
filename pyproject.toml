@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "any-rate"
+version = "0.1.0"
+description = "Any-Rate: one checkpoint read at 2, 2.5, 3, 3.5, 4, 5, 6, 7 and 8 bits"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+[tool.setuptools.packages.find]
+include = ["any_rate*"]
+
+[tool.setuptools.package-data]
+any_rate = ["data/*.json"]

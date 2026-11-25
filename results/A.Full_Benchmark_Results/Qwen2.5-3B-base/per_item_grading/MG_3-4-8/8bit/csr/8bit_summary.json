@@ -1,0 +1,10 @@
+{
+  "arc_challenge": 0.4718430034129693,
+  "arc_easy": 0.7415824915824916,
+  "hellaswag": 0.7296355307707628,
+  "piqa_baber": 0.7889009793253536,
+  "winogrande": 0.6748224151539068,
+  "avg": 0.6813568840490968,
+  "metric": "acc_norm (winogrande: acc)",
+  "seconds": 223.61587834358215
+}

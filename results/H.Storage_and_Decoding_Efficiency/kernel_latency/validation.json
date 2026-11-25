@@ -1,0 +1,14 @@
+{
+ "max relative error of each baseline kernel against its own dense path": {
+  "AP official 3b gemv vs own dequant": 0.0008937029633671045,
+  "AP port 3b vs AP official": 0.0,
+  "AP official 4b gemv vs own dequant": 0.0010746776824817061,
+  "AP port 4b vs AP official": 0.0,
+  "AB 2b gemv vs own dequant+matmul": 0.002487562131136656,
+  "AB 3b gemv vs own dequant+matmul": 0.0030826141592115164,
+  "AB 4b gemv vs own dequant+matmul": 0.0021220159251242876,
+  "MG 2b (zeros) vs dense formula": 0.0004154393682256341,
+  "MG 3b (zeros) vs dense formula": 0.0003762805135920644,
+  "MG 4b (zeros) vs dense formula": 0.0004275636456441134
+ }
+}

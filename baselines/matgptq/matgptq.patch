@@ -1,0 +1,87 @@
+diff --git a/quant.py b/quant.py
+index 0138387..d9ca355 100644
+--- a/quant.py
++++ b/quant.py
+@@ -91,7 +91,7 @@ def main():
+     if not args.cpu_offload_modules:
+         model = model.to(device)
+     # Tokenizer
+-    tokenizer = AutoTokenizer.from_pretrained(args.tokenizer_name or args.model_name_or_path, use_fast=False)
++    tokenizer = AutoTokenizer.from_pretrained(args.tokenizer_name or args.model_name_or_path, use_fast=True)  # modified by the Any-Rate authors: fast tokenizer
+     # Load calibration data
+     args.calibration_sequence_length = args.calibration_sequence_length or model.config.max_position_embeddings
+     calibration_data = get_data(
+diff --git a/src/mat_gptq.py b/src/mat_gptq.py
+index 060824d..9e2eb7a 100644
+--- a/src/mat_gptq.py
++++ b/src/mat_gptq.py
+@@ -1,6 +1,8 @@
+ from typing import Tuple, Optional, List, Dict
+ 
++import os
+ import torch
++MOE_PRIOR = float(os.environ.get("MOE_PRIOR", 0))   # modified by the Any-Rate authors: MoE expert rule of Any-Rate, see quantization_pre_step
+ import torch.nn as nn
+ import torch.distributed as dist
+ from torch import Tensor
+@@ -95,6 +97,10 @@ class MatGPTQ:
+             input = unfold(input)
+             input = input.transpose(1, 2).flatten(0, 1)
+         input = input.float()
++        if MOE_PRIOR > 0:   # modified by the Any-Rate authors: MoE experts count routed tokens (the prior below needs them); an expert called with no token adds nothing
++            if input.shape[0] == 0:
++                return
++            batch_size = input.shape[0]
+         beta = self.num_samples / (self.num_samples + batch_size)
+         alpha = 2.0 / (self.num_samples + batch_size)
+         self.H.addmm_(input.T, input, beta=beta, alpha=alpha)
+@@ -110,11 +116,18 @@ class MatGPTQ:
+     @torch.no_grad()
+     def quantization_pre_step(self) -> None:
+         """Regularize the Hessian and reshape weights."""
++        if self.H is None and MOE_PRIOR > 0:   # modified by the Any-Rate authors: MoE expert never called during calibration
++            self.H = torch.zeros((self.d_col, self.d_col), device=self.layer.weight.device, dtype=torch.float32)
+         assert (
+             self.H is not None
+         ), "One has to process at least one sample of calibration data to run pruning"
+         if dist_utils.is_dist_available_and_initialized():
+             dist.all_reduce(self.H, op=dist.ReduceOp.AVG)
++        if MOE_PRIOR > 0:   # modified by the Any-Rate authors: same rule as the Any-Rate MoE encoding: no routed token -> identity Hessian; fewer than MOE_PRIOR tokens -> isotropic prior of MOE_PRIOR tokens
++            if self.num_samples == 0 or not self.H.any():
++                self.H = torch.eye(self.d_col, device=self.H.device, dtype=torch.float32)
++            elif self.num_samples < MOE_PRIOR:
++                self.H += (MOE_PRIOR / self.num_samples) * (torch.trace(self.H) / self.d_col) * torch.eye(self.d_col, device=self.H.device, dtype=torch.float32)
+         pruned_ids = torch.diag(self.H) == 0
+         self.H[pruned_ids, pruned_ids] = 1
+         # Score search candidates with the undamped diagonal; pruned channels weigh zero.
+diff --git a/src/model_utils.py b/src/model_utils.py
+index 6b4dbfc..49c0feb 100644
+--- a/src/model_utils.py
++++ b/src/model_utils.py
+@@ -38,7 +38,7 @@ class Catcher(nn.Module):
+ 
+ 
+ def get_layers(model: AutoModelForCausalLM):
+-    if model.config.model_type in ("llama", "gemma", "gemma2", "phi3", "mistral", "qwen3"):
++    if model.config.model_type in ("llama", "gemma", "gemma2", "phi3", "mistral", "qwen3", "qwen2", "gemma3_text"):  # modified by the Any-Rate authors: qwen2, gemma3_text
+         return model.model.layers
+     if model.config.model_type == "opt":
+         return model.model.decoder.layers
+@@ -48,7 +48,7 @@ def get_layers(model: AutoModelForCausalLM):
+ 
+ def get_lm_head(model: AutoModelForCausalLM):
+     lm_head = nn.ModuleList()
+-    if model.config.model_type in ("llama", "gemma", "gemma2", "phi3", "mistral", "qwen3"):
++    if model.config.model_type in ("llama", "gemma", "gemma2", "phi3", "mistral", "qwen3", "qwen2", "gemma3_text"):  # modified by the Any-Rate authors: qwen2, gemma3_text
+         if model.model.norm is not None:
+             lm_head.append(model.model.norm)
+         lm_head.append(model.lm_head)
+@@ -64,7 +64,7 @@ def get_lm_head(model: AutoModelForCausalLM):
+ 
+ 
+ def get_lm_logits(hidden_states: torch.Tensor, model: nn.Module):
+-    if model.config.model_type in ("llama", "gemma", "gemma2", "phi3", "mistral", "qwen3"):
++    if model.config.model_type in ("llama", "gemma", "gemma2", "phi3", "mistral", "qwen3", "qwen2", "gemma3_text"):  # modified by the Any-Rate authors: qwen2, gemma3_text
+         if model.model.norm is not None:
+             hidden_states = model.model.norm(hidden_states)
+         lm_logits = model.lm_head(hidden_states)

@@ -1,0 +1,28 @@
+{
+ "model": "PixArt-alpha/PixArt-Sigma-XL-2-1024-MS",
+ "parts": "t5 = T5 text encoder only, dit = diffusion transformer only, dit+t5 = both (same mode)",
+ "settings": {
+  "num_inference_steps": 20,
+  "guidance_scale": 4.5,
+  "height": 1024,
+  "width": 1024,
+  "negative_prompt": "",
+  "seed": 102,
+  "dtype": "DiT fp16, T5 bf16 (embeddings cast to fp16 for the DiT), VAE fp16"
+ },
+ "prompts": {
+  "market": {
+   "prompt": "A busy street market with many people and colorful stalls",
+   "seed": 102
+  },
+  "chihuahua": {
+   "prompt": "A happy, dark-colored chihuahua with white markings and a visible tongue is lying on a dark surface with a leash attached to its collar, looking directly at the camera with a joyful expression.",
+   "seed": 102
+  },
+  "sunflowers": {
+   "prompt": "A bouquet of sunflowers in a glass vase on a wooden table by a sunny window",
+   "seed": 1007
+  }
+ },
+ "file names": "<method>_<bits>bit_<parts>_<prompt>.png (fp16_<prompt>.png: original model); method ar = Any-Rate, mg = MG (2/3/4)"
+}

@@ -1,0 +1,42 @@
+diff --git a/anybcq/quantization/anybcq.py b/anybcq/quantization/anybcq.py
+index 253e27d..59784f8 100755
+--- a/anybcq/quantization/anybcq.py
++++ b/anybcq/quantization/anybcq.py
+@@ -306,7 +306,17 @@ class AnyBCQ:
+                     position_embeddings = (cos, sin)
+ 
+                 # ───── Forward pass through the isolated block ──────────────────────────
+-                if self.attention_mask is not None:  # language task
++                if self.attention_mask is not None and hasattr(self.model.model, "rotary_emb_local"):   # modified by the Any-Rate authors: Gemma-3 has separate rotary embeddings for the global and the sliding-window layers
++                    pe_local = self.model.model.rotary_emb_local(input_q, self.position_ids)
++                    output_q = recon_block(
++                        hidden_states=input_q,
++                        position_embeddings_global=position_embeddings,
++                        position_embeddings_local=pe_local,
++                        attention_mask=self.attention_mask,
++                        position_ids=self.position_ids,
++                        cache_position=cache_position,
++                    )
++                elif self.attention_mask is not None:  # language task
+                     output_q = recon_block(
+                         hidden_states=input_q,
+                         attention_mask=self.attention_mask,
+diff --git a/anybcq/utils/architectures/gemma3.yaml b/anybcq/utils/architectures/gemma3.yaml
+new file mode 100644
+index 0000000..954700a
+--- /dev/null
++++ b/anybcq/utils/architectures/gemma3.yaml
+@@ -0,0 +1,13 @@
++# Added by the Any-Rate authors: architecture file for Gemma-3 (language model)
++architecture: "Gemma3ForCausalLM"
++arch_config:
++  model_name: "model"
++  layers_name: "layers"
++  module_names:
++    - "self_attn.q_proj"
++    - "self_attn.k_proj"
++    - "self_attn.v_proj"
++    - "self_attn.o_proj"
++    - "mlp.gate_proj"
++    - "mlp.up_proj"
++    - "mlp.down_proj"

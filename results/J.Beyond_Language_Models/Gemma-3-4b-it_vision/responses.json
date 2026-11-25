@@ -1,0 +1,32 @@
+{
+ "model": "Gemma-3-4b-it (language model and vision tower in the same Any-Rate mode)",
+ "decoding": "greedy",
+ "images": {
+  "cat_white.jpg": "cat (left in the paper table)",
+  "dog_leash.jpg": "dog (right in the paper table)"
+ },
+ "responses": {
+  "cat_white.jpg": {
+   "prompt": "Describe this image in one sentence.",
+   "responses": {
+    "16": "Here’s a one-sentence description of the image:\n\nA fluffy, white cat with striking blue eyes sits regally on a wooden surface next to a vintage typewriter and stacks of books, creating a charming and slightly vintage scene.",
+    "4": "Here’s a one-sentence description of the image:\n\nA fluffy, white cat with striking blue eyes sits regally on a wooden bench, surrounded by books and vintage typewriter, in a warmly lit room.",
+    "3.5": "Here’s a one-sentence description of the image:\n\nA fluffy, white cat with striking blue eyes sits regally on a wooden surface, surrounded by books and a vintage typewriter, gazing intently into the distance.",
+    "3": "A fluffy white cat with striking blue eyes sits regally on a wooden bench next to a vintage Royal typewriter, framed by a rustic wooden fence and a leafy plant.",
+    "2.5": "A fluffy white cat sits perched on a wooden bench, gazing at a brown wooden fence.",
+    "2": "Here's a description of the image:\n\nA fluffy white cat sits on a wooden fence, surrounded by books and plants, looking contemplative."
+   }
+  },
+  "dog_leash.jpg": {
+   "prompt": "Describe this image in one sentence.",
+   "responses": {
+    "16": "Here’s a one-sentence description of the image:\n\nA happy, dark-colored chihuahua with white markings and a visible tongue is lying on a dark surface with a leash attached to its collar, looking directly at the camera with a joyful expression.",
+    "4": "Here’s a one-sentence description of the image:\n\nA happy, black and white chihuahua with its tongue out is lying on a dark wooden floor, wearing a leash and looking directly at the camera.",
+    "3.5": "Here’s a one-sentence description of the image:\n\nA happy, dark-and-white chihuahua with its tongue out is playfully lying down on a wooden floor, wearing a leash and looking towards the camera.",
+    "3": "A cute, dark-colored chihuahua with white markings sits happily with its tongue out, wearing a leash, on a wooden floor with a window in the background.",
+    "2.5": "A cute, small dog with a fluffy coat is lying on a dark floor, looking at the camera with a playful expression.",
+    "2": "Here's a description of the image:\n\nA cute, black and white chihuahua sits on a wooden deck, with its mouth open, showing teeth."
+   }
+  }
+ }
+}

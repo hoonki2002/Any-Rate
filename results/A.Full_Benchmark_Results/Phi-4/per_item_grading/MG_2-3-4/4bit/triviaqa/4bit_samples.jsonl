@@ -1,0 +1,1000 @@
+{"question_id": "tc_2", "question": "Who was the man behind The Chipmunks?", "prediction": "Ross Bagdasarian", "gold": "David Seville", "passed": false, "n_tokens": 5}
+{"question_id": "tc_33", "question": "Which Lloyd Webber musical premiered in the US on 10th December 1993?", "prediction": "Sunset Boulevard", "gold": "Sunset Boulevard", "passed": true, "n_tokens": 3}
+{"question_id": "tc_40", "question": "Who was the next British Prime Minister after Arthur Balfour?", "prediction": "H.H. Asquith", "gold": "Campbell-Bannerman", "passed": false, "n_tokens": 7}
+{"question_id": "tc_49", "question": "Who had a 70s No 1 hit with Kiss You All Over?", "prediction": "Exile", "gold": "Exile", "passed": true, "n_tokens": 3}
+{"question_id": "tc_56", "question": "What claimed the life of singer Kathleen Ferrier?", "prediction": "Cancer", "gold": "Cancer", "passed": true, "n_tokens": 2}
+{"question_id": "tc_69", "question": "Rita Coolidge sang the title song for which Bond film?", "prediction": "Octopussy", "gold": "Octopussy", "passed": true, "n_tokens": 4}
+{"question_id": "tc_79", "question": "What was the last US state to reintroduce alcohol after prohibition?", "prediction": "Mississippi", "gold": "Utah", "passed": false, "n_tokens": 2}
+{"question_id": "tc_106", "question": "Which actress was voted Miss Greenwich Village in 1942?", "prediction": "Audrey Hepburn", "gold": "Lauren Bacall", "passed": false, "n_tokens": 4}
+{"question_id": "tc_133", "question": "What is the Japanese share index called?", "prediction": "Nikkei", "gold": "Nikkei", "passed": true, "n_tokens": 4}
+{"question_id": "tc_137", "question": "What was the name of Michael Jackson's autobiography written in 1988?", "prediction": "Moonwalk", "gold": "Moonwalk", "passed": true, "n_tokens": 3}
+{"question_id": "tc_149", "question": "In which decade did stereo records first go on sale?", "prediction": "50s", "gold": "1930s", "passed": false, "n_tokens": 4}
+{"question_id": "tc_165", "question": "In what year's Olympics were electric timing devices and a public-address system used for the first time?", "prediction": "1936", "gold": "In 1912, in Stockholm", "passed": false, "n_tokens": 4}
+{"question_id": "tc_217", "question": "Which volcano in Tanzania is the highest mountain in Africa?", "prediction": "Kilimanjaro", "gold": "Kilimanjaro", "passed": true, "n_tokens": 5}
+{"question_id": "tc_219", "question": "The flag of Libya is a plain rectangle of which color?", "prediction": "Green", "gold": "Green", "passed": true, "n_tokens": 2}
+{"question_id": "tc_241", "question": "Of which African country is Niamey the capital?", "prediction": "Niger", "gold": "Niger", "passed": true, "n_tokens": 2}
+{"question_id": "tc_245", "question": "Who was the director of the CIA from 1976-81?", "prediction": "William Colby", "gold": "George Bush", "passed": false, "n_tokens": 4}
+{"question_id": "tc_261", "question": "Which musical featured the song The Street Where You Live?", "prediction": "My Fair Lady", "gold": "My Fair Lady", "passed": true, "n_tokens": 4}
+{"question_id": "tc_267", "question": "\"Who was the target of the failed \"\"Bomb Plot\"\" of 1944?\"", "prediction": "Winston Churchill", "gold": "Hitler", "passed": false, "n_tokens": 3}
+{"question_id": "tc_276", "question": "Who had an 80s No 1 hit with Hold On To The Nights?", "prediction": "Richard Marx", "gold": "Richard Marx", "passed": true, "n_tokens": 3}
+{"question_id": "tc_280", "question": "Who directed the classic 30s western Stagecoach?", "prediction": "John Ford", "gold": "John Ford", "passed": true, "n_tokens": 3}
+{"question_id": "tc_282", "question": "Dave Gilmore and Roger Waters were in which rock group?", "prediction": "Pink Floyd", "gold": "Pink Floyd", "passed": true, "n_tokens": 3}
+{"question_id": "tc_288", "question": "Which highway was Revisited in a classic 60s album by Bob Dylan?", "prediction": "Route 66", "gold": "61", "passed": false, "n_tokens": 4}
+{"question_id": "tc_298", "question": "Which was the only eastern bloc country to participate in the 1984 LA Olympics?", "prediction": "Romania", "gold": "Rumania", "passed": true, "n_tokens": 2}
+{"question_id": "tc_304", "question": "Which 90s sci fi series with James Belushi was based on Bruce Wagner's comic strip of the same name?", "prediction": "Cop Rock", "gold": "Wild Palms", "passed": false, "n_tokens": 3}
+{"question_id": "tc_316", "question": "If I Were A Rich Man Was a big hit from which stage show?", "prediction": "Fiddler On The Roof", "gold": "Fiddler on the Roof", "passed": true, "n_tokens": 7}
+{"question_id": "tc_349", "question": "Men Against the Sea and Pitcairn's Island were two sequels to what famous novel?", "prediction": "Mutiny on the Bounty", "gold": "Mutiny On The Bounty", "passed": true, "n_tokens": 6}
+{"question_id": "tc_379", "question": "What was Truman Capote's last name before he was adopted by his stepfather?", "prediction": "Persons", "gold": "Persons", "passed": true, "n_tokens": 2}
+{"question_id": "tc_397", "question": "In Lewis Carroll's poem The Hunting of the Snark, what did the elusive, troublesome snark turn into to fool hunters?", "prediction": "Boots", "gold": "A boojum", "passed": false, "n_tokens": 2}
+{"question_id": "tc_453", "question": "In the Bible, who did the sun and moon stand still before?", "prediction": "Joshua", "gold": "Joshua", "passed": true, "n_tokens": 2}
+{"question_id": "tc_455", "question": "What Michelle Pfeiffer movie got a boost from the Coolio song Gangsta's Paradise?", "prediction": "Scarface", "gold": "Dangerous Minds", "passed": false, "n_tokens": 3}
+{"question_id": "tc_510", "question": "What was President Gerald Ford's middle name?", "prediction": "Rudolph", "gold": "Rudolph", "passed": true, "n_tokens": 3}
+{"question_id": "tc_515", "question": "Art Garfunkel trained for which profession although he didn't qualify?", "prediction": "Psychiatrist", "gold": "Architect", "passed": false, "n_tokens": 3}
+{"question_id": "tc_517", "question": "Who was the last inmate of Spandau jail in Berlin?", "prediction": "Rudolf Hess", "gold": "Rudolf Hess", "passed": true, "n_tokens": 4}
+{"question_id": "tc_518", "question": "What was Eddie Murphy's first movie?", "prediction": "48 Hours", "gold": "48 Hours", "passed": true, "n_tokens": 4}
+{"question_id": "tc_538", "question": "In the 80s who wrote the novel Empire of The Sun?", "prediction": "J.G. Ballard", "gold": "J. G. Ballard", "passed": true, "n_tokens": 5}
+{"question_id": "tc_540", "question": "Kagoshima international airport is in which country?", "prediction": "Japan", "gold": "Japan", "passed": true, "n_tokens": 2}
+{"question_id": "tc_543", "question": "In which sport could the Pacers take on the Pistons?", "prediction": "Basketball", "gold": "A: Basketball", "passed": true, "n_tokens": 2}
+{"question_id": "tc_559", "question": "Kim Carnes' nine weeks at No 1 with Bette Davis Eyes was interrupted for one week by which song?", "prediction": "Another Night by Olivia Newton-John", "gold": "Stars on 45 medley", "passed": false, "n_tokens": 8}
+{"question_id": "tc_561", "question": "Where in Canada is the Lion's Gate bridge?", "prediction": "Vancouver", "gold": "Vancouver", "passed": true, "n_tokens": 2}
+{"question_id": "tc_564", "question": "What was Walter Matthau's first movie?", "prediction": "Take a Giant Step", "gold": "The Kentuckian", "passed": false, "n_tokens": 5}
+{"question_id": "tc_585", "question": "Otis Barton was a pioneer in exploring where?", "prediction": "The ocean", "gold": "Underwater", "passed": false, "n_tokens": 3}
+{"question_id": "tc_586", "question": "Where in England was actor Nigel Hawthorne born?", "prediction": "London", "gold": "Coventry", "passed": false, "n_tokens": 2}
+{"question_id": "tc_596", "question": "What mythological beast has the head of a man, the body of a lion, and the tail and feet of a dragon?", "prediction": "Chimera", "gold": "A manticore", "passed": false, "n_tokens": 3}
+{"question_id": "tc_604", "question": "In Greek mythology, who were Arges, Brontes and Steropes?", "prediction": "Cyclopes", "gold": "Cyclopes", "passed": true, "n_tokens": 4}
+{"question_id": "tc_626", "question": "Which musician founded the Red Hot Peppers?", "prediction": "Louis Armstrong", "gold": "Jelly Roll Morton", "passed": false, "n_tokens": 3}
+{"question_id": "tc_635", "question": "Where did the Shinning Path terrorists operate?", "prediction": "Peru", "gold": "Peru", "passed": true, "n_tokens": 2}
+{"question_id": "tc_653", "question": "How old was Jimi Hendrix when he died?", "prediction": "27", "gold": "27", "passed": true, "n_tokens": 3}
+{"question_id": "tc_657", "question": "Which Brit broke the land speed record in 1990 in Thrust 2?", "prediction": "Richard Noble", "gold": "Richard Noble", "passed": true, "n_tokens": 3}
+{"question_id": "tc_664", "question": "In which state was Gene Vincent born?", "prediction": "Kentucky", "gold": "Virginia", "passed": false, "n_tokens": 2}
+{"question_id": "tc_665", "question": "How was the European Recovery Program in the 1940s more commonly known?", "prediction": "Marshall Plan", "gold": "Marshall Plan", "passed": true, "n_tokens": 3}
+{"question_id": "tc_672", "question": "Brandon Lee died during the making of which movie?", "prediction": "The Crow", "gold": "The Crow", "passed": true, "n_tokens": 3}
+{"question_id": "tc_678", "question": "Who had a 70s No 1 hit with Let's Do It Again?", "prediction": "The Staple Singers", "gold": "The Staple Singers", "passed": true, "n_tokens": 6}
+{"question_id": "tc_687", "question": "Who had a Too Legit To Quit Tour?", "prediction": "MC Hammer", "gold": "MC Hammer", "passed": true, "n_tokens": 3}
+{"question_id": "tc_690", "question": "\"According to Rudyard Kipling what were the \"\"two imposters\"\" to meet and treat the same day?\"", "prediction": "The sun and the moon", "gold": "Triumph and Disaster", "passed": false, "n_tokens": 6}
+{"question_id": "tc_691", "question": "Who is the most successful UK solo artist in the USA?", "prediction": "Elton John", "gold": "Elton John", "passed": true, "n_tokens": 4}
+{"question_id": "tc_704", "question": "Which country does the airline TAAG come from?", "prediction": "Angola", "gold": "Angola", "passed": true, "n_tokens": 2}
+{"question_id": "tc_715", "question": "Which US No 1 single came from Diana Ross's platinum album Diana?", "prediction": "I'm Coming Out", "gold": "Upside Down", "passed": false, "n_tokens": 5}
+{"question_id": "tc_719", "question": "River Phoenix died during the making of which movie?", "prediction": "Dark Blood", "gold": "Dark Blood", "passed": true, "n_tokens": 3}
+{"question_id": "tc_723", "question": "Which artist David was born in Bradford UK?", "prediction": "David Hockney", "gold": "Hockney", "passed": true, "n_tokens": 5}
+{"question_id": "tc_725", "question": "What is Mel Gibson's middle name?", "prediction": "Joseph", "gold": "Columcille", "passed": false, "n_tokens": 2}
+{"question_id": "tc_731", "question": "Richard Daley was mayor of which city for 21 years?", "prediction": "Chicago", "gold": "Chicago", "passed": true, "n_tokens": 2}
+{"question_id": "tc_759", "question": "\"In which movie did Garbo say, \"\"I want to be alone\"\".\"", "prediction": "Grand Hotel", "gold": "Grand Hotel", "passed": true, "n_tokens": 3}
+{"question_id": "tc_783", "question": "What is Osbert Lancaster best known for producing?", "prediction": "Cartoons", "gold": "Cartoons", "passed": true, "n_tokens": 3}
+{"question_id": "tc_812", "question": "Who was the defending champion when Martina Navratilova first won Wimbledon singles?", "prediction": "Chris Evert", "gold": "Virginia Wade", "passed": false, "n_tokens": 4}
+{"question_id": "tc_827", "question": "Who was the first US-born winner of golf's British Open?", "prediction": "Gene Sarazen", "gold": "Walter Hagen", "passed": false, "n_tokens": 4}
+{"question_id": "tc_841", "question": "In which country is the Sky Train Rail bridge?", "prediction": "Thailand", "gold": "Canada", "passed": false, "n_tokens": 2}
+{"question_id": "tc_847", "question": "What was the Paramount Film Company originally called?", "prediction": "Famous Players", "gold": "Famous Players Film Company", "passed": true, "n_tokens": 3}
+{"question_id": "tc_866", "question": "Who was the first person after Scott to reach the South Pole overland?", "prediction": "Shackleton", "gold": "Edmond Hillary", "passed": false, "n_tokens": 3}
+{"question_id": "tc_875", "question": "Which journalist first told the world about the My Lai massacre?", "prediction": "Seymour Hersh", "gold": "Seymour Hersh", "passed": true, "n_tokens": 4}
+{"question_id": "tc_881", "question": "What is the name of Terence and Shirley Conran's dress designer son?", "prediction": "John", "gold": "Jasper", "passed": false, "n_tokens": 2}
+{"question_id": "tc_886", "question": "Which drink did The Spice Girls promote?", "prediction": "Pepsi", "gold": "Pepsi", "passed": true, "n_tokens": 2}
+{"question_id": "tc_888", "question": "Who was the youngest brother in the Beach Boys?", "prediction": "Carl Wilson", "gold": "Carl Wilson", "passed": true, "n_tokens": 3}
+{"question_id": "tc_905", "question": "Who first hosted Family Feud?", "prediction": "Richard Dawson", "gold": "Richard Dawson", "passed": true, "n_tokens": 3}
+{"question_id": "tc_935", "question": "What did the Lone Ranger's title Kemo Sabe mean in Apache?", "prediction": "Friend of the white man", "gold": "White Shirt", "passed": false, "n_tokens": 6}
+{"question_id": "tc_938", "question": "Who or what was Gentle Ben in the 60s TV series?", "prediction": "A bear", "gold": "Bear cub", "passed": true, "n_tokens": 3}
+{"question_id": "tc_945", "question": "Which 70s show was based on the British show Till Death Us Do Part?", "prediction": "All in the Family", "gold": "All In The Family", "passed": true, "n_tokens": 5}
+{"question_id": "tc_954", "question": "On what date in 1969 did Neil Armstrong first set foot on the Moon?", "prediction": "July 20", "gold": "July 20th", "passed": true, "n_tokens": 4}
+{"question_id": "tc_955", "question": "Bandar Seri Begawan International airport is in which country?", "prediction": "Brunei", "gold": "Brunei", "passed": true, "n_tokens": 3}
+{"question_id": "tc_962", "question": "What was the profession of Paul Strand (1890 - 1976)?", "prediction": "Photographer", "gold": "Photographer", "passed": true, "n_tokens": 2}
+{"question_id": "tc_1004", "question": "Who had a 60s No 1 with Downtown?", "prediction": "Petula Clark", "gold": "Petula Clark", "passed": true, "n_tokens": 4}
+{"question_id": "tc_1007", "question": "Who was born first, Kiefer Sutherland or Christian Slater?", "prediction": "Kiefer Sutherland", "gold": "Kiefer Sutherland", "passed": true, "n_tokens": 6}
+{"question_id": "tc_1008", "question": "To the nearest two, how many tennis Grand Slam titles did Jimmy Connors win?", "prediction": "8", "gold": "10", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1009", "question": "Who was the Georgia Peach?", "prediction": "Tammy Wynette", "gold": "Ty Cobb", "passed": false, "n_tokens": 5}
+{"question_id": "tc_1020", "question": "Who set fire to his guitar at the Monterey Pop festival in 19676?", "prediction": "Jimi Hendrix", "gold": "Jimi Hendrix", "passed": true, "n_tokens": 5}
+{"question_id": "tc_1023", "question": "Della Street was whose secretary?", "prediction": "Perry Mason", "gold": "Perry Mason", "passed": true, "n_tokens": 3}
+{"question_id": "tc_1028", "question": "In music, who was Sweet and Innocent and Too Young?", "prediction": "Bobby Vee", "gold": "Donny Osmond", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1029", "question": "Who is featured on Puff Daddy's Can't Hold Me Down?", "prediction": "Kelis", "gold": "Mase", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1068", "question": "What had Edmond Hillary worked at before taking up mountain climbing?", "prediction": "Surveyor", "gold": "Bee Keeping", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1069", "question": "In which American state is the Isabella Stewart Gardner Museum?", "prediction": "Massachusetts", "gold": "Massachusetts", "passed": true, "n_tokens": 2}
+{"question_id": "tc_1070", "question": "Benina international airport is in which country?", "prediction": "Libya", "gold": "Libya", "passed": true, "n_tokens": 2}
+{"question_id": "tc_1098", "question": "Beloved in 1999 was whose first movie since The Color Purple in 1985?", "prediction": "Oprah Winfrey", "gold": "Oprah Winfrey", "passed": true, "n_tokens": 4}
+{"question_id": "tc_1114", "question": "Which Star Trek star directed Three Men and a Baby?", "prediction": "William Shatner", "gold": "Leonard Nimoy", "passed": false, "n_tokens": 5}
+{"question_id": "tc_1115", "question": "Which sitcom star appeared on the big screening The Object of My Affection?", "prediction": "Jennifer Aniston", "gold": "Jennifer Aniston", "passed": true, "n_tokens": 4}
+{"question_id": "tc_1120", "question": "\"Which character did Julia \"\"Roberts play in Steven Spielberg's Hook?\"", "prediction": "Tinkerbell", "gold": "Tinkerbell", "passed": true, "n_tokens": 4}
+{"question_id": "tc_1123", "question": "Which US president did Anthony Hopkins play in a film whose title was simply his name?", "prediction": "Richard Nixon", "gold": "Nixon", "passed": true, "n_tokens": 3}
+{"question_id": "tc_1124", "question": "Which movie was a biopic about the life of David Helfgott?", "prediction": "Shine", "gold": "Shine", "passed": true, "n_tokens": 2}
+{"question_id": "tc_1128", "question": "Which film director guested as the FBI Director in The Silence of the Lambs?", "prediction": "Christopher Reeve", "gold": "Roger Corman", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1131", "question": "In which sci fi classic did the space ship Nostromo first appear?", "prediction": "Alien", "gold": "Alien", "passed": true, "n_tokens": 2}
+{"question_id": "tc_1152", "question": "Nigel Hawthorne was Oscar nominated for The Madness of which King?", "prediction": "George III", "gold": "George", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1156", "question": "Which Swedish actress won the Best Supporting Actress Oscar for Murder on the Orient Express?", "prediction": "Kristin Scott Thomas", "gold": "Ingrid Bergman", "passed": false, "n_tokens": 5}
+{"question_id": "tc_1176", "question": "Which Oscar-nominated film had You Sexy Thing as its theme song?", "prediction": "Flash Gordon", "gold": "The Full Monty", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1179", "question": "Which Joan's career revived in Whatever Happened to Baby Jane?", "prediction": "Actress", "gold": "Crawford", "passed": false, "n_tokens": 2}
+{"question_id": "tc_1181", "question": "Which much-loved actor won the Best Actor Oscar for The Philadelphia Story?", "prediction": "Cary Grant", "gold": "James Stewart", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1183", "question": "Which legendary dancer was Oscar-nominated for The Towering Inferno?", "prediction": "Gene Kelly", "gold": "Fred Astaire", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1189", "question": "What was the name of the brothel in The Best Little Whorehouse in Texas?", "prediction": "Chicken Ranch", "gold": "Chicken Ranch", "passed": true, "n_tokens": 3}
+{"question_id": "tc_1210", "question": "Who was the male star of the movie The Man of La Mancha?", "prediction": "Peter O'Toole", "gold": "Peter O'Toole", "passed": true, "n_tokens": 6}
+{"question_id": "tc_1243", "question": "What relation is Joey Richardson to Vanessa Redgrave?", "prediction": "Son", "gold": "Daughter", "passed": false, "n_tokens": 2}
+{"question_id": "tc_1250", "question": "Melanie Molitor is the mom of which tennis world NO 1?", "prediction": "Serena Williams", "gold": "Martina Hingis", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1254", "question": "Marc Dutroux hit the headlines over a 'house of horrors' in which country?", "prediction": "Belgium", "gold": "Belgium", "passed": true, "n_tokens": 2}
+{"question_id": "tc_1284", "question": "On which date in 1945 did Hitler take cyanide then shoot himself?", "prediction": "April 30", "gold": "April 30th", "passed": true, "n_tokens": 4}
+{"question_id": "tc_1313", "question": "In which river is the Boulder Dam?", "prediction": "Colorado River", "gold": "Colorado", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1321", "question": "Which sports event was first held at Worcester, Massachusetts in 1927?", "prediction": "NCAA basketball tournament", "gold": "Ryder Cup", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1323", "question": "In which European city is the Belvederen Gallery?", "prediction": "Prague", "gold": "Vienna", "passed": false, "n_tokens": 2}
+{"question_id": "tc_1324", "question": "How old was Woody Herman when he founded his own orchestra?", "prediction": "25", "gold": "13", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1328", "question": "For which movie did Katharine Hepburn win her second Oscar?", "prediction": "Guess Who's Coming to Dinner", "gold": "Guess Who's Coming To Dinner", "passed": true, "n_tokens": 7}
+{"question_id": "tc_1331", "question": "Who had a 60s No 1 hit with This Diamond Ring?", "prediction": "Gary Lewis", "gold": "Gary Lewis and the Playboys", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1333", "question": "The world was first aware of the Chernobyl disaster after detectors were triggered at a nuclear plant in which country?", "prediction": "Ukraine", "gold": "Sweden", "passed": false, "n_tokens": 2}
+{"question_id": "tc_1340", "question": "In which country was the first permanent bungee jumping site situated?", "prediction": "New Zealand", "gold": "New Zealand", "passed": true, "n_tokens": 3}
+{"question_id": "tc_1341", "question": "Who succeeded Brezhnev as Soviet premier?", "prediction": "Andropov", "gold": "Andropov", "passed": true, "n_tokens": 4}
+{"question_id": "tc_1348", "question": "In the late 60s Owen Finlay MacLaren pioneered what useful item for parents of small chldren?", "prediction": "Baby sling", "gold": "Baby Buggy", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1365", "question": "In which city's shipyard was Solidarity set up?", "prediction": "Gdansk", "gold": "Gdansk, Poland", "passed": true, "n_tokens": 4}
+{"question_id": "tc_1387", "question": "Which female singer was born on exactly the same day as impressionist Rich Little?", "prediction": "Barbra Streisand", "gold": "Tina Turner", "passed": false, "n_tokens": 6}
+{"question_id": "tc_1421", "question": "What is Harrison Ford's real name?", "prediction": "George Harrison Ford", "gold": "Harrison Ford", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1442", "question": "Who's home runs record did Mark McGwire break in the 1998 season?", "prediction": "Babe Ruth", "gold": "Roger Maris", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1456", "question": "Who won baseball's first World Series of the 80s?", "prediction": "Los Angeles Dodgers", "gold": "Philadelphia Phillies", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1468", "question": "What was Pete Sampras seeded when he won his first US Open?", "prediction": "2", "gold": "12", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1484", "question": "\"Which boxer famously said,\"\" If I can't beat this bum take my name off the record books?\"\"\"", "prediction": "Muhammad Ali", "gold": "Rocky Marciano", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1485", "question": "Where did Jonathan Edwards set his 1995 triple jump world record?", "prediction": "Gateshead", "gold": "Sweden", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1516", "question": "In baseball, where do the Orioles come from?", "prediction": "Baltimore", "gold": "Baltimore", "passed": true, "n_tokens": 2}
+{"question_id": "tc_1535", "question": "The Naismith Award is presented in which sport?", "prediction": "Basketball", "gold": "Basket ball", "passed": true, "n_tokens": 2}
+{"question_id": "tc_1537", "question": "Which cartoon and film character is the nickname of super athlete Michael Johnson?", "prediction": "The Flash", "gold": "Superman", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1542", "question": "For which team did Babe Ruth blast his last Major League home run?", "prediction": "Boston Red Sox", "gold": "Boston Braves", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1602", "question": "What was Warren Beatty's first movie?", "prediction": "Splendor in the Grass", "gold": "Splendor in the Grass", "passed": true, "n_tokens": 6}
+{"question_id": "tc_1606", "question": "Which future Hollywood star got her break as Wonder Girl, Wonder Woman's sister Drusilla?", "prediction": "Lynda Carter", "gold": "Debra Winger", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1609", "question": "Mickey Braddock in the 50s series Circus Boy found fame with which surname in which pop band?", "prediction": "The Monkees", "gold": "Mickey Dolenz (The Monkees)", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1620", "question": "Which war veteran was Director of News & Special Events for ABC before find fame as a TV cop?", "prediction": "James Arness", "gold": "Tom Selleck", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1622", "question": "What US sitcom was the first exported to Britain?", "prediction": "I Love Lucy", "gold": "Amos 'N' Andy", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1623", "question": "In Hanna and Barbera's TV cartoons base on The Addams Family who was the voice of Gomez?", "prediction": "John Astin", "gold": "John Astin", "passed": true, "n_tokens": 4}
+{"question_id": "tc_1635", "question": "Who was the only female victim to be killed off in the opening credit sequence in Police Squad?", "prediction": "Officer Judy Hawkins", "gold": "Florence Henderson", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1686", "question": "Which US president won the Nobel Peace Prize in 1920?", "prediction": "Wilson", "gold": "Woodrow Wilson", "passed": false, "n_tokens": 2}
+{"question_id": "tc_1693", "question": "Who beat Tim Henman in his first Wimbledon singles semifinal?", "prediction": "Roger Federer", "gold": "Pete Sampras", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1699", "question": "What relation was Flo Jo to Jackie Joyner Kersee?", "prediction": "Sister", "gold": "Sister-in-law", "passed": false, "n_tokens": 2}
+{"question_id": "tc_1700", "question": "How long was swimmer Michelle Smith-de Bruin banned for attempting to manipulate a drugs test?", "prediction": "2 years", "gold": "4 years", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1702", "question": "Yuan Yuan was caught carrying drugs for which Chinese team?", "prediction": "Beijing", "gold": "Swimming", "passed": false, "n_tokens": 2}
+{"question_id": "tc_1704", "question": "Which grand slam did Pete Sampras not win in the 20th century?", "prediction": "French Open", "gold": "French", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1730", "question": "In which events did Gert Fredriksson win six Olympic gold medals?", "prediction": "Speed skating", "gold": "Canoeing", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1735", "question": "How many of his 45 races did Mike Hawthorn, a former Formula One motor racing world champion, win?", "prediction": "6", "gold": "Three", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1754", "question": "On the Internet what is Spam?", "prediction": "Unsolicited email", "gold": "Junk mail", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1773", "question": "In which country did the Internet start?", "prediction": "USA", "gold": "USA", "passed": true, "n_tokens": 2}
+{"question_id": "tc_1798", "question": "In which year was the Juilliard School founded in New York?", "prediction": "1905", "gold": "1905", "passed": true, "n_tokens": 4}
+{"question_id": "tc_1816", "question": "Who wrote My Life and Loves in 1926, originally banned in the US?", "prediction": "Havelock Ellis", "gold": "Frank Harris", "passed": false, "n_tokens": 5}
+{"question_id": "tc_1826", "question": "What was Blondie's last UK No 1 of the 80s?", "prediction": "Heart of Glass", "gold": "Rapture", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1858", "question": "In baseball, where do the Royals come from?", "prediction": "Kansas City", "gold": "Kansas city", "passed": true, "n_tokens": 3}
+{"question_id": "tc_1859", "question": "What is the largest city in Ohio?", "prediction": "Columbus", "gold": "Cleveland", "passed": false, "n_tokens": 2}
+{"question_id": "tc_1865", "question": "In which decade of the 20th century was Anne Bancroft born?", "prediction": "30s", "gold": "1930s", "passed": true, "n_tokens": 4}
+{"question_id": "tc_1867", "question": "The Suez Canal connects the Mediterranean Sea to which other Sea?", "prediction": "Red", "gold": "Red sea", "passed": false, "n_tokens": 2}
+{"question_id": "tc_1888", "question": "Which rock star did Cindy Crawford name her first son after?", "prediction": "Billy Idol", "gold": "Presley", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1914", "question": "Sun Yat Sen overthrew the emperor in which country establishing a republic after 2000 years of imperial rule?", "prediction": "China", "gold": "China", "passed": true, "n_tokens": 2}
+{"question_id": "tc_1921", "question": "Who designed the dress which made the most at Diana's dress auction?", "prediction": "Catherine Walker", "gold": "Victor Edelstein", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1924", "question": "Which Palestinian co-founded al Fatah in 1957?", "prediction": "Yasser Arafat", "gold": "Yasser Arafat", "passed": true, "n_tokens": 6}
+{"question_id": "tc_1938", "question": "In which country was Earl Spencer's acrimonious divorce settlement heard?", "prediction": "England", "gold": "South Africa", "passed": false, "n_tokens": 2}
+{"question_id": "tc_1943", "question": "In which North African country was Mohammed Al-Fayed, owner of Harrods department store in London, born?", "prediction": "Egypt", "gold": "Egypt", "passed": true, "n_tokens": 2}
+{"question_id": "tc_1944", "question": "Aung San Suu Kyi is a controversial leader in which country?", "prediction": "Myanmar", "gold": "Myanmar", "passed": true, "n_tokens": 2}
+{"question_id": "tc_1945", "question": "Which of the founders of United Artists had the last name nearest the beginning of the alphabet?", "prediction": "Pickford", "gold": "Chaplin", "passed": false, "n_tokens": 3}
+{"question_id": "tc_1968", "question": "In La Cage Aux Folles, what was La Cage Aux Folles?", "prediction": "A drag bar", "gold": "Nightclub", "passed": false, "n_tokens": 4}
+{"question_id": "tc_1973", "question": "Where was the Fiddler in the musical's title?", "prediction": "On the Roof", "gold": "On the Roof", "passed": true, "n_tokens": 4}
+{"question_id": "tc_1977", "question": "South Pacific was set during which war?", "prediction": "World War II", "gold": "WWII", "passed": true, "n_tokens": 4}
+{"question_id": "tc_2020", "question": "What percentage of the earth's surface is covered by Europe?", "prediction": "10%", "gold": "8%", "passed": false, "n_tokens": 3}
+{"question_id": "tc_2031", "question": "Which European town gave its name to a Treaty which symbolizes closer economic links between European countries?", "prediction": "Maastricht", "gold": "Maastricht", "passed": true, "n_tokens": 5}
+{"question_id": "tc_2032", "question": "Which home of champagne in France was also where the German High Command surrendered in WWII?", "prediction": "Reims", "gold": "Reims", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2063", "question": "Which was the first European city this century to open an underground railway system?", "prediction": "London", "gold": "Paris", "passed": false, "n_tokens": 2}
+{"question_id": "tc_2090", "question": "Who first drew Mickey Mouse when ?Disney first supplied the voice?", "prediction": "Ub Iwerks", "gold": "Ub Iwerks", "passed": true, "n_tokens": 5}
+{"question_id": "tc_2097", "question": "Which actress wrote the novel The Last of the Really Great Whangdoodles?", "prediction": "Julie Andrews", "gold": "Julie Andrews", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2111", "question": "Who was the star of the film based on the record Harper Valley PTA by Jeannie C Riley?", "prediction": "Barbara Mandrell", "gold": "Barbara Eden", "passed": false, "n_tokens": 4}
+{"question_id": "tc_2114", "question": "What color golf balls are used on the golf course in Antarctica?", "prediction": "White", "gold": "Orange", "passed": false, "n_tokens": 2}
+{"question_id": "tc_2116", "question": "Throughout the 80s and 90s Phil Collins recorded on which record label?", "prediction": "Virgin", "gold": "Atlantic", "passed": false, "n_tokens": 2}
+{"question_id": "tc_2128", "question": "On which label did Chuck Berry record in the 1950s and 1960s?", "prediction": "Chess", "gold": "Chess", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2145", "question": "What was the name of Michael Jackson's second wife?", "prediction": "Lisa Marie Presley", "gold": "Debbie Rowe", "passed": false, "n_tokens": 5}
+{"question_id": "tc_2167", "question": "Which US city was named after a British Prime Minister?", "prediction": "Pittsburgh", "gold": "Pittsburgh", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2182", "question": "\"Who said, To err is human but it feels divine?\"\"\"", "prediction": "Oscar Wilde", "gold": "Mae West", "passed": false, "n_tokens": 3}
+{"question_id": "tc_2191", "question": "Which singer had a big 60s No 1 with Roses Are Red?", "prediction": "Bobby Vinton", "gold": "Bobby Vinton", "passed": true, "n_tokens": 4}
+{"question_id": "tc_2202", "question": "What are the international registration letters of a vehicle from Iceland?", "prediction": "IS", "gold": "IS", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2208", "question": "Where was the American venue of the Live Aid concert?", "prediction": "Philadelphia", "gold": "Philadelphia", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2218", "question": "Which was the longest moon landing?", "prediction": "Apollo 17", "gold": "Apollo 17", "passed": true, "n_tokens": 4}
+{"question_id": "tc_2222", "question": "Who had the most expensive presidential inauguration ceremony of the 20th century?", "prediction": "Ronald Reagan", "gold": "George W. Bush", "passed": false, "n_tokens": 3}
+{"question_id": "tc_2229", "question": "Who became Israel's head of state in 1993?", "prediction": "Ezer Weizman", "gold": "Ezer Weizman", "passed": true, "n_tokens": 6}
+{"question_id": "tc_2236", "question": "In WWII, who was the head of the Nazi party's security service?", "prediction": "Heinrich Himmler", "gold": "Reinhard Heidrich", "passed": false, "n_tokens": 6}
+{"question_id": "tc_2244", "question": "Which President of the Philippines was deposed in 1986?", "prediction": "Marcos", "gold": "Marcos", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2250", "question": "What kind of disaster claimed some 100,000 lives in Armenia in 1988?", "prediction": "Earthquake", "gold": "Earthquake", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2252", "question": "Which state on the Gulf of Mexico is nearest the end of the alphabet?", "prediction": "Texas", "gold": "Texas", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2256", "question": "Truax Field international airport is in which US state?", "prediction": "Idaho", "gold": "Wisconsin", "passed": false, "n_tokens": 2}
+{"question_id": "tc_2257", "question": "In what month was the attack on Pearl Harbor?", "prediction": "December", "gold": "December", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2265", "question": "Who did Dr. Crippen murder?", "prediction": "His wife", "gold": "His wife", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2270", "question": "In the 1904 Olympics, how many of the 23 track and field titles were won by Americans?", "prediction": "20", "gold": "21", "passed": false, "n_tokens": 3}
+{"question_id": "tc_2280", "question": "The Black Hills lie between which two rivers?", "prediction": "Cheyenne and Belle Fourche", "gold": "Belle Fourche and Cheyenne", "passed": false, "n_tokens": 8}
+{"question_id": "tc_2287", "question": "In what year was the first in-flight movie shown on an internal flight in the USA.", "prediction": "1961", "gold": "1929", "passed": false, "n_tokens": 4}
+{"question_id": "tc_2295", "question": "In which city was John Lennon murdered?", "prediction": "New York", "gold": "New York", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2299", "question": "How was President Kennedy assassinated?", "prediction": "Shot", "gold": "Shot", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2300", "question": "Which caped crusader operated in Gotham City?", "prediction": "Batman", "gold": "Batman", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2306", "question": "Who did Jack Ruby shoot in November 1963?", "prediction": "Lee Harvey Oswald", "gold": "Lee Harvey Oswald", "passed": true, "n_tokens": 4}
+{"question_id": "tc_2317", "question": "Who was the first American to travel faster than the speed of sound?", "prediction": "Chuck Yeager", "gold": "Chuck Yeager", "passed": true, "n_tokens": 4}
+{"question_id": "tc_2331", "question": "Who was the first US president Barbara Walters interviewed?", "prediction": "Lyndon Johnson", "gold": "Nixon", "passed": false, "n_tokens": 4}
+{"question_id": "tc_2350", "question": "Which orchestral conductor was married to one of the subjects of the film Hillary and Jackie?", "prediction": "Daniel Barenboim", "gold": "Daniel Barenboim", "passed": true, "n_tokens": 6}
+{"question_id": "tc_2359", "question": "Which writer and politician became Lord Tweedsmuir?", "prediction": "John Buchan", "gold": "John Buchan", "passed": true, "n_tokens": 4}
+{"question_id": "tc_2380", "question": "In what year was the first Tarzan novel published?", "prediction": "1912", "gold": "1914", "passed": false, "n_tokens": 4}
+{"question_id": "tc_2400", "question": "In which country were motorized ambulances first used?", "prediction": "USA", "gold": "France", "passed": false, "n_tokens": 2}
+{"question_id": "tc_2417", "question": "What is the Pacific terminus of the Trans Siberian Railway?", "prediction": "Vladivostok", "gold": "Vladivostok", "passed": true, "n_tokens": 5}
+{"question_id": "tc_2454", "question": "What is the name of the mountain pass which lies between Pakistan and Afghanistan?", "prediction": "Khyber Pass", "gold": "Khyber pass", "passed": true, "n_tokens": 5}
+{"question_id": "tc_2457", "question": "What is the name of the group of 1,196 islands in the North Indian Ocean, none bigger than five square miles?", "prediction": "Maldives", "gold": "Maldives", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2481", "question": "Which Syrian city is said to be the oldest continually inhabited city in the world?", "prediction": "Damascus", "gold": "Damascus", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2496", "question": "Who was king of France at the time of the French Revolution?", "prediction": "Louis XVI", "gold": "Louis XVI", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2499", "question": "What is the principal language of Bulgaria?", "prediction": "Bulgarian", "gold": "Bulgarian", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2505", "question": "What is the name of the cathedral in Red Square, Moscow?", "prediction": "St. Basil's", "gold": "St. Basil's", "passed": true, "n_tokens": 5}
+{"question_id": "tc_2506", "question": "Which country is known to its people as Suomen Tasavalta?", "prediction": "Finland", "gold": "Finland", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2524", "question": "Which crusade was led by Philip II Augustus of France and Richard I of England?", "prediction": "Third", "gold": "Third crusade", "passed": false, "n_tokens": 2}
+{"question_id": "tc_2544", "question": "In which Netherlands city does the United Nations International Court of Justice sit?", "prediction": "The Hague", "gold": "The Hague", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2556", "question": "In which battle did Harold II, the last Saxon king, lose his life?", "prediction": "Hastings", "gold": "Battle of Hastings", "passed": false, "n_tokens": 2}
+{"question_id": "tc_2564", "question": "Who proclaimed the People's Republic of China in 1949?", "prediction": "Mao Zedong", "gold": "Mao Zedong", "passed": true, "n_tokens": 5}
+{"question_id": "tc_2573", "question": "Which wife of Henry VIII had already married twice before she became queen, and married for a fourth time after Henry's death?", "prediction": "Catherine Parr", "gold": "Catherine Parr", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2580", "question": "In which country is the castle that gives the Habsburg dynasty its name?", "prediction": "Austria", "gold": "Switzerland", "passed": false, "n_tokens": 2}
+{"question_id": "tc_2622", "question": "In which parliament has the UK 87 seats for members who are elected for a five0-year term?", "prediction": "European", "gold": "European Parliament", "passed": false, "n_tokens": 2}
+{"question_id": "tc_2644", "question": "What was the former name of the British Green Party?", "prediction": "Ecology Party", "gold": "Ecology Party", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2669", "question": "\"What is the more common name of the \"\"simple plurality\"\" system of voting?\"", "prediction": "First past the post", "gold": "First past the post", "passed": true, "n_tokens": 5}
+{"question_id": "tc_2677", "question": "What word for unthinking patriotism is derived from the name of one of Napoleon's admirers?", "prediction": "Bonapartism", "gold": "Chauvinism", "passed": false, "n_tokens": 5}
+{"question_id": "tc_2687", "question": "Which builder of steam engines formed a successful partnership with Matthew Boulton?", "prediction": "James Watt", "gold": "James Watt", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2699", "question": "What was the nickname of the French singer Edith Piaf?", "prediction": "La Mome Piaf", "gold": "The Little Sparrow", "passed": false, "n_tokens": 7}
+{"question_id": "tc_2701", "question": "Whose birthday is celebrated by a public holiday on the third Monday in January in the USA?", "prediction": "Martin Luther King", "gold": "Martin Luther King", "passed": true, "n_tokens": 4}
+{"question_id": "tc_2718", "question": "What type of coal is brown and fibrous?", "prediction": "Lignite", "gold": "Lignite", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2728", "question": "What raw material is used for making glass?", "prediction": "Sand", "gold": "Sand", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2736", "question": "What kind of an organism is a truffle?", "prediction": "Fungus", "gold": "Fungus", "passed": true, "n_tokens": 4}
+{"question_id": "tc_2740", "question": "What is the name of the strong material found in plant cell walls?", "prediction": "Cellulose", "gold": "Cellulose", "passed": true, "n_tokens": 4}
+{"question_id": "tc_2744", "question": "What name is given to the change of state from liquid to gas?", "prediction": "Vaporisation", "gold": "Evaporation", "passed": false, "n_tokens": 3}
+{"question_id": "tc_2758", "question": "Which branch of science has four fundamental principles: addition, subtraction, multiplication, and division.", "prediction": "Mathematics", "gold": "Arithmetic", "passed": false, "n_tokens": 2}
+{"question_id": "tc_2767", "question": "What is the force that opposes the relative motion of two bodies that are in contact?", "prediction": "Friction", "gold": "Friction", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2805", "question": "What is the fastest animal on two legs?", "prediction": "Human", "gold": "An Ostrich", "passed": false, "n_tokens": 2}
+{"question_id": "tc_2806", "question": "What is the green pigment used by plants to trap sunlight?", "prediction": "Chlorophyll", "gold": "Chlorophyll", "passed": true, "n_tokens": 4}
+{"question_id": "tc_2814", "question": "What id the name given to the study of birds?", "prediction": "Ornithology", "gold": "Ornithology", "passed": true, "n_tokens": 4}
+{"question_id": "tc_2816", "question": "Of which reptile are there only two species, one living in the Mississippi and the other in China?", "prediction": "Alligator", "gold": "Alligator", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2818", "question": "What type of seaweed grows up to 100 meters in length, and is farmed for its alginates?", "prediction": "Kelp", "gold": "Kelp", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2829", "question": "Where in a vertebrate would you find the protein myoglobin?", "prediction": "Muscle", "gold": "Muscle tissue", "passed": false, "n_tokens": 2}
+{"question_id": "tc_2833", "question": "What is the most abundant substance in the plant kingdom, which no mammal produces the enzyme to digest?", "prediction": "Cellulose", "gold": "Cellulose", "passed": true, "n_tokens": 4}
+{"question_id": "tc_2834", "question": "Which family of insects has species named 'drivers', 'weavers', 'and even individuals called 'soldiers'?", "prediction": "Ants", "gold": "Ant", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2836", "question": "What name is given to the study of animal behavior?", "prediction": "Ethology", "gold": "Ethology", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2838", "question": "Mosses are classified as belonging to which part of the plant kingdom?", "prediction": "Bryophyta", "gold": "Bryophyta", "passed": true, "n_tokens": 5}
+{"question_id": "tc_2841", "question": "Which rodent rears its young, called kittens, in a nest called a drey?", "prediction": "Squirrel", "gold": "Squirrel", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2849", "question": "What has a central vein called a midrib?", "prediction": "Leaf", "gold": "Leaf", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2850", "question": "Which mammal constructs a lodge in which to store food, rear young, and pass the winter?", "prediction": "Beaver", "gold": "Beaver", "passed": true, "n_tokens": 2}
+{"question_id": "tc_2861", "question": "What is the generic word for plants that grow in water or water-logged conditions?", "prediction": "Aquatic", "gold": "Hydrophytes", "passed": false, "n_tokens": 3}
+{"question_id": "tc_2900", "question": "Which teeth are the third molars, and are always the last to0 erupt?", "prediction": "Wisdom teeth", "gold": "Wisdom teeth", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2901", "question": "What is secreted by the pancreas to regulate blood sugar levels?", "prediction": "Insulin", "gold": "Insulin", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2914", "question": "How many chambers has the heart?", "prediction": "4", "gold": "Four", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2926", "question": "What is the name of the large buttock and thigh muscle?", "prediction": "Gluteus Maximus", "gold": "Gluteus maximus", "passed": true, "n_tokens": 6}
+{"question_id": "tc_2930", "question": "When the egg is released from the ovary, what is left behind?", "prediction": "Corpus luteum", "gold": "Corpus luteum", "passed": true, "n_tokens": 5}
+{"question_id": "tc_2956", "question": "What is the scientific name for the heart's pacemaker?", "prediction": "SA node", "gold": "Sinoatrial node", "passed": true, "n_tokens": 3}
+{"question_id": "tc_2957", "question": "Which hormone helps control ovulation?", "prediction": "Progesterone", "gold": "Luteinizing hormone", "passed": false, "n_tokens": 5}
+{"question_id": "tc_2973", "question": "What is the second most common gas in the atmosphere?", "prediction": "Nitrogen", "gold": "Oxygen", "passed": false, "n_tokens": 3}
+{"question_id": "tc_3016", "question": "What is the term for nutrient enrichment of lakes?", "prediction": "Eutrophication", "gold": "Eutrophication", "passed": true, "n_tokens": 5}
+{"question_id": "tc_3026", "question": "Five-legged creatures have damaged which 1250 mile long wonder of the world?", "prediction": "Great Wall of China", "gold": "Great Barrier Reef", "passed": false, "n_tokens": 5}
+{"question_id": "tc_3033", "question": "Which radioactive substance sometimes occurs naturally in spring water?", "prediction": "Radon", "gold": "Radon", "passed": true, "n_tokens": 3}
+{"question_id": "tc_3039", "question": "What is the approximate circumference of the earth?", "prediction": "24,000 miles", "gold": "24,900 miles", "passed": false, "n_tokens": 6}
+{"question_id": "tc_3070", "question": "Which common mineral is used to make casts, moulds, blackboard chalk and plaster of Paris?", "prediction": "Gypsum", "gold": "Gypsum", "passed": true, "n_tokens": 3}
+{"question_id": "tc_3086", "question": "What name was given to the invisible material once thought to occupy all space?", "prediction": "Ether", "gold": "Ether", "passed": true, "n_tokens": 2}
+{"question_id": "tc_3119", "question": "From which areas of space can there be no escape?", "prediction": "Black holes", "gold": "Black holes", "passed": true, "n_tokens": 3}
+{"question_id": "tc_3120", "question": "Who was the first man to walk on the Moon?", "prediction": "Neil Armstrong", "gold": "Neil Armstrong", "passed": true, "n_tokens": 3}
+{"question_id": "tc_3129", "question": "Proteus and Nereid are moons of which planet?", "prediction": "Neptune", "gold": "Neptune", "passed": true, "n_tokens": 2}
+{"question_id": "tc_3130", "question": "What is the Milky Way?", "prediction": "Galaxy", "gold": "The local galaxy", "passed": false, "n_tokens": 2}
+{"question_id": "tc_3155", "question": "Which force is nothing more than the bending of space and time?", "prediction": "Gravity", "gold": "Gravitational force", "passed": true, "n_tokens": 2}
+{"question_id": "tc_3156", "question": "Which star is as bright as 23 Suns, and is orbited by the Pup?", "prediction": "Sirius", "gold": "Sirius", "passed": true, "n_tokens": 2}
+{"question_id": "qz_2", "question": "What are the three primary colours of light?", "prediction": "Red, green, blue", "gold": "Red, Blue and Green", "passed": false, "n_tokens": 6}
+{"question_id": "qz_63", "question": "In what film did Oprah Winfrey make her big screen acting debut?", "prediction": "The Color Purple", "gold": "The Color Purple", "passed": true, "n_tokens": 4}
+{"question_id": "qz_68", "question": "What is the second lightest chemical element?", "prediction": "Helium", "gold": "Helium", "passed": true, "n_tokens": 3}
+{"question_id": "qz_74", "question": "Used in mathematics, what is the value of Pi to three decimal places?", "prediction": "3.142", "gold": "3.142", "passed": true, "n_tokens": 5}
+{"question_id": "qz_76", "question": "What colour is the number 10 on the door of 10 Downing Street? White, Yellow or Brown?", "prediction": "Yellow", "gold": "White", "passed": false, "n_tokens": 2}
+{"question_id": "qz_77", "question": "What was advertised with Eva Herzagovia using the slogan hello boys?", "prediction": "Perfume", "gold": "The Wonder-Bra", "passed": false, "n_tokens": 3}
+{"question_id": "qz_78", "question": "What number in Bingo is sometimes referred to as Heinz varieties?", "prediction": "15", "gold": "57", "passed": false, "n_tokens": 3}
+{"question_id": "qz_107", "question": "As at March 2001, who holds the record for scoring the most league goals for the soccer team Arsenal?", "prediction": "Thierry Henry", "gold": "Ian Wright", "passed": false, "n_tokens": 4}
+{"question_id": "qz_122", "question": "How many verses make up the national anthem God Save The Queen?", "prediction": "3", "gold": "Three", "passed": true, "n_tokens": 3}
+{"question_id": "qz_127", "question": "What colour is the cross on the national flag of Switzerland?", "prediction": "Red", "gold": "White", "passed": false, "n_tokens": 2}
+{"question_id": "qz_135", "question": "Who was the American President when the Berlin Wall was constructed?", "prediction": "John F. Kennedy", "gold": "John F Kennedy", "passed": true, "n_tokens": 5}
+{"question_id": "qz_147", "question": "What is the minimum number of darts a person needs to throw to complete a leg from 501?", "prediction": "9", "gold": "9", "passed": true, "n_tokens": 3}
+{"question_id": "qz_148", "question": "What was the first British football team to win the European Cup?", "prediction": "Liverpool", "gold": "Celtic", "passed": false, "n_tokens": 2}
+{"question_id": "qz_186", "question": "What is the most popular natural attraction in Alaska?", "prediction": "Denali National Park", "gold": "Mount McKinley", "passed": false, "n_tokens": 5}
+{"question_id": "qz_188", "question": "What type of acid is extracted from the juice of lemons, oranges, limes, and grapefruit?", "prediction": "Citric acid", "gold": "Citric acid", "passed": true, "n_tokens": 4}
+{"question_id": "qz_196", "question": "How many pieces are there in a standard set of dominoes?", "prediction": "28", "gold": "28", "passed": true, "n_tokens": 3}
+{"question_id": "qz_204", "question": "What is the acronym for the agency which provides co-operation between police forces worldwide?", "prediction": "Interpol", "gold": "Interpol", "passed": true, "n_tokens": 3}
+{"question_id": "qz_250", "question": "What were Benjy and Laska, which were sent into space in 1958?", "prediction": "Dogs", "gold": "Mice", "passed": false, "n_tokens": 2}
+{"question_id": "qz_256", "question": "In what year in the 20th century was the Miss World contest held for the first time?", "prediction": "1951", "gold": "1951", "passed": true, "n_tokens": 4}
+{"question_id": "qz_267", "question": "In which year was the Encyclopedia Britannica first published?", "prediction": "1768", "gold": "1768", "passed": true, "n_tokens": 4}
+{"question_id": "qz_298", "question": "On the London Underground, which is the only line to connect at some point with every other line on the system?", "prediction": "Circle", "gold": "The Jubilee Line", "passed": false, "n_tokens": 2}
+{"question_id": "qz_340", "question": "Who wrote The Importance Of Being Earnest?", "prediction": "Oscar Wilde", "gold": "Oscar Wilde", "passed": true, "n_tokens": 3}
+{"question_id": "qz_347", "question": "Thomas Edison, who invented the lightbulb, was afraid of the dark?", "prediction": "No", "gold": "True", "passed": false, "n_tokens": 2}
+{"question_id": "qz_349", "question": "Taphephobia is the fear of losing your teeth?", "prediction": "True", "gold": "False", "passed": false, "n_tokens": 2}
+{"question_id": "qz_351", "question": "The letter t is the second most common letter used in the English language?", "prediction": "False", "gold": "True", "passed": false, "n_tokens": 2}
+{"question_id": "qz_374", "question": "The invention of what in 1867, made Alfred Nobel famous?", "prediction": "Dynamite", "gold": "Dynamite", "passed": true, "n_tokens": 3}
+{"question_id": "qz_385", "question": "What is the most populated city in America?", "prediction": "New York", "gold": "New York", "passed": true, "n_tokens": 3}
+{"question_id": "qz_418", "question": "What is the only letter of the alphabet which does not appear in any of the names of the 50 American states?", "prediction": "J", "gold": "Q", "passed": false, "n_tokens": 2}
+{"question_id": "qz_429", "question": "What was the Spice Girls' debut single called?", "prediction": "Wannabe", "gold": "Wannabee", "passed": true, "n_tokens": 4}
+{"question_id": "qz_430", "question": "What are the only two musical notes which have no flats?", "prediction": "C and F", "gold": "C and F", "passed": true, "n_tokens": 4}
+{"question_id": "qz_438", "question": "From which country do French fries originate? France, Belgium or Switzerland?", "prediction": "Belgium", "gold": "Switzerland", "passed": false, "n_tokens": 2}
+{"question_id": "qz_453", "question": "For what novel did J. K. Rowling win the 1999 Whitbread Children's book of the year award?", "prediction": "Harry Potter and the Prisoner of Azkaban", "gold": "Harry Potter and the Prisoner of Azkaban", "passed": true, "n_tokens": 11}
+{"question_id": "qz_547", "question": "What is the longest word can be typed using only the top row of letters on a typewriter?", "prediction": "Typewriter", "gold": "Typewriter", "passed": true, "n_tokens": 3}
+{"question_id": "qz_603", "question": "In which city would you find O'Hare International Airport?", "prediction": "Chicago", "gold": "Chicago", "passed": true, "n_tokens": 2}
+{"question_id": "qz_608", "question": "Which Asian country was once called Siam?", "prediction": "Thailand", "gold": "Thailand", "passed": true, "n_tokens": 2}
+{"question_id": "qz_611", "question": "What are the names of Donald Duck's three nephews?", "prediction": "Huey, Dewey, and Louie", "gold": "Huey, Dewey and Louie", "passed": true, "n_tokens": 10}
+{"question_id": "qz_620", "question": "In which 1993 film does a boy called Jonah write to a woman called Annie, asking her to meet his father at the Empire State building on St. Valentine's Day?", "prediction": "Sleepless in Seattle", "gold": "Sleepless In Seattle", "passed": true, "n_tokens": 5}
+{"question_id": "qz_621", "question": "Who had a top ten hit in 1988 with Valentine?", "prediction": "Cliff Richard", "gold": "T'Pau", "passed": false, "n_tokens": 3}
+{"question_id": "qz_644", "question": "What is the second most common word in written English?", "prediction": "The", "gold": "Of", "passed": false, "n_tokens": 2}
+{"question_id": "qz_647", "question": "In which arcade game, would you find ghosts called Inky, Pinky, Blinky and Clyde?", "prediction": "Pac-Man", "gold": "Pac-Man", "passed": true, "n_tokens": 3}
+{"question_id": "qz_664", "question": "More commonly known as the thigh bone, what is the medical name for the longest bone in the human body?", "prediction": "Femur", "gold": "The Femur", "passed": true, "n_tokens": 3}
+{"question_id": "qz_666", "question": "What word is used to describe someone who is neither left or right handed, but can use both hands with equal ease?", "prediction": "Ambidextrous", "gold": "Ambidextrous", "passed": true, "n_tokens": 5}
+{"question_id": "qz_685", "question": "Which cult film, starring Harrison Ford, was based on the story Do Androids Dream of Electric Sheep?", "prediction": "Blade Runner", "gold": "Blade Runner", "passed": true, "n_tokens": 3}
+{"question_id": "qz_688", "question": "Which ITV magazine style show ran from 1968 to 1980 and featured presenters including Jenny Hanley, Mick Robertson and Tommy Boyd?", "prediction": "The Good Life", "gold": "Magpie", "passed": false, "n_tokens": 4}
+{"question_id": "qz_690", "question": "Which type of animal was Robin Hood in the Disney cartoon film 'Robin Hood'?", "prediction": "Fox", "gold": "Fox", "passed": true, "n_tokens": 2}
+{"question_id": "qz_726", "question": "Who provided the voice for Bob The Builder on his number one hit Can We Fix It?", "prediction": "Neil Morrissey", "gold": "Neil Morrissey", "passed": true, "n_tokens": 4}
+{"question_id": "qz_735", "question": "Which actor received 4 million dollars for his 10 minutes on screen in the film Superman?", "prediction": "Marlon Brando", "gold": "Marlon Brando", "passed": true, "n_tokens": 5}
+{"question_id": "qz_737", "question": "Who directed the films Thelma and Louise, Hannibal and Black Hawk Down?", "prediction": "Ridley Scott", "gold": "Ridley Scott", "passed": true, "n_tokens": 3}
+{"question_id": "qz_755", "question": "Which serial killer is the subject of the films A Study In Terror, Murder By Decree and From Hell?", "prediction": "Jack The Ripper", "gold": "Jack The Ripper", "passed": true, "n_tokens": 5}
+{"question_id": "qz_757", "question": "In cricket, what is the score of 111 known as?", "prediction": "A century", "gold": "Nelson", "passed": false, "n_tokens": 3}
+{"question_id": "qz_832", "question": "Who wrote the novels About A Boy, How To Be Good and High Fidelity?", "prediction": "Nick Hornby", "gold": "Nick Hornby", "passed": true, "n_tokens": 4}
+{"question_id": "qz_845", "question": "With which game would you use a squidger, a circular disc between 25mm and 51 mm?", "prediction": "Croquet", "gold": "Tiddlywinks", "passed": false, "n_tokens": 3}
+{"question_id": "qz_847", "question": "The melody for which famous song was written by sisters and school teachers Patty and Mildred Hill in Kentucky in 1893?", "prediction": "Happy Birthday", "gold": "Happy Birthday", "passed": true, "n_tokens": 3}
+{"question_id": "qz_848", "question": "What is the most common pub name in the UK?", "prediction": "The Crown", "gold": "The Red Lion", "passed": false, "n_tokens": 3}
+{"question_id": "qz_860", "question": "What is the name of Kevin the teenager's friend played by Kathy Burke in a series of sketches with Harry Enfield?", "prediction": "Kevin", "gold": "Perry", "passed": false, "n_tokens": 2}
+{"question_id": "qz_866", "question": "What seven letter word, beginning with the letters 'Ra' is a palindrome?", "prediction": "Radar", "gold": "Racecar", "passed": false, "n_tokens": 2}
+{"question_id": "qz_871", "question": "Which fruit can go in the middle of the word aped to make a new word?", "prediction": "Peach", "gold": "Pear", "passed": false, "n_tokens": 2}
+{"question_id": "qz_881", "question": "How many scottish football league teams names end in United?", "prediction": "3", "gold": "3", "passed": true, "n_tokens": 3}
+{"question_id": "qz_921", "question": "Who had a top ten hit in the UK with Cupid in 1961?", "prediction": "The Ivy League", "gold": "Sam Cooke", "passed": false, "n_tokens": 4}
+{"question_id": "qz_941", "question": "The theme tune to which TV show starts with the line Stick a pony in me pocket?", "prediction": "The Sweeney", "gold": "Only Fools And Horses", "passed": false, "n_tokens": 4}
+{"question_id": "qz_952", "question": "What word is given to a point in tennis which has to be replayed?", "prediction": "Deuce", "gold": "Let", "passed": false, "n_tokens": 3}
+{"question_id": "qz_1032", "question": "How many episodes of Prisoner: Cell Block H were made?", "prediction": "400", "gold": "692", "passed": false, "n_tokens": 3}
+{"question_id": "qz_1046", "question": "Who is the last English-born player to win the men's singles title at Wimbledon?", "prediction": "Fred Perry", "gold": "Fred Perry", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1047", "question": "Which famous painter's surname was Harmenzoon van Rijn which translated as son of Harmen, of the Rhine?", "prediction": "Rembrandt", "gold": "Rembrandt", "passed": true, "n_tokens": 4}
+{"question_id": "qz_1064", "question": "In 1976, which gymnast scored 7 maximum scores of 10 as she won three gold medals, one silver and one bronze?", "prediction": "Olga Korbut", "gold": "Nadia Comaneci", "passed": false, "n_tokens": 5}
+{"question_id": "qz_1074", "question": "In years and days, how old was Luigina Giavotti when she won a silver medal in gymnastics in 1928, and is still the youngest medal winner today?", "prediction": "13 years and 10 days", "gold": "11 years and 302 days", "passed": false, "n_tokens": 8}
+{"question_id": "qz_1086", "question": "Which Eastenders actor has played the policeman Nick Rowan on TV?", "prediction": "Adam Woodyatt", "gold": "Nick Berry", "passed": false, "n_tokens": 4}
+{"question_id": "qz_1098", "question": "What type of animal was Boris, the subject of a song by The Who?", "prediction": "Dog", "gold": "Spider", "passed": false, "n_tokens": 2}
+{"question_id": "qz_1111", "question": "Which brand of beer does Homer Simpson drink regularly?", "prediction": "Duff", "gold": "Duff", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1112", "question": "From which animal does Haggis come?", "prediction": "Sheep", "gold": "Sheep", "passed": true, "n_tokens": 2}
+{"question_id": "qz_1128", "question": "In which country was Marie Curie born? Poland, Austria or Switzerland?", "prediction": "Poland", "gold": "Poland", "passed": true, "n_tokens": 2}
+{"question_id": "qz_1130", "question": "What is the most common blood type in humans? A, B or O?", "prediction": "O", "gold": "O", "passed": true, "n_tokens": 2}
+{"question_id": "qz_1139", "question": "Which P is the correct technical term for the art of making and displaying fireworks?", "prediction": "Pyrotechnics", "gold": "Pyrotechnics", "passed": true, "n_tokens": 5}
+{"question_id": "qz_1141", "question": "Which King did Guy Fawkes attempt to kill with his gunpowder plot?", "prediction": "James I", "gold": "James I", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1173", "question": "In which film was the song White Christmas first sung?", "prediction": "Holiday Inn", "gold": "Holiday Inn", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1178", "question": "Which Pop Idol had a number one hit in 2004 called All This Time?", "prediction": "Gareth Gates", "gold": "Michelle McManus", "passed": false, "n_tokens": 3}
+{"question_id": "qz_1189", "question": "Which Channel 4 TV show's presenters included Mark Lamarr, Amanda De Cadenet and Terry Christian?", "prediction": "The Big Breakfast", "gold": "The Word", "passed": false, "n_tokens": 4}
+{"question_id": "qz_1191", "question": "What is the name of the device made of wood and horsehair that is used to play a violin?", "prediction": "Bow", "gold": "Bow", "passed": true, "n_tokens": 2}
+{"question_id": "qz_1197", "question": "What colour is the bottom stripe on the U.S. flag?", "prediction": "Red", "gold": "Red", "passed": true, "n_tokens": 2}
+{"question_id": "qz_1221", "question": "What is the name given to the largest bee in a hive?", "prediction": "Queen", "gold": "Queen", "passed": true, "n_tokens": 2}
+{"question_id": "qz_1230", "question": "Who won the Ladies singles title at Wimbledon in 2004?", "prediction": "Serena Williams", "gold": "Maria Sharapova", "passed": false, "n_tokens": 3}
+{"question_id": "qz_1249", "question": "What is the alcoholic ingredient of Irish coffee?", "prediction": "Whiskey", "gold": "Whiskey", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1291", "question": "In which year did St George die?", "prediction": "303", "gold": "303", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1345", "question": "What are the names of the Four Horseman of the Apocalypse?", "prediction": "Conquest, War, Famine, Death", "gold": "War, Famine, Pestilence and Death", "passed": false, "n_tokens": 10}
+{"question_id": "qz_1354", "question": "Who is the Vice-President for George W Bush?", "prediction": "Dick Cheney", "gold": "Dick Cheyney", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1357", "question": "Which film sees Clint Eastwood, Tommy Lee Jones, James Garner and Donald Sutherland as retired astronauts?", "prediction": "Space Cowboys", "gold": "Space Cowboys", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1380", "question": "In a standard deck of cards, how many Kings have a moustache?", "prediction": "4", "gold": "Three", "passed": false, "n_tokens": 3}
+{"question_id": "qz_1382", "question": "According to the film Gremlins, if you are looking after a Gremlin you should not feed him after midnight, not get him wet and not expose him to what?", "prediction": "Bright light", "gold": "Bright Light", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1384", "question": "The Canary Islands are named after what animal?", "prediction": "Canary", "gold": "Dog", "passed": false, "n_tokens": 2}
+{"question_id": "qz_1393", "question": "In which capital city would you find Charles Bridge and Wenceslas Square?", "prediction": "Prague", "gold": "Prague", "passed": true, "n_tokens": 2}
+{"question_id": "qz_1417", "question": "What was the surname of the woman who was the inspiration behind the Rolling Stones song Angie?", "prediction": "Andrews", "gold": "Bowie", "passed": false, "n_tokens": 2}
+{"question_id": "qz_1429", "question": "What is the final event in a decathlon?", "prediction": "1500m", "gold": "1500 metres", "passed": false, "n_tokens": 5}
+{"question_id": "qz_1430", "question": "Peter Simple, Jack Horner and Ben Nevis have all won which famous sporting event?", "prediction": "Grand National", "gold": "The Grand National", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1453", "question": "What is the largest city in Turkey?", "prediction": "Istanbul", "gold": "Istanbul", "passed": true, "n_tokens": 2}
+{"question_id": "qz_1516", "question": "Who bought Chelsea football club for \u00a31 in 1982?", "prediction": "Ken Bates", "gold": "Ken Bates", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1545", "question": "In 1998, which director's Oscar acceptance speech included the line I'm king of the world?", "prediction": "James Cameron", "gold": "James Cameron", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1572", "question": "What nationality was the painter Vincent Van Gogh?", "prediction": "Dutch", "gold": "Dutch", "passed": true, "n_tokens": 2}
+{"question_id": "qz_1603", "question": "Which film features the characters Sally Albright and Harry Burns?", "prediction": "When Harry Met Sally", "gold": "When Harry Met Sally", "passed": true, "n_tokens": 5}
+{"question_id": "qz_1631", "question": "Which act won the Eurovision Song Contest for the United Kingdom singing Love Shine A Light?", "prediction": "Katrina and the Waves", "gold": "Katrina And The Waves", "passed": true, "n_tokens": 5}
+{"question_id": "qz_1665", "question": "Which English word comes from an old French word meaning sour wine?", "prediction": "Vinegar", "gold": "Vinegar", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1670", "question": "Which team beat American Samoa 31-0 in a qualifying match for the 2002 World Cup, but still failed to qualify?", "prediction": "New Zealand", "gold": "Australia", "passed": false, "n_tokens": 3}
+{"question_id": "qz_1684", "question": "What was the name of Roland Rat's gerbil friend?", "prediction": "Ratty", "gold": "Kevin", "passed": false, "n_tokens": 3}
+{"question_id": "qz_1690", "question": "Which animal has the longest gestation period at around 22 months?", "prediction": "Elephant", "gold": "The elephant", "passed": true, "n_tokens": 2}
+{"question_id": "qz_1693", "question": "What name is given to the home of a beaver?", "prediction": "Lodge", "gold": "Lodge", "passed": true, "n_tokens": 2}
+{"question_id": "qz_1720", "question": "What name is given to a baby marsupial?", "prediction": "Joey", "gold": "Joey", "passed": true, "n_tokens": 2}
+{"question_id": "qz_1725", "question": "Who dated actress Elizabeth Hurley between 2000 and 2001 and denied he was the father of her son born in 2002 before a DNA test proved otherwise?", "prediction": "Hugh Grant", "gold": "Stephen Bing", "passed": false, "n_tokens": 3}
+{"question_id": "qz_1730", "question": "What type of animal is the star of the 2005 film Racing Stripes?", "prediction": "Horse", "gold": "Zebra", "passed": false, "n_tokens": 2}
+{"question_id": "qz_1745", "question": "Author Dick Francis is famous for writing novels based around which sport?", "prediction": "Horse Racing", "gold": "Horseracing", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1794", "question": "Which Scottish newspaper features the Broons and Oor Wullie?", "prediction": "The Dundee Evening Telegraph", "gold": "The Sunday Post", "passed": false, "n_tokens": 6}
+{"question_id": "qz_1797", "question": "Which famous book features the character of Bob Cratchit?", "prediction": "A Christmas Carol", "gold": "A Christmas Carol", "passed": true, "n_tokens": 4}
+{"question_id": "qz_1800", "question": "Which act has had more Christmas number one singles than any other?", "prediction": "Band Aid", "gold": "The Beatles", "passed": false, "n_tokens": 3}
+{"question_id": "qz_1804", "question": "Which Christmas song includes the line It seems so long since I could say 'sister Susie sitting on a thistle'?", "prediction": "Rudolph the Red-Nosed Reindeer", "gold": "All I Want for Christmas Is My Two Front Teeth", "passed": false, "n_tokens": 10}
+{"question_id": "qz_1821", "question": "Which British footballer has the most number of International caps?", "prediction": "Peter Shilton", "gold": "Peter Shilton", "passed": true, "n_tokens": 4}
+{"question_id": "qz_1825", "question": "Who holds a trumpet on the album cover of Sgt. Pepper's Lonely Hearts Club Band by The Beatles?", "prediction": "Louis Armstrong", "gold": "Ringo Starr", "passed": false, "n_tokens": 3}
+{"question_id": "qz_1834", "question": "Which song begins with the line The taxman's taken all my dough?", "prediction": "Taxman", "gold": "Sunny Afternoon", "passed": false, "n_tokens": 3}
+{"question_id": "qz_1858", "question": "The Kray twins were convicted of the murder of George Cornell in the East End of London in 1966. What was the name of the pub in which he was shot?", "prediction": "Blind Beggar", "gold": "The Blind Beggar", "passed": true, "n_tokens": 4}
+{"question_id": "qz_1872", "question": "Who composed the musical theme for the Pink Panther?", "prediction": "Henry Mancini", "gold": "Henry Mancini", "passed": true, "n_tokens": 5}
+{"question_id": "qz_1880", "question": "Who was the cartoon adversary of Pixie and Dixie, who would often say I hate those meeces to pieces?", "prediction": "Mr. Jinx", "gold": "Mr Jinx", "passed": true, "n_tokens": 5}
+{"question_id": "qz_1882", "question": "Which actress married Dennis Quaid on Valentine's Day in 1991?", "prediction": "Meg Ryan", "gold": "Meg Ryan", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1915", "question": "During Margaret Thatcher's years as Prime Minister, there were three Chancellors of the Exchequer. Geoffrey Howe and Nigel Lawson were two, but who was the other one?", "prediction": "John Major", "gold": "John Major", "passed": true, "n_tokens": 3}
+{"question_id": "qz_1918", "question": "Buddy Holly and the Big Bopper were two of the three musicians who died in a plane crash in February 1959. Who was the other one?", "prediction": "Ritchie Valens", "gold": "Richie Valens", "passed": true, "n_tokens": 5}
+{"question_id": "qz_1952", "question": "Fruit, cricket and horseshoe are varieties of what type of animal?", "prediction": "Pig", "gold": "Bat", "passed": false, "n_tokens": 2}
+{"question_id": "qz_1958", "question": "Apart from being warm blooded and giving birth to live young, what do mammals produce to differentiate them from other families of animals?", "prediction": "Milk", "gold": "Milk", "passed": true, "n_tokens": 2}
+{"question_id": "qz_2001", "question": "To which poet does Il Postino deliver mail?", "prediction": "Pablo Neruda", "gold": "Pablo Neruda", "passed": true, "n_tokens": 4}
+{"question_id": "qz_2018", "question": "Which scientist was Time magazine's \"Person of the 20th Century\"?", "prediction": "Albert Einstein", "gold": "Albert Einstein", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2029", "question": "What was the nickname given to premiership footballer Neil Ruddock?", "prediction": "Neil the Lion", "gold": "Razor", "passed": false, "n_tokens": 4}
+{"question_id": "qz_2053", "question": "The Ducati is manufactured in which city and what country?", "prediction": "Bologna, Italy", "gold": "Bologna, Italy", "passed": true, "n_tokens": 5}
+{"question_id": "qz_2090", "question": "Wayne Rooney signed for Manchester United from which other Premiership Club?", "prediction": "Everton", "gold": "Everton", "passed": true, "n_tokens": 2}
+{"question_id": "qz_2111", "question": "The Yalu river forms a sort of natural border between China and which of its neighbours?", "prediction": "North Korea", "gold": "North Korea", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2131", "question": "Which stand-up comedian presents 8 Out Of 10 Cats and Distraction?", "prediction": "James Corden", "gold": "Jimmy Carr", "passed": false, "n_tokens": 4}
+{"question_id": "qz_2135", "question": "Name the game show, presented by Leslie Grantham and Melinda Messenger, where contestants were set physical and mental challenges?", "prediction": "Gladiators", "gold": "Fort Boyard", "passed": false, "n_tokens": 4}
+{"question_id": "qz_2165", "question": "Who presented Family Fortunes in the two years between Bob Monkhouse and Les Dennis?", "prediction": "Noel Edmonds", "gold": "Max Bygraves", "passed": false, "n_tokens": 4}
+{"question_id": "qz_2175", "question": "For what did Einstien gat Nobel prize in Physics?", "prediction": "Theory of relativity", "gold": "The photoelectric effect", "passed": false, "n_tokens": 5}
+{"question_id": "qz_2176", "question": "Which planet has moons named after Shakespearean characters?", "prediction": "Uranus", "gold": "Uranus", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2194", "question": "Who was part man, part machine, all cop and hailed from a futuristic Detroit?", "prediction": "Robocop", "gold": "Robocop", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2206", "question": "Who dubbed Miss Piggy's singing voice in The Muppet Movie?", "prediction": "Piggy", "gold": "Johnny Mathis", "passed": false, "n_tokens": 3}
+{"question_id": "qz_2217", "question": "Who wrote the Bourne trilogy of books, made into movies starring Matt Damon?", "prediction": "Robert Ludlum", "gold": "Robert Ludlum", "passed": true, "n_tokens": 5}
+{"question_id": "qz_2223", "question": "The Bible tells of 3 wise men visiting Jesus after his birth, but in which of the Gospels does this appear?", "prediction": "Matthew", "gold": "Matthew", "passed": true, "n_tokens": 2}
+{"question_id": "qz_2225", "question": "Athos and Porthos are two of the 3 musketeers, name the other one.", "prediction": "Aramis", "gold": "Aramis", "passed": true, "n_tokens": 4}
+{"question_id": "qz_2227", "question": "What is the name of the small fifth claw called on the side of a dog's foot ?", "prediction": "Dewclaw", "gold": "The dewclaw", "passed": true, "n_tokens": 4}
+{"question_id": "qz_2231", "question": "What is the name of the plastic bit on the end of shoelaces?", "prediction": "Aglet", "gold": "An aglet", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2260", "question": "The river Danube flows into which sea?", "prediction": "Black Sea", "gold": "Black Sea", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2280", "question": "Anna Nicole Smith was controversially married to which oil billionaire?", "prediction": "Howard Hughes", "gold": "J Howard Marshall", "passed": false, "n_tokens": 3}
+{"question_id": "qz_2289", "question": "Wayne Rooney scored his first senior goal against which club?", "prediction": "Arsenal", "gold": "Arsenal", "passed": true, "n_tokens": 2}
+{"question_id": "qz_2291", "question": "How meny times have Liverpool won the Europion Cup?", "prediction": "5", "gold": "5", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2309", "question": "The Sign Of Four was a detective story written by which author?", "prediction": "Arthur Conan Doyle", "gold": "Sir Arthur Conan Doyle", "passed": true, "n_tokens": 4}
+{"question_id": "qz_2324", "question": "Who was the author of 'The Old Curiosity Shop'?", "prediction": "Charles Dickens", "gold": "Charles Dickens", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2349", "question": "In which sport or pastime can you see nose walking?", "prediction": "Polo", "gold": "Surfing", "passed": false, "n_tokens": 2}
+{"question_id": "qz_2355", "question": "What sport or pastime would you be playing if your balls were black and blue and your opponent's were red and yellow?", "prediction": "Croquet", "gold": "Croquet", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2379", "question": "The age of the railway began in which year with the introduction of the Liverpool-Manchester line?", "prediction": "1830", "gold": "1830", "passed": true, "n_tokens": 4}
+{"question_id": "qz_2384", "question": "Who played Frankenstein in the 1994 film of the same name?", "prediction": "Robert De Niro", "gold": "Kenneth Branagh", "passed": false, "n_tokens": 5}
+{"question_id": "qz_2391", "question": "Who was the first person to sell one million records?", "prediction": "Bing Crosby", "gold": "Enrico Caruso", "passed": false, "n_tokens": 3}
+{"question_id": "qz_2397", "question": "In Greek mythology, where do righteous souls go after death?", "prediction": "Elysium", "gold": "Elysian Fields", "passed": false, "n_tokens": 4}
+{"question_id": "qz_2404", "question": "What is the scientific name given to tea?", "prediction": "Camellia sinensis", "gold": "Camellia Sinensis", "passed": true, "n_tokens": 6}
+{"question_id": "qz_2419", "question": "In the 1999 film Stuart Little, who plays the part of Mrs Eleanor Little?", "prediction": "Elizabeth Perkins", "gold": "Geena Davis", "passed": false, "n_tokens": 3}
+{"question_id": "qz_2423", "question": "Suger Mice was a 1987 single for which British rock band?", "prediction": "The Cure", "gold": "Marillion", "passed": false, "n_tokens": 3}
+{"question_id": "qz_2426", "question": "In which decade were ZIP codes introduced in the USA?", "prediction": "70s", "gold": "1960s", "passed": false, "n_tokens": 4}
+{"question_id": "qz_2428", "question": "What are the shape-shifting foxes of the Japanese folklore?", "prediction": "Kitsune", "gold": "Kitsune", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2430", "question": "In Greek mythology who was the twin of Polydeuces?", "prediction": "Castor", "gold": "Castor", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2440", "question": "Which film features the Dawes Tomes Mousley Grubbs Fidelity Fiduciary Bank?", "prediction": "The Sting", "gold": "Mary Poppins", "passed": false, "n_tokens": 3}
+{"question_id": "qz_2444", "question": "What is Robin Williams character called in Good Morning Vietnam?", "prediction": "Adrian Cronauer", "gold": "Adrian", "passed": false, "n_tokens": 4}
+{"question_id": "qz_2458", "question": "Who plays Cruella de Vil in the 1996 live action version of 101 Dalmations?", "prediction": "Glenn Close", "gold": "Glenn Close", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2466", "question": "Who stars in the 2008 movie Seven Pounds?", "prediction": "Will Smith", "gold": "Will Smith", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2471", "question": "Marilyn Monroe starred in the Seven Year Itch. Who directed it?", "prediction": "Billy Wilder", "gold": "Billy Wilder", "passed": true, "n_tokens": 4}
+{"question_id": "qz_2478", "question": "On Red Nose Day 2001 who won Celebrity Big Brother?", "prediction": "Denise Van Outen", "gold": "Jack Dee", "passed": false, "n_tokens": 5}
+{"question_id": "qz_2532", "question": "What is the name of the London Underground station in EastEnders?", "prediction": "Angel", "gold": "Walford East", "passed": false, "n_tokens": 2}
+{"question_id": "qz_2537", "question": "How many runs did Donald Bradman score in his last ever test match innings?", "prediction": "4", "gold": "None", "passed": false, "n_tokens": 3}
+{"question_id": "qz_2538", "question": "Nicknamed the cannibal, who is the only rider to have won all three jerseys in the same year in the Tour de France?", "prediction": "Jacques Anquetil", "gold": "Eddy Merckx", "passed": false, "n_tokens": 5}
+{"question_id": "qz_2562", "question": "Whose arch nemisis is the Red Skull?", "prediction": "Captain America", "gold": "Captain America's", "passed": false, "n_tokens": 3}
+{"question_id": "qz_2564", "question": "By what name is comic book villain Oswald Chesterfield Cobblepot better known?", "prediction": "The Penguin", "gold": "The Penguin", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2567", "question": "First appearing on TV in 1967, which detective solved all of his crimes sitting down?", "prediction": "Columbo", "gold": "Ironside", "passed": false, "n_tokens": 3}
+{"question_id": "qz_2589", "question": "How many times was Wyatt Earp shot?", "prediction": "4", "gold": "None", "passed": false, "n_tokens": 3}
+{"question_id": "qz_2594", "question": "Which famous cowboy was created by George W. Trendle?", "prediction": "The Lone Ranger", "gold": "The Lone Ranger", "passed": true, "n_tokens": 4}
+{"question_id": "qz_2601", "question": "The pub with the longest name in the UK has how many letters in it? 55, 75 or 95?", "prediction": "95", "gold": "55", "passed": false, "n_tokens": 3}
+{"question_id": "qz_2619", "question": "Which movie starred Michael Caine as a murderous transvestite psychiatrist?", "prediction": "Altered States", "gold": "Dressed To Kill", "passed": false, "n_tokens": 4}
+{"question_id": "qz_2654", "question": "In 1961, who famously scored six goals in a match but still ended up on the losing team in a FA Cup tie?", "prediction": "Jimmy Greaves", "gold": "Denis Law", "passed": false, "n_tokens": 4}
+{"question_id": "qz_2713", "question": "Which economist wrote The Wealth Of Nations?", "prediction": "Adam Smith", "gold": "Adam Smith", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2717", "question": "Macbeth belonged to which royal house or dynasty?", "prediction": "House of Stuart", "gold": "House of Dunkeld", "passed": false, "n_tokens": 4}
+{"question_id": "qz_2718", "question": "Was James II known as: James The Bald, Fiery Face, or The Red King?", "prediction": "Fiery Face", "gold": "Fiery Face", "passed": true, "n_tokens": 4}
+{"question_id": "qz_2749", "question": "In Harry Potter And The Goblet Of Fire, which dragon did Harry have to defeat?", "prediction": "Hungarian Horntail", "gold": "Hungarian Horntail", "passed": true, "n_tokens": 5}
+{"question_id": "qz_2758", "question": "What is the full name of the train robber played by Phil Collins in a 1988 movie?", "prediction": "Butch Cassidy", "gold": "Buster Edwards", "passed": false, "n_tokens": 4}
+{"question_id": "qz_2768", "question": "Tony Hadley was the lead singer with which 1980s new romantic band?", "prediction": "Spandau Ballet", "gold": "Spandau Ballet", "passed": true, "n_tokens": 5}
+{"question_id": "qz_2784", "question": "What was the surname of the butler played by Gordon Jackson in Upstairs Downstairs?", "prediction": "Hudson", "gold": "Hudson", "passed": true, "n_tokens": 2}
+{"question_id": "qz_2787", "question": "Which Jackson appeared in Celebrity Big Brother in January 2009?", "prediction": "Jermaine Jackson", "gold": "La Toya Jackson", "passed": false, "n_tokens": 5}
+{"question_id": "qz_2789", "question": "Who was the seventh president of the United States?", "prediction": "Andrew Jackson", "gold": "Andrew Jackson", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2821", "question": "In which country are the Angel Falls, the highest waterfall in the world?", "prediction": "Venezuela", "gold": "Venezuela", "passed": true, "n_tokens": 2}
+{"question_id": "qz_2822", "question": "The 1955 comedy movie We're No Angels centred on three escaped convicts. Peter Ustinov and Aldo Ray were two, but who played the third?", "prediction": "Vittorio Gassman", "gold": "Humphrey Bogart", "passed": false, "n_tokens": 7}
+{"question_id": "qz_2835", "question": "Who played King Arthur in the 1967 musical film Camelot?", "prediction": "Richard Harris", "gold": "Richard Harris", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2841", "question": "Which country grows the largest number of mangoes?", "prediction": "India", "gold": "India", "passed": true, "n_tokens": 2}
+{"question_id": "qz_2845", "question": "Ecuador has a border with Peru and which other country ?", "prediction": "Colombia", "gold": "Colombia", "passed": true, "n_tokens": 2}
+{"question_id": "qz_2853", "question": "In 2009, who was convicted of the murder of Lana Clarkson?", "prediction": "Phil Spector", "gold": "Phil Spector", "passed": true, "n_tokens": 4}
+{"question_id": "qz_2866", "question": "The left side of the heart pumps blood to all parts of the body, but the right side pumps blood to which organ in particular?", "prediction": "Lungs", "gold": "The lungs", "passed": true, "n_tokens": 3}
+{"question_id": "qz_2873", "question": "Which cartoon character lives in a pineapple under the sea?", "prediction": "Spongebob Squarepants", "gold": "SpongeBob SquarePants", "passed": true, "n_tokens": 5}
+{"question_id": "qz_2884", "question": "Which serial killer hanged himself in Wakefield Prison in January 2004, four years after being found guilty of 15 murders?", "prediction": "Harold Shipman", "gold": "Dr Harold Shipman", "passed": true, "n_tokens": 4}
+{"question_id": "qz_2908", "question": "What public school did the Duke of Edinburgh and Prince Charles attend?", "prediction": "Gordonstoun", "gold": "Gordonston", "passed": true, "n_tokens": 4}
+{"question_id": "qz_2933", "question": "If it was Phil Mickelson in 2006, Zach Johnson in 2007, and Trevor Immelman in 2008, who was it in 2009?", "prediction": "Stewart Cink", "gold": "Angel Cabrera", "passed": false, "n_tokens": 4}
+{"question_id": "qz_2968", "question": "Red Stripe lager comes from which country?", "prediction": "Jamaica", "gold": "Jamaica", "passed": true, "n_tokens": 2}
+{"question_id": "qz_2977", "question": "Which architect was known as the Wizard of the Dome?", "prediction": "Cass Gilbert", "gold": "Buckminster Fuller", "passed": false, "n_tokens": 3}
+{"question_id": "qz_2980", "question": "What is the name of the Salvador Dali painting that shows clocks oozing over a landscape?", "prediction": "Persistence of Memory", "gold": "The Persistence Of Memory", "passed": true, "n_tokens": 4}
+{"question_id": "qz_2999", "question": "In what year did Edward Vlll abdicate?", "prediction": "1936", "gold": "1936", "passed": true, "n_tokens": 4}
+{"question_id": "qz_3023", "question": "Which well known couple live at Bagshot Park in Surrey?", "prediction": "Prince Charles and Camilla Parker Bowles", "gold": "The Earl and Countess of Wessex", "passed": false, "n_tokens": 9}
+{"question_id": "qz_3027", "question": "Which notorious murderer lived at 10 Rillington Place?", "prediction": "John Christie", "gold": "John Christie", "passed": true, "n_tokens": 3}
+{"question_id": "qz_3040", "question": "Who killed Lee harvey Oswald?", "prediction": "Jack Ruby", "gold": "Jack Ruby", "passed": true, "n_tokens": 3}
+{"question_id": "qz_3041", "question": "Who killed Robert F Kennedy?", "prediction": "Sirhan Sirhan", "gold": "Sirhan Sirhan", "passed": true, "n_tokens": 5}
+{"question_id": "qz_3042", "question": "Who killed Jean Paul Marat?", "prediction": "Charlotte Corday", "gold": "Charlotte Corday", "passed": true, "n_tokens": 4}
+{"question_id": "qz_3101", "question": "What was the name of the kangaroo often mistaken by Sylvester the cat to be a giant mouse?", "prediction": "Joey", "gold": "Hippety Hopper", "passed": false, "n_tokens": 2}
+{"question_id": "qz_3127", "question": "Gjetost is the national cheese of which country?", "prediction": "Norway", "gold": "Norway", "passed": true, "n_tokens": 2}
+{"question_id": "qz_3130", "question": "A youngberry is a cross between a dewberry and what else?", "prediction": "Blackberry", "gold": "A blackberry", "passed": true, "n_tokens": 3}
+{"question_id": "qz_3152", "question": "Who is Arthur Wellesley better known as?", "prediction": "Wellington", "gold": "Duke of Wellington", "passed": false, "n_tokens": 2}
+{"question_id": "qz_3154", "question": "Which town in East Sussex now stands on the site of the battle of Hastings?", "prediction": "Battle", "gold": "Battle", "passed": true, "n_tokens": 2}
+{"question_id": "qz_3159", "question": "Which 1986 Peter Weir movie and based on a Paul Theroux novel starred Harrison Ford, Helen Mirren and River Phoenix?", "prediction": "The Mosquito Coast", "gold": "The Mosquito Coast", "passed": true, "n_tokens": 5}
+{"question_id": "qz_3236", "question": "What is the name of CS Lewis' 7 book fantasy?", "prediction": "Narnia", "gold": "The Chronicles of Narnia", "passed": true, "n_tokens": 4}
+{"question_id": "qz_3237", "question": "Name the tv series about FBI agent Don Eppes and his mathematical genius brother Charlie", "prediction": "Numb3rs", "gold": "Numb3rs", "passed": true, "n_tokens": 5}
+{"question_id": "qz_3311", "question": "All children except one grow up.", "prediction": "Peter Pan", "gold": "Peter Pan", "passed": true, "n_tokens": 3}
+{"question_id": "qz_3320", "question": "Scarlett O'Hara was not beautiful, but men seldom realised it when caught by her charm as the Tarleton twins were", "prediction": "Tarleton", "gold": "Gone with the wind", "passed": false, "n_tokens": 3}
+{"question_id": "qz_3354", "question": "Which horse racing jockey was sometimes referred to as the long fellow?", "prediction": "Eddie Arcaro", "gold": "Lester Piggott", "passed": false, "n_tokens": 4}
+{"question_id": "qz_3358", "question": "Who is the patron saint of lost causes?", "prediction": "St Jude", "gold": "St Jude", "passed": true, "n_tokens": 3}
+{"question_id": "qz_3392", "question": "True or False: Sharks do not blink?", "prediction": "True", "gold": "True", "passed": true, "n_tokens": 2}
+{"question_id": "qz_3393", "question": "Which `B` was the name of the mechanical shark used in the original `Jaws` film?", "prediction": "Bruce", "gold": "Bruce", "passed": true, "n_tokens": 2}
+{"question_id": "qz_3397", "question": "The American legal drama Shark ran from Sept 06 to May 08. Who starred in the title role, playing Sebastian Stark?", "prediction": "Michael Mann", "gold": "James Woods", "passed": false, "n_tokens": 3}
+{"question_id": "qz_3431", "question": "Which Italian fashion designer was shot dead on the steps of his Miami mansion in 1997?", "prediction": "Gianni Versace", "gold": "Gianni Versace", "passed": true, "n_tokens": 5}
+{"question_id": "qz_3432", "question": "Who was famous for popularising the 'little black dress' in the 1920s?", "prediction": "Coco Chanel", "gold": "Coco Chanel", "passed": true, "n_tokens": 3}
+{"question_id": "qz_3433", "question": "Who designed Madonna's wedding dress for her marriage to Guy Ritchie?", "prediction": "John Galliano", "gold": "Stella McCartney", "passed": false, "n_tokens": 4}
+{"question_id": "qz_3440", "question": "Meryl Streep's character, Miranda, in the 2006 film The Devil Wears Prada was based on the editor-in-chief of which fashion magazine?", "prediction": "Vogue", "gold": "Vogue", "passed": true, "n_tokens": 2}
+{"question_id": "qz_3456", "question": "In the TV show Camberwick Green, who lived in Colly's Mill?", "prediction": "Mr. Colly", "gold": "Windy Miller", "passed": false, "n_tokens": 5}
+{"question_id": "qz_3477", "question": "Which part of the human body produces insulin?", "prediction": "Pancreas", "gold": "The pancreas", "passed": true, "n_tokens": 4}
+{"question_id": "qz_3479", "question": "Who played Dr. Doug Ross on the TV show E.R.?", "prediction": "George Clooney", "gold": "George Clooney", "passed": true, "n_tokens": 4}
+{"question_id": "qz_3504", "question": "Who played the role of Kate Flax in the 1990 film Mermaids?", "prediction": "Cher", "gold": "Christina Ricci", "passed": false, "n_tokens": 2}
+{"question_id": "qz_3557", "question": "Who played the character Mrs. Merton on TV?", "prediction": "Julia McKenzie", "gold": "Caroline Aherne", "passed": false, "n_tokens": 3}
+{"question_id": "qz_3569", "question": "What nationality was three time Olympic gold medallist in figure skating Sonja Henie?", "prediction": "Norwegian", "gold": "Norwegian", "passed": true, "n_tokens": 2}
+{"question_id": "qz_3570", "question": "At which Winter Olympic host city would you find the Cresta Run?", "prediction": "St Moritz", "gold": "St. Moritz", "passed": true, "n_tokens": 4}
+{"question_id": "qz_3583", "question": "What kind of an animal is a wireworm?", "prediction": "Beetle", "gold": "A Beetle", "passed": true, "n_tokens": 2}
+{"question_id": "qz_3588", "question": "What are the flat treeless plains of Argentina called?", "prediction": "Pampas", "gold": "The Pampas", "passed": true, "n_tokens": 4}
+{"question_id": "qz_3623", "question": "Which Canadian born  actress was the star in the movie Barb Wire?", "prediction": "Pamela Anderson", "gold": "Pamela Anderson", "passed": true, "n_tokens": 3}
+{"question_id": "qz_3644", "question": "Which 2004 \"puppet\" movie, made by the makers of South Park, satirises Americas politics and jingoism?", "prediction": "Team America", "gold": "Team America: World Police.", "passed": false, "n_tokens": 3}
+{"question_id": "qz_3708", "question": "Which river originates in the Taurus Mountains, and flows through Syria and Iraq?", "prediction": "Euphrates", "gold": "Euphrates", "passed": true, "n_tokens": 5}
+{"question_id": "qz_3736", "question": "Following success at the 1979 election whose party conference speeech included the lines 'you turn if you want to, the lady's not for turning'?", "prediction": "Margaret Thatcher", "gold": "Margaret Thatcher", "passed": true, "n_tokens": 3}
+{"question_id": "qz_3741", "question": "In the run up to the 1997 election, Tony Blair outlined his parties' three priorities for office, can you name them?", "prediction": "Education, Health, Crime", "gold": "Education, Education, Education", "passed": false, "n_tokens": 6}
+{"question_id": "qz_3745", "question": "Which snooker player was simply known as 'The Grinder'?", "prediction": "Steve Davis", "gold": "Cliff Thorburn", "passed": false, "n_tokens": 3}
+{"question_id": "qz_3752", "question": "Which former West Indian fast bowler was known as 'Whispering Death'?", "prediction": "Michael Holding", "gold": "Michael Holding", "passed": true, "n_tokens": 3}
+{"question_id": "qz_3760", "question": "Which Eastenders character had a dog called Willy?", "prediction": "Dot Cotton", "gold": "Ethel Skinner", "passed": false, "n_tokens": 3}
+{"question_id": "qz_3775", "question": "In which year did the first episode of Minder take place?", "prediction": "1979", "gold": "1979", "passed": true, "n_tokens": 4}
+{"question_id": "qz_3777", "question": "What was the name of the cat in Rising Damp?", "prediction": "Tibbs", "gold": "Vienna", "passed": false, "n_tokens": 3}
+{"question_id": "qz_3780", "question": "Which comedy written by Johnny Speight which first aired in 1965, featured a fervent West Ham supporter?", "prediction": "Till Death Us Do Part", "gold": "Till Death Us Do Part", "passed": true, "n_tokens": 6}
+{"question_id": "qz_3781", "question": "What was the name of the comedy written by Ray Galton, Alan Simpson which aired 57 episodes?", "prediction": "Hancock's Half Hour", "gold": "Steptoe and Son", "passed": false, "n_tokens": 5}
+{"question_id": "qz_3833", "question": "Bonar Law is the only Prime Minister not born in the UK. In which country was he born?", "prediction": "Canada", "gold": "Canada", "passed": true, "n_tokens": 2}
+{"question_id": "qz_3863", "question": "Who lives in the Hundred Acre Wood?", "prediction": "Winnie the Pooh", "gold": "Winnie-the-Pooh", "passed": true, "n_tokens": 6}
+{"question_id": "qz_3878", "question": "If you heard the catchphrase \"They're great\" what would expect to be advertised?", "prediction": "Kellogg's Corn Flakes", "gold": "Frosties", "passed": false, "n_tokens": 7}
+{"question_id": "qz_3895", "question": "How many times was Boris Becker runner-up in the Men's Singles at Wimbledon?", "prediction": "3", "gold": "4", "passed": false, "n_tokens": 3}
+{"question_id": "qz_3898", "question": "How many times did Steffi Graf win the Ladies Singles at Wimbledon?", "prediction": "7", "gold": "7", "passed": true, "n_tokens": 3}
+{"question_id": "qz_3903", "question": "In which postcode area are the Wimbledon Championships held? SW15, SW17 or SW19?", "prediction": "SW19", "gold": "SW19", "passed": true, "n_tokens": 3}
+{"question_id": "qz_3911", "question": "Who did Top of the Pops mistakenly portray in a Dexys Midnight Runners song?", "prediction": "Kevin Rowland", "gold": "Jocky Wilson", "passed": false, "n_tokens": 4}
+{"question_id": "qz_3920", "question": "What story introduced the Cybermen?", "prediction": "The Invasion", "gold": "The Tenth Planet", "passed": false, "n_tokens": 3}
+{"question_id": "qz_3923", "question": "Who played the tenth Doctor?", "prediction": "David Tennant", "gold": "David Tennant", "passed": true, "n_tokens": 4}
+{"question_id": "qz_3927", "question": "How many Rings of Power were there, in total?", "prediction": "20", "gold": "20", "passed": true, "n_tokens": 3}
+{"question_id": "qz_3968", "question": "Which common colour can also be known as heliotrope?", "prediction": "Lavender", "gold": "Purple", "passed": false, "n_tokens": 3}
+{"question_id": "qz_3969", "question": "Which golf shot is the opposite of a slice?", "prediction": "Hook", "gold": "Hook", "passed": true, "n_tokens": 2}
+{"question_id": "qz_3971", "question": "Which actress left Eastenders for Hollywood only to flop as The Bionic Woman?", "prediction": "Michelle Collins", "gold": "Michelle Ryan", "passed": false, "n_tokens": 3}
+{"question_id": "qz_3995", "question": "In Only Fools And Horses, Rodney Trotter shares his middle name with which London football club?", "prediction": "West Ham", "gold": "Charlton", "passed": false, "n_tokens": 3}
+{"question_id": "qz_4002", "question": "How were Dr Stantz, Dr Spengler and Dr Venkman better known in the 1980's?", "prediction": "Ghostbusters", "gold": "Ghostbusters", "passed": true, "n_tokens": 3}
+{"question_id": "qz_4005", "question": "General Charles de Gaulle was French President 1959 to 1969. Who succeeded him?", "prediction": "Georges Pompidou", "gold": "Georges Pompidou", "passed": true, "n_tokens": 5}
+{"question_id": "qz_4047", "question": "When Mr Benn was looking for an adventure, what type of shop did he visit?", "prediction": "Magic", "gold": "A fancy dress shop", "passed": false, "n_tokens": 2}
+{"question_id": "qz_4056", "question": "What is the name of the enzyme usually added to milk to coagulate it, to make \"curds and whey\"?", "prediction": "Rennet", "gold": "Rennet.", "passed": true, "n_tokens": 4}
+{"question_id": "qz_4061", "question": "Which cheese shares its name with a Guiness Premiership rugby team that play at Welford Road?", "prediction": "Leicester", "gold": "Leicester.", "passed": true, "n_tokens": 2}
+{"question_id": "qz_4085", "question": "Where in London were the first escalators installed in 1898?", "prediction": "Selfridges", "gold": "Harrods", "passed": false, "n_tokens": 4}
+{"question_id": "qz_4093", "question": "In what year was the first episode of Doctor Who broadcast? 1959, 1963 or 1967?", "prediction": "1963", "gold": "1963", "passed": true, "n_tokens": 4}
+{"question_id": "qz_4101", "question": "What is the name of the company that owned the spaceship Red Dwarf?", "prediction": "Space Corporation", "gold": "The Jupiter Mining Corporation", "passed": false, "n_tokens": 3}
+{"question_id": "qz_4121", "question": "Which character has been played by Jack Lord, Cec Linder, Rik Van Nutter, Norman Burton, David Hedison, John Terry, David Hedison and Jeffrey Wright?", "prediction": "Steve McGarrett", "gold": "A) Felix Leiter", "passed": false, "n_tokens": 5}
+{"question_id": "qz_4127", "question": "Name the magician who first introduced us to Basil Brush.", "prediction": "Paul Daniels", "gold": "David Nixon", "passed": false, "n_tokens": 3}
+{"question_id": "qz_4140", "question": "Who was the only Prime Minister of Britain to be assassinated?", "prediction": "Spencer Perceval", "gold": "Spencer Percival", "passed": true, "n_tokens": 5}
+{"question_id": "qz_4147", "question": "What is the name of the chain of islands in the southwestern Philippines?", "prediction": "Visayas", "gold": "The Sulu Archipelago", "passed": false, "n_tokens": 3}
+{"question_id": "qz_4151", "question": "What was the name of the ferry that capsized after leaving Zeebrugge in 1987", "prediction": "Herald of Free Enterprise", "gold": "The Herald of free Enterprise", "passed": true, "n_tokens": 5}
+{"question_id": "qz_4171", "question": "The Flying Pickets were a British vocal group who had Christmas no1 hit in 1983. What was the title of the song.", "prediction": "Only You", "gold": "Only You", "passed": true, "n_tokens": 3}
+{"question_id": "qz_4175", "question": "In Risk, what colour is Europe?", "prediction": "Blue", "gold": "Blue", "passed": true, "n_tokens": 2}
+{"question_id": "qz_4186", "question": "Which British band named themselves after a South African football team?", "prediction": "The Bristols", "gold": "Kaiser Chiefs", "passed": false, "n_tokens": 5}
+{"question_id": "qz_4208", "question": "How many female P.Ms have there been?", "prediction": "1", "gold": "One", "passed": true, "n_tokens": 3}
+{"question_id": "qz_4224", "question": "Newspapers come is various sizes, broadsheet being the largest, and tabloid being smaller, but what name is given to the smallest size.", "prediction": "Berliner", "gold": "Compact", "passed": false, "n_tokens": 3}
+{"question_id": "qz_4226", "question": "Which wedding anniversary is celebrated with paper", "prediction": "12th", "gold": "1st", "passed": false, "n_tokens": 4}
+{"question_id": "qz_4231", "question": "Which American female rap artist, film & television actress release a song called Paper in 1998", "prediction": "Queen Latifah", "gold": "Queen Latifah", "passed": true, "n_tokens": 5}
+{"question_id": "qz_4240", "question": "Who won the 2010 Giro D'Italia?", "prediction": "Ivan Basso", "gold": "Ivan Basso", "passed": true, "n_tokens": 4}
+{"question_id": "qz_4241", "question": "In the Commonwealth games in Delhi, which British athlete won the mens 200m gold medal?", "prediction": "Dwain Chambers", "gold": "Leon Baptiste", "passed": false, "n_tokens": 4}
+{"question_id": "qz_4267", "question": "Which singer picked up three Ivor Novello awards in May, including songwriter of the year for her hit single, The Fear?", "prediction": "Lily Allen", "gold": "Lily Allen", "passed": true, "n_tokens": 3}
+{"question_id": "qz_4308", "question": "Which American singer was born Eleanora Fagan?", "prediction": "Billie Holiday", "gold": "Billie Holiday", "passed": true, "n_tokens": 4}
+{"question_id": "qz_4311", "question": "Which famous woman in history had a cottage in Shottery in Warwickshire?", "prediction": "Shakespeare", "gold": "Anne Hathaway", "passed": false, "n_tokens": 2}
+{"question_id": "qz_4322", "question": "Who sang the theme song for the TV show 'Rawhide'?", "prediction": "Frankie Laine", "gold": "Frankie Laine", "passed": true, "n_tokens": 4}
+{"question_id": "qz_4414", "question": "Which sea lies between Italy and the former Yugoslavia?", "prediction": "Adriatic", "gold": "Adriatic", "passed": true, "n_tokens": 3}
+{"question_id": "qz_4417", "question": "In which country is the region Dalmatia?", "prediction": "Croatia", "gold": "Croatia", "passed": true, "n_tokens": 2}
+{"question_id": "qz_4432", "question": "Who was known as the Great Lover of the Silent Screen?", "prediction": "Rudolph Valentino", "gold": "Rudolf Valentino", "passed": true, "n_tokens": 5}
+{"question_id": "qz_4435", "question": "Which actor plays Cate Blanchett's father in the 2004 film \"The Missing\", a story set in 19th century New Mexico where the father works with estranged daughter Blanchett to get her kidnapped child back?", "prediction": "Tommy Lee Jones", "gold": "Tommy Lee Jones", "passed": true, "n_tokens": 4}
+{"question_id": "qz_4443", "question": "How is Frances Gumm the actress better known?", "prediction": "Judy Garland", "gold": "Judy Garland", "passed": true, "n_tokens": 3}
+{"question_id": "qz_4450", "question": "Who won the Best Actress Oscar for the 1988 film, The Accused?", "prediction": "Jodie Foster", "gold": "Jodie Foster", "passed": true, "n_tokens": 4}
+{"question_id": "qz_4493", "question": "Which  constellation contains many bright shining stars, such as Regulus?", "prediction": "Leo", "gold": "Leo.", "passed": true, "n_tokens": 2}
+{"question_id": "qz_4540", "question": "Which London river, now flowing underground, rises in Hampstead, flows through St. Pancras, down Farringdon Street and enters the Thames by Blackfriars Bridge?", "prediction": "Fleet", "gold": "River Fleet", "passed": false, "n_tokens": 2}
+{"question_id": "qz_4548", "question": "-Day in 1944 was the greatest sea-bourn invasion in history. What was the code name for the operation?", "prediction": "Normandy", "gold": "Operation Overlord", "passed": false, "n_tokens": 3}
+{"question_id": "qz_4565", "question": "On which island are the Cuillin Hills?", "prediction": "Skye", "gold": "The Isle of Skye", "passed": true, "n_tokens": 3}
+{"question_id": "qz_4575", "question": "Which dancer has only one notable film cameo, appearing with Sean Connery in the 1979 movie The First Great Train Robbery, breaking into a guarded station office.", "prediction": "Rudolf Nureyev", "gold": "Wayne Sleep", "passed": false, "n_tokens": 7}
+{"question_id": "qz_4576", "question": "What was the first name of the character played by John Travolta in Saturday Night Fever.", "prediction": "Tony", "gold": "Tony (Manero).", "passed": false, "n_tokens": 2}
+{"question_id": "qz_4585", "question": "In which 1969 movie did Michael Caine appear with his brother Stanley.", "prediction": "The Italian Job", "gold": "The Italian Job", "passed": true, "n_tokens": 4}
+{"question_id": "qz_4606", "question": "In 1969, a man was stabbed to death by a member of the Hell's Angels at a Rolling Stones concert. Where was the concert held?", "prediction": "Altamont Speedway", "gold": "Altamont", "passed": false, "n_tokens": 5}
+{"question_id": "qz_4637", "question": "How long does it take, approximately, for light to travel from the Sun to the Earth?", "prediction": "8 minutes", "gold": "About 8 minutes", "passed": false, "n_tokens": 4}
+{"question_id": "qz_4638", "question": "A Long Island Iced Tea is a cocktail based on vodka, gin, tequila, and which other spirit?", "prediction": "Rum", "gold": "Rum", "passed": true, "n_tokens": 2}
+{"question_id": "qz_4641", "question": "Anellini pasta is what type of shape?", "prediction": "Tube", "gold": "Rings", "passed": false, "n_tokens": 2}
+{"question_id": "qz_4642", "question": "A Cuba Libre is based on which spirit", "prediction": "Rum", "gold": "Rum", "passed": true, "n_tokens": 2}
+{"question_id": "qz_4706", "question": "Which company were responsible for the production of the Spitfire?", "prediction": "Supermarine", "gold": "Supermarine", "passed": true, "n_tokens": 3}
+{"question_id": "qz_4739", "question": "The lyric \u0091Always sunny in a rich man's world', is from which song?", "prediction": "Money", "gold": "Money, Money, Money", "passed": false, "n_tokens": 2}
+{"question_id": "qz_4745", "question": "Who won the men's singles title at Wimbledon in 1987?", "prediction": "Pat Cash", "gold": "Pat Cash", "passed": true, "n_tokens": 3}
+{"question_id": "qz_4839", "question": "Who made Victor Krum's wand?", "prediction": "Ollivander", "gold": "Gregorovitch", "passed": false, "n_tokens": 5}
+{"question_id": "qz_4845", "question": "What kind of creature is Firenze?", "prediction": "Centaur", "gold": "Centaur", "passed": true, "n_tokens": 3}
+{"question_id": "qz_4861", "question": "What building in Scotland is said to house the Holy Grail and features prominently at the end of The Da Vinci Code?", "prediction": "Rosslyn Chapel", "gold": "Rosslyn Chapel", "passed": true, "n_tokens": 4}
+{"question_id": "qz_4910", "question": "In which sitcom did Penelope Wilton play the wife of Richard Briers?", "prediction": "To the Manor Born", "gold": "Ever Decreasing Circles", "passed": false, "n_tokens": 5}
+{"question_id": "qz_4911", "question": "Who plays the role of Bubble in Absolutely Fabulous?", "prediction": "Jane Horrocks", "gold": "Jane Horrocks", "passed": true, "n_tokens": 5}
+{"question_id": "qz_4923", "question": "Which cockney private detective, co-created by Terry Venables, was portrayed on TV by Nicholas Ball?", "prediction": "Charlie Chalk", "gold": "James Hazell", "passed": false, "n_tokens": 4}
+{"question_id": "qz_4925", "question": "Who in 1975 became the first black man to win a Wimbledon singles title?", "prediction": "Arthur Ashe", "gold": "Arthur Ashe", "passed": true, "n_tokens": 3}
+{"question_id": "qz_4945", "question": "Which South African fast bowler had the nickname White Lightning", "prediction": "Allan Donald", "gold": "Allan Donald", "passed": true, "n_tokens": 3}
+{"question_id": "qz_4979", "question": "In 1953, Edmund Hillary was half of the famous pair to first do what?", "prediction": "Climb Mount Everest", "gold": "Climb Everest", "passed": false, "n_tokens": 5}
+{"question_id": "qz_4991", "question": "Another name for the Holy Wars between the  Christian states of Europe against the Saracens", "prediction": "Crusades", "gold": "Crusades", "passed": true, "n_tokens": 3}
+{"question_id": "qz_4992", "question": "1986 film starring Goldie Hawn as a High School football coach.", "prediction": "Wildcats", "gold": "Wildcats", "passed": true, "n_tokens": 2}
+{"question_id": "qz_5039", "question": "Who was the 16th president of the U.S.A.,assasinated in 1865", "prediction": "Abraham Lincoln", "gold": "Abraham LINCOLN", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5042", "question": "Which Italian explorer had ships named Nina, Pinta and Santa Maria?", "prediction": "Columbus", "gold": "Christopher COLUMBUS", "passed": false, "n_tokens": 2}
+{"question_id": "qz_5044", "question": "Who had chart hits which included Annie`s Song and Rocky Mountain High?", "prediction": "John Denver", "gold": "John DENVER", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5050", "question": "Which cartoon series featured the characters Lion-o, Cheetera, Tygra and Snarf/", "prediction": "Thundercats", "gold": "Thundercats.", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5053", "question": "Who was the leader of the gang whose members included Benny the Ball ,Brain and Choo Choo?", "prediction": "The Pink Panther", "gold": "Top Cat.", "passed": false, "n_tokens": 4}
+{"question_id": "qz_5075", "question": "Which famous resident resides at Highgrove House?", "prediction": "Prince Charles", "gold": "The Prince of Wales", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5082", "question": "What is the currency of India?", "prediction": "Rupee", "gold": "Rupee", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5083", "question": "How many avenues radiate from the Arc de Triomphe?", "prediction": "12", "gold": "12", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5084", "question": "In which country is Dubrovnik?", "prediction": "Croatia", "gold": "Croatia", "passed": true, "n_tokens": 2}
+{"question_id": "qz_5143", "question": "The Dakar Rally (previously known as the Paris Dakar rally) is an annual event, but of which country is Dakar the capital city?", "prediction": "Senegal", "gold": "Senegal", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5172", "question": "The Miller Brewing Company got its start in what U.S. city?", "prediction": "Milwaukee", "gold": "Milwaukee, Wisconsin", "passed": true, "n_tokens": 2}
+{"question_id": "qz_5202", "question": "Who did Simple Simon meet on his way to the fair?", "prediction": "Pretty Polly", "gold": "The Pie man.", "passed": false, "n_tokens": 3}
+{"question_id": "qz_5203", "question": "Which cartoon strip character first appeared in The Beano in 1951?", "prediction": "Dennis the Menace", "gold": "Dennis the Menace.", "passed": true, "n_tokens": 5}
+{"question_id": "qz_5217", "question": "The Asian Tsunami or Boxing day tsunami that hit Thailand, Indonesia and many other countries happened in what year?", "prediction": "2004", "gold": "2004", "passed": true, "n_tokens": 4}
+{"question_id": "qz_5235", "question": "Following that year's April Budget, Alderman Sir Cuthbert Ackroyd, who later became Lord Mayor of London, bought the first what on 1 November 1956?", "prediction": "Mini", "gold": "Premium Bond", "passed": false, "n_tokens": 2}
+{"question_id": "qz_5236", "question": "Produced between 1970 and 1974, what is a Bond Bug?", "prediction": "Car", "gold": "Car", "passed": true, "n_tokens": 2}
+{"question_id": "qz_5252", "question": "What was Jacques Cousteau's mobile oceonagraphic laboratory.", "prediction": "Calypso", "gold": "Calypso", "passed": true, "n_tokens": 4}
+{"question_id": "qz_5270", "question": "What is the name of the helicopter used to transport the President of the United States", "prediction": "Marine One", "gold": "Marine One", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5300", "question": "Which queen consort of England is associated with Hever Castle in Kent?", "prediction": "Anne Boleyn", "gold": "Anne Boleyn", "passed": true, "n_tokens": 5}
+{"question_id": "qz_5301", "question": "What was the capital of the United States between 1785 and 1790??", "prediction": "Philadelphia", "gold": "New York", "passed": false, "n_tokens": 2}
+{"question_id": "qz_5332", "question": "Which country does the drink Cinzano come from?", "prediction": "Italy", "gold": "Italy", "passed": true, "n_tokens": 2}
+{"question_id": "qz_5341", "question": "Which fictional girls' boarding school was created by the cartoonist Ronald Searle", "prediction": "St Trinian's", "gold": "St. Trinians", "passed": true, "n_tokens": 6}
+{"question_id": "qz_5346", "question": "Who played the character Mr Chips in the 2002 TV adaptation of Goodbye Mr Chips", "prediction": "John Lithgow", "gold": "Martin Clunes", "passed": false, "n_tokens": 4}
+{"question_id": "qz_5409", "question": "Rarely is the question asked: Is our children learning?", "prediction": "Is our children learning?", "gold": "George W Bush", "passed": false, "n_tokens": 5}
+{"question_id": "qz_5410", "question": "Are you going to come quietly, or do I have to use earplugs?", "prediction": "Earplugs", "gold": "Spike Milligan", "passed": false, "n_tokens": 4}
+{"question_id": "qz_5420", "question": "Which shipping forecast area is directly north of German Bight?", "prediction": "Viking", "gold": "Fisher", "passed": false, "n_tokens": 2}
+{"question_id": "qz_5459", "question": "By what name did Samuel Langhorne Clemens publish his novels under?", "prediction": "Mark Twain", "gold": "Mark Twain", "passed": true, "n_tokens": 4}
+{"question_id": "qz_5461", "question": "Who wrote the novel Rasselas in a single week in 1759 to pay for his mother's funeral?", "prediction": "Samuel Johnson", "gold": "Samuel Johnson", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5462", "question": "Who painted Girl with a Pearl Earring?", "prediction": "Johannes Vermeer", "gold": "Johannes Vermeer", "passed": true, "n_tokens": 4}
+{"question_id": "qz_5487", "question": "What is 1009 when expressed as Roman Numerals?", "prediction": "CIIX", "gold": "MIX", "passed": false, "n_tokens": 3}
+{"question_id": "qz_5489", "question": "Who had hits with Go Now and Nights in White Satin?", "prediction": "Moody Blues", "gold": "Moody Blues", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5493", "question": "Which statesman was known as the Iron Chancellor?", "prediction": "Otto von Bismarck", "gold": "Otto Van Bismark", "passed": true, "n_tokens": 7}
+{"question_id": "qz_5496", "question": "What was left in Pandora's Box after all the evil escaped?", "prediction": "Hope", "gold": "Hope", "passed": true, "n_tokens": 2}
+{"question_id": "qz_5511", "question": "What type of bird was the first released by Noah?", "prediction": "Dove", "gold": "Raven", "passed": false, "n_tokens": 2}
+{"question_id": "qz_5520", "question": "What is the state capital of Florida?", "prediction": "Tallahassee", "gold": "Tallahassee", "passed": true, "n_tokens": 4}
+{"question_id": "qz_5552", "question": "Who was sacked as the Beatles' drummer and replaced by Ringo Starr?", "prediction": "Pete Best", "gold": "Pete Best", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5554", "question": "In which is Shakespeare's plays are the title character's last words the rest is silence?", "prediction": "Hamlet", "gold": "Hamlet", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5560", "question": "Tsar Nicholas I abidacated in 1917, who was the other monarch to abdicate during this period?", "prediction": "Kaiser Wilhelm II", "gold": "Constantine I of Greece", "passed": false, "n_tokens": 4}
+{"question_id": "qz_5580", "question": "Which Roman Emperor was allegedy killed by his wife, Aggripina, in AD54?", "prediction": "Claudius", "gold": "Claudius", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5584", "question": "Whose last words were Et Tu Brute according to Shakespeare?", "prediction": "Julius Caesar", "gold": "Julius Ceasar", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5598", "question": "Mel Gibson (1990) and Kenneth Branagh (1996) have both played which character in movies?", "prediction": "Hamlet", "gold": "Hamlet", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5614", "question": "The original United Artists film studio was founded in 1919 by D.W. Griffith, Mary Pickford, Douglas Fairbanks and who else?", "prediction": "Charlie Chaplin", "gold": "Charlie Chaplin", "passed": true, "n_tokens": 4}
+{"question_id": "qz_5645", "question": "Which Holiday movie favourite featured a character called Kevin McCallister?", "prediction": "Home Alone", "gold": "Home Alone", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5670", "question": "Who was the author of \u0091Pygmalion'?", "prediction": "George Bernard Shaw", "gold": "George Bernard Shaw", "passed": true, "n_tokens": 4}
+{"question_id": "qz_5674", "question": "Who was the third President of the USA, following on from George Washington and John Adams was also famed for his numerous inventions?", "prediction": "Thomas Jefferson", "gold": "Thomas Jefferson", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5684", "question": "What is the minimum age of someone running for the office of President of the United States?", "prediction": "35", "gold": "35 years of age", "passed": false, "n_tokens": 3}
+{"question_id": "qz_5728", "question": "England won the 1966 World Cup beating Germany 4-2. Hurst scored 3 of England's goals who scored the other?", "prediction": "Bobby Charlton", "gold": "Martin Peters", "passed": false, "n_tokens": 4}
+{"question_id": "qz_5790", "question": "From which 1960s sci-fi movie did 1980s pop sensation Duran Duran take their name from a character from the movie?", "prediction": "Barbarella", "gold": "Barbarella", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5792", "question": "What year did E.T. Hit the cinema screen?", "prediction": "1982", "gold": "1982", "passed": true, "n_tokens": 4}
+{"question_id": "qz_5795", "question": "The Red Sea is connected to the Indian Ocean by which gulf ?", "prediction": "Gulf of Aden", "gold": "Gulf of Aden.", "passed": true, "n_tokens": 5}
+{"question_id": "qz_5796", "question": "The Red Setter is more properly known by which name?", "prediction": "Irish Setter", "gold": "The Irish Setter.", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5801", "question": "What was the name of the World War I fighter ace nicknamed the Red Baron?", "prediction": "Manfred von Richthofen", "gold": "Manfred von Richtofen.", "passed": true, "n_tokens": 8}
+{"question_id": "qz_5812", "question": "What is the capital of the U.S. state of Connecticut?", "prediction": "Hartford", "gold": "Hartford.", "passed": true, "n_tokens": 2}
+{"question_id": "qz_5867", "question": "What was founded by Ferdinand II of Aragon and Isabella I of Castile to keep Catholic orthodoxy as the major religion of their kingdoms?", "prediction": "Spanish Inquisition", "gold": "Spanish Inquisition", "passed": true, "n_tokens": 4}
+{"question_id": "qz_5870", "question": "In golf, what name is given to a score of three under par on a given hole?", "prediction": "Eagle", "gold": "Albatross", "passed": false, "n_tokens": 2}
+{"question_id": "qz_5877", "question": "In dentistry, what is the name given to hardened dental plaque?", "prediction": "Calculus", "gold": "TARTAR.", "passed": false, "n_tokens": 3}
+{"question_id": "qz_5894", "question": "Which singer played the Goblin King Jareth in the film \u0091Labyrinth'?", "prediction": "David Bowie", "gold": "David Bowie", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5898", "question": "Who played \u0091Aunty Entity' in the film 'Mad Max Beyond the Thunderdome'?", "prediction": "Tina Turner", "gold": "Tina Turner", "passed": true, "n_tokens": 3}
+{"question_id": "qz_5918", "question": "Name the fantasy movie directed by Terry Gilliam, where 6 dwarves have stolen a map.", "prediction": "The Adventures of Baron Munchausen", "gold": "Time Bandits", "passed": false, "n_tokens": 9}
+{"question_id": "qz_5919", "question": "Which TV comedy had characters McLaren, Blanco & Warren", "prediction": "The Goodies", "gold": "Porridge", "passed": false, "n_tokens": 4}
+{"question_id": "qz_5950", "question": "In which TV series would you find an Eagle Transporter", "prediction": "Thunderbirds", "gold": "Space 1999", "passed": false, "n_tokens": 3}
+{"question_id": "qz_5999", "question": "Which jazz saxophonist was nicknamed Bird", "prediction": "Charlie Parker", "gold": "Charlie Parker", "passed": true, "n_tokens": 3}
+{"question_id": "qz_6028", "question": "Which patriotic Irving Berlin song includes the line  From the mountains to the prairie to the oceans white with foam ?", "prediction": "God Bless America", "gold": "God Bless AMERICA.", "passed": true, "n_tokens": 4}
+{"question_id": "qz_6036", "question": "Who created the Miss World pageant?", "prediction": "Eric Morley", "gold": "Eric Morley.", "passed": true, "n_tokens": 4}
+{"question_id": "qz_6046", "question": "In Egyptian myth who was the God of chaos and disorder?", "prediction": "Set", "gold": "Seth", "passed": false, "n_tokens": 2}
+{"question_id": "qz_6077", "question": "What type of creature is a Painted Dragon?", "prediction": "Lizard", "gold": "Lizard.", "passed": true, "n_tokens": 3}
+{"question_id": "qz_6079", "question": "Which method of painting consists of applying pigment to wet plaster?", "prediction": "Fresco", "gold": "Fresco.", "passed": true, "n_tokens": 3}
+{"question_id": "qz_6127", "question": "Who is credited with the discovery of the tomb of King Tutankhamen in 1922?", "prediction": "Howard Carter", "gold": "Howard Carter", "passed": true, "n_tokens": 3}
+{"question_id": "qz_6128", "question": "The King of Wishful Thinking was a hit song used during the opening credits of the movie Pretty Woman. Who sang it?", "prediction": "Roy Orbison", "gold": "Go West", "passed": false, "n_tokens": 4}
+{"question_id": "qz_6186", "question": "What dish, especially popular in parts of Wales and the English Midlands,  is traditionally made from pig's heart, liver and fatty belly meat or bacon minced together, with herbs added for flavouring and sometimes bread crumbs", "prediction": "Black pudding", "gold": "Faggots", "passed": false, "n_tokens": 3}
+{"question_id": "qz_6215", "question": "What was the name of Shari Lewis' sassy sock puppet?", "prediction": "Lamb Chop", "gold": "Lamb Chop.", "passed": true, "n_tokens": 3}
+{"question_id": "qz_6235", "question": "Captain Corelli's mandolin is a book a film set in which country", "prediction": "Greece", "gold": "Greece", "passed": true, "n_tokens": 2}
+{"question_id": "qz_6264", "question": "The Bull is the village pub in an everyday tale of country folk. In which village is The Bull?", "prediction": "Wimborne", "gold": "Ambridge", "passed": false, "n_tokens": 4}
+{"question_id": "qz_6268", "question": "What is the second biggest city in the UK?", "prediction": "Birmingham", "gold": "Birmingham", "passed": true, "n_tokens": 2}
+{"question_id": "qz_6273", "question": "Who was the second wife of Henry VIII?", "prediction": "Anne Boleyn", "gold": "Anne Boleyn", "passed": true, "n_tokens": 5}
+{"question_id": "qz_6316", "question": "Which actor does the interviewing in 'Interview with a Vampire'?", "prediction": "Tom Cruise", "gold": "Christian Slater", "passed": false, "n_tokens": 3}
+{"question_id": "qz_6380", "question": "What is the southernmost city in USA", "prediction": "Key West", "gold": "Honolulu", "passed": false, "n_tokens": 3}
+{"question_id": "qz_6389", "question": "In Vladimir Nabokov's book \"Lolita\", what is Lolita's real name?", "prediction": "Dolores Haze", "gold": "Dolores HAZE", "passed": true, "n_tokens": 5}
+{"question_id": "qz_6391", "question": "Which Shakespeare play tells the story of Prospero, the rightful Duke of Milan?", "prediction": "The Tempest", "gold": "The TEMPEST", "passed": true, "n_tokens": 4}
+{"question_id": "qz_6393", "question": "Which RAF fighter-bomber was built by the Panavia partnership?", "prediction": "Tornado", "gold": "The TORNADO", "passed": true, "n_tokens": 3}
+{"question_id": "qz_6396", "question": "What was the name of the sixth studio album released by Prince and the Revolution in June of 1984?", "prediction": "Purple Rain", "gold": "Purple RAIN", "passed": true, "n_tokens": 3}
+{"question_id": "qz_6403", "question": "The undersurface of a person's foot or of a shoe?", "prediction": "Sole", "gold": "Sole", "passed": true, "n_tokens": 2}
+{"question_id": "qz_6456", "question": "In which film series would you expect to film Katniss Everdeen and Peeta Malark?", "prediction": "Hunger Games", "gold": "The Hunger Games", "passed": true, "n_tokens": 3}
+{"question_id": "qz_6459", "question": "\"Rodney you plonka\" and \"This time next year we'll be millionaires\" are catchphrases from which well-known television sitcom?", "prediction": "Only Fools and Horses", "gold": "Only Fools and Horses", "passed": true, "n_tokens": 7}
+{"question_id": "qz_6489", "question": "What did my true love bring to me on the Sixth Day of Christmas?", "prediction": "Six geese-a-laying", "gold": "Six Geese-A-Laying", "passed": true, "n_tokens": 7}
+{"question_id": "qz_6596", "question": "Louis Smith won an individual silver medal in gymnastics at the 2012 London Olympics. For what discipline?", "prediction": "Pommel horse", "gold": "Pommel Horse", "passed": true, "n_tokens": 5}
+{"question_id": "qz_6607", "question": "What animal did Reggie Perrin think of every time his Mother-in-law was mentioned?", "prediction": "Elephant", "gold": "A Hippopotamus.", "passed": false, "n_tokens": 2}
+{"question_id": "qz_6626", "question": "Which former prime minister appeared on the Morecambe and Wise Christmas Special in 1978?", "prediction": "Edward Heath", "gold": "Harold Wilson", "passed": false, "n_tokens": 3}
+{"question_id": "qz_6685", "question": "Where does the infamous \"Streif\" downhill ski race take place?", "prediction": "Kitzbuhel", "gold": "Kitzb\u00fchel", "passed": true, "n_tokens": 6}
+{"question_id": "qz_6687", "question": "What song was a hit for Tom Jones and Cerys Matthews in 1999?", "prediction": "Kiss", "gold": "Baby it's cold outside", "passed": false, "n_tokens": 2}
+{"question_id": "qz_6713", "question": "How many lines are there in a sonnet?", "prediction": "14", "gold": "14", "passed": true, "n_tokens": 3}
+{"question_id": "qz_6727", "question": "What is the American version of Strictly Come Dancing called?", "prediction": "Dancing with the Stars", "gold": "Dancing With The Stars", "passed": true, "n_tokens": 5}
+{"question_id": "qz_6774", "question": "What is the lightest metal under standard conditions?", "prediction": "Lithium", "gold": "Lithium", "passed": true, "n_tokens": 3}
+{"question_id": "qz_6778", "question": "What artist designed the logo for Chupa Chups lollipops?", "prediction": "Salvador Dali", "gold": "Salvador Dali", "passed": true, "n_tokens": 4}
+{"question_id": "qz_6793", "question": "What is being built in the Olympic Park, that will be the world's longest and tallest of its kind?", "prediction": "Velodrome", "gold": "A slide", "passed": false, "n_tokens": 4}
+{"question_id": "qz_6806", "question": "In the 'Jungle Book' what type of creature was 'Bagheera'?", "prediction": "Panther", "gold": "Panther", "passed": true, "n_tokens": 2}
+{"question_id": "qz_6819", "question": "What was the first Beatles film?", "prediction": "A Hard Day's Night", "gold": "A Hard Day's Night", "passed": true, "n_tokens": 6}
+{"question_id": "qz_6827", "question": "What was the name of the Liverpool nightclub where the Beatles regularly played?", "prediction": "The Cavern Club", "gold": "The Cavern", "passed": true, "n_tokens": 5}
+{"question_id": "qz_6834", "question": "How many US states are prefixed by the word New?", "prediction": "8", "gold": "4", "passed": false, "n_tokens": 3}
+{"question_id": "qz_6851", "question": "Although he never won an Oscar for best director, one of Hitchcock's films did win an Oscar for best picture. What was the film?", "prediction": "Rebecca", "gold": "Rebecca", "passed": true, "n_tokens": 2}
+{"question_id": "qz_6898", "question": "In which New York borough would you find Hell\u2019s Kitchen?", "prediction": "Manhattan", "gold": "Manhattan", "passed": true, "n_tokens": 2}
+{"question_id": "qb_34", "question": "Which airline is nicknamed \u2018The Flying Kangaroo\u2019?", "prediction": "Qantas", "gold": "QANTAS", "passed": true, "n_tokens": 3}
+{"question_id": "qb_38", "question": "Which cartoon character had the maiden name \u2018Slaghoople\u2019?", "prediction": "Betty Boop", "gold": "Wilma Flintstone", "passed": false, "n_tokens": 4}
+{"question_id": "qb_41", "question": "\u2018Think Different\u2019 is an advertising slogan for which company?", "prediction": "Apple", "gold": "Apple (computers)", "passed": false, "n_tokens": 2}
+{"question_id": "qb_60", "question": "Which \u2018A\u2019 is a calculating frame with sliding balls on wires?", "prediction": "Abacus", "gold": "Abacus", "passed": true, "n_tokens": 3}
+{"question_id": "qb_66", "question": "The rowan tree is also known as the Mountain \u2018what\u2019?", "prediction": "Ash", "gold": "Ash", "passed": true, "n_tokens": 2}
+{"question_id": "qb_73", "question": "Which \u2018A\u2019 means in the open air?", "prediction": "Air", "gold": "Al fresco", "passed": false, "n_tokens": 2}
+{"question_id": "qb_76", "question": "Buenos Aires is the capital of which South American country?", "prediction": "Argentina", "gold": "Argentina", "passed": true, "n_tokens": 2}
+{"question_id": "qb_84", "question": "Apiculture is the raising and care of which creatures?", "prediction": "Bees", "gold": "Bees", "passed": true, "n_tokens": 3}
+{"question_id": "qb_92", "question": "What is the capital of Indonesia?", "prediction": "Jakarta", "gold": "Jakarta", "passed": true, "n_tokens": 2}
+{"question_id": "qb_104", "question": "Which vegetable was the first to be canned?", "prediction": "Tomatoes", "gold": "Peas", "passed": false, "n_tokens": 3}
+{"question_id": "qb_107", "question": "In computers, the X-Y Position Indicator for a Display System is now known as what?", "prediction": "Cursor", "gold": "Cursor", "passed": true, "n_tokens": 2}
+{"question_id": "qb_113", "question": "The Khyber Pass is approximately how many miles long?", "prediction": "30", "gold": "33 Miles", "passed": false, "n_tokens": 3}
+{"question_id": "qb_151", "question": "Which fruit did Nell Gwynn, mistress of King Charles II, sell in Drury Lane?", "prediction": "Oranges", "gold": "Oranges", "passed": true, "n_tokens": 3}
+{"question_id": "qb_153", "question": "The town of Tobermory is on which Scottish island?", "prediction": "Mull", "gold": "Mull", "passed": true, "n_tokens": 2}
+{"question_id": "qb_158", "question": "In the novel \u2018Wuthering Heights\u2019 by Emily Bronte, Catherine\u2019s father found Heathcliffe on the streets of which English city?", "prediction": "Liverpool", "gold": "Liverpool", "passed": true, "n_tokens": 2}
+{"question_id": "qb_162", "question": "Which Asian country hosted its first Formula One Grand Prix motor race in October 2010?", "prediction": "Bahrain", "gold": "South Korea", "passed": false, "n_tokens": 2}
+{"question_id": "qb_163", "question": "In UK currency, how many sides does a twenty pence piece have?", "prediction": "2", "gold": "Seven", "passed": false, "n_tokens": 3}
+{"question_id": "qb_189", "question": "In humans, otalgia, is the medical term for what?", "prediction": "Earache", "gold": "Earache", "passed": true, "n_tokens": 3}
+{"question_id": "qb_192", "question": "British MP, Diane Abbott, learned to play which musical instrument in the tv series \u2018Play It Again\u2019?", "prediction": "Piano", "gold": "Piano", "passed": true, "n_tokens": 2}
+{"question_id": "qb_203", "question": "Cristina Fernandez de Kirchner became President of which South American country in December 2007?", "prediction": "Argentina", "gold": "Argentina", "passed": true, "n_tokens": 2}
+{"question_id": "qb_207", "question": "In Greek mythology, what was the name of the nymph who fell in love with Narcissus, but who was said to have pined away when her love was not returned, leaving only her voice?", "prediction": "Echo", "gold": "Echo", "passed": true, "n_tokens": 2}
+{"question_id": "qb_218", "question": "The Marquesas Islands lie in which ocean?", "prediction": "Pacific", "gold": "Pacific", "passed": true, "n_tokens": 2}
+{"question_id": "qb_241", "question": "Keflavik is the main international airport of which country?", "prediction": "Iceland", "gold": "Iceland", "passed": true, "n_tokens": 2}
+{"question_id": "qb_250", "question": "Which British artist\u2019s works include \u2018The First Real Target\u2019?", "prediction": "Banksy", "gold": "Peter Blake", "passed": false, "n_tokens": 3}
+{"question_id": "qb_254", "question": "Which King of England sold Dunkirk to Louis XIV of France?", "prediction": "Charles II", "gold": "Charles II", "passed": true, "n_tokens": 3}
+{"question_id": "qb_255", "question": "What was the middle name of US actor James Dean?", "prediction": "Byron", "gold": "Byron", "passed": true, "n_tokens": 2}
+{"question_id": "qb_260", "question": "Which French author wrote the fairy tales \u2018Little Red Riding Hood\u2019 \u2018Sleeping Beauty\u2019 and \u2018Puss in Boots\u2019?", "prediction": "Charles Perrault", "gold": "Charles Perrault", "passed": true, "n_tokens": 4}
+{"question_id": "qb_274", "question": "Author J.R.R. Tolkien was born in which country?", "prediction": "England", "gold": "South Africa", "passed": false, "n_tokens": 2}
+{"question_id": "qb_275", "question": "The pilgrim route to Santiago de Compostela in Northern Spain is known as the \u2018Way\u2019 of which saint?", "prediction": "James", "gold": "Saint James", "passed": false, "n_tokens": 2}
+{"question_id": "qb_280", "question": "Peter O\u2019Sullevan was a BBC commentator for which sport?", "prediction": "Horse Racing", "gold": "Horse racing", "passed": true, "n_tokens": 3}
+{"question_id": "qb_292", "question": "Who was the first Hanover King of England?", "prediction": "George I", "gold": "George I", "passed": true, "n_tokens": 3}
+{"question_id": "qb_299", "question": "Which group released an album in 1986 entitled \u2018The Queen is Dead\u2019?", "prediction": "The Smiths", "gold": "The Smiths", "passed": true, "n_tokens": 4}
+{"question_id": "qb_304", "question": "Which British Prime Minister said of Downing Street \u2018One of the most precious jewels in the national heritage\u2019?", "prediction": "Harold Macmillan", "gold": "Margaret Thatcher", "passed": false, "n_tokens": 5}
+{"question_id": "qb_306", "question": "Antigonus is a character in which Shakespeare play?", "prediction": "Cymbeline", "gold": "The Winter\u2019s Tale", "passed": false, "n_tokens": 4}
+{"question_id": "qb_345", "question": "Which British monarch famously said \u2018I don\u2019t wish to open windows into men\u2019s souls\u2019?", "prediction": "Queen Victoria", "gold": "Queen Elizabeth I", "passed": false, "n_tokens": 3}
+{"question_id": "qb_354", "question": "Which bodily fluid is collected in a lachrymatory?", "prediction": "Tears", "gold": "Tears", "passed": true, "n_tokens": 2}
+{"question_id": "qb_355", "question": "Which British singer played Jareth the Goblin King in the 1986 film \u2018Labyrinth\u2019?", "prediction": "David Bowie", "gold": "David Bowie", "passed": true, "n_tokens": 3}
+{"question_id": "qb_361", "question": "Golfer Ernie Els was born in which country?", "prediction": "South Africa", "gold": "South Africa", "passed": true, "n_tokens": 3}
+{"question_id": "qb_365", "question": "Aconcagua is the highest mountain in which mountain range?", "prediction": "Andes", "gold": "Andes", "passed": true, "n_tokens": 3}
+{"question_id": "qb_370", "question": "The 1987 film \u2018Cry Freedom\u2019 is a biographical drama about which South African civil rights leader?", "prediction": "Steve Biko", "gold": "Steve Biko", "passed": true, "n_tokens": 4}
+{"question_id": "qb_382", "question": "Which British actress played Valerie in the 1997 film \u2018Nil By Mouth\u2019?", "prediction": "Brenda Blethyn", "gold": "Kathy Burke", "passed": false, "n_tokens": 5}
+{"question_id": "qb_388", "question": "What was the name of the Brazilian player who won the Women\u2019s Singles Finals at Wimbledon in 1959, 1960 and 1964?", "prediction": "Maria Bueno", "gold": "Maria Bueno", "passed": true, "n_tokens": 4}
+{"question_id": "qb_403", "question": "Apart from English, what is the official language of Canada?", "prediction": "French", "gold": "French", "passed": true, "n_tokens": 2}
+{"question_id": "qb_404", "question": "What is the name of the steam locomotive which set the world speed record in July 1938 by reaching 126 mph on the East Coast Mainline  in England?", "prediction": "Mallard", "gold": "Mallard", "passed": true, "n_tokens": 3}
+{"question_id": "qb_406", "question": "Singer and musician Bono called which venue \u2018Rock and roll\u2019s great cathedral\u2019?", "prediction": "Madison Square Garden", "gold": "Madison Square Garden", "passed": true, "n_tokens": 4}
+{"question_id": "qb_417", "question": "What type of creature is a bufflehead?", "prediction": "Duck", "gold": "Duck", "passed": true, "n_tokens": 2}
+{"question_id": "qb_446", "question": "The 1950\u2019s Mau Mau uprising was against the British occupation of which country?", "prediction": "Kenya", "gold": "Kenya", "passed": true, "n_tokens": 2}
+{"question_id": "qb_468", "question": "What is a positively charged ion called?", "prediction": "Cation", "gold": "Cation", "passed": true, "n_tokens": 3}
+{"question_id": "qb_470", "question": "Which 5th/6th Century Buddhist monk is described in Chinese texts as \u2018The Blue-Eyed Barbarian\u2019?", "prediction": "Xuanzang", "gold": "Bodhidharma", "passed": false, "n_tokens": 5}
+{"question_id": "qb_482", "question": "In which part of the human body is the limbic system?", "prediction": "Brain", "gold": "Brain", "passed": true, "n_tokens": 2}
+{"question_id": "qb_483", "question": "Which year saw the only hijacking of a British commercial flight?", "prediction": "1982", "gold": "1970", "passed": false, "n_tokens": 4}
+{"question_id": "qb_495", "question": "What was the name of the Cunard ocean liner which was launched on 20th September 1906?", "prediction": "Lusitania", "gold": "Mauretania", "passed": false, "n_tokens": 5}
+{"question_id": "qb_497", "question": "Which European city had the world\u2019s first birth control clinic?", "prediction": "London", "gold": "Amsterdam", "passed": false, "n_tokens": 2}
+{"question_id": "qb_498", "question": "In which James Bond film does actress Jane Seymour play Solitaire?", "prediction": "The Man with the Golden Gun", "gold": "Live and Let Die", "passed": false, "n_tokens": 7}
+{"question_id": "qb_503", "question": "What type of creature is a tanager?", "prediction": "Bird", "gold": "Bird", "passed": true, "n_tokens": 2}
+{"question_id": "qb_511", "question": "In \u2018Follow That Camel\u2019, the fourteenth Carry On film, Sid James was replaced by which US actor?", "prediction": "Sid James", "gold": "Phil Silvers", "passed": false, "n_tokens": 3}
+{"question_id": "qb_525", "question": "A mahout is a person who works, tends and rides which animal?", "prediction": "Elephant", "gold": "Elephant", "passed": true, "n_tokens": 2}
+{"question_id": "qb_532", "question": "How many medals did the United States win at the 2010 Winter Olympics?", "prediction": "37", "gold": "37", "passed": true, "n_tokens": 3}
+{"question_id": "qb_547", "question": "\u2018The Weeping Woman\u2019 is the work of which artist?", "prediction": "Picasso", "gold": "Pablo Picasso", "passed": true, "n_tokens": 2}
+{"question_id": "qb_558", "question": "The Koppen System is a classification system for what?", "prediction": "Climate", "gold": "Climate", "passed": true, "n_tokens": 2}
+{"question_id": "qb_565", "question": "In humans, a hemispherectomy is the removal of half of the what?", "prediction": "Brain", "gold": "Brain", "passed": true, "n_tokens": 2}
+{"question_id": "qb_571", "question": "In Greek mythology, Tiresias disclosed the crimes of who?", "prediction": "Oedipus", "gold": "Oedipus", "passed": true, "n_tokens": 5}
+{"question_id": "qb_574", "question": "The United Nations University is based in which Asian city?", "prediction": "Tokyo", "gold": "Tokyo", "passed": true, "n_tokens": 2}
+{"question_id": "qb_578", "question": "What is the name of the iron hook which is attached to the pole used by fisherman to land a heavy fish?", "prediction": "Gaff", "gold": "Gaff", "passed": true, "n_tokens": 3}
+{"question_id": "qb_590", "question": "Which English singer/songwriter/musician wrote the Tremeloes hit \u2018Here Comes My Baby\u2019 at the age of eighteen?", "prediction": "Brian Potter", "gold": "Cat Stevens", "passed": false, "n_tokens": 3}
+{"question_id": "qb_599", "question": "Mearth was the name of the child of which US tv characters?", "prediction": "Brady Bunch", "gold": "Mork and Mindy", "passed": false, "n_tokens": 4}
+{"question_id": "qb_602", "question": "In which state of the US is it illegal to mis-pronounce the name of the state?", "prediction": "Massachusetts", "gold": "Arkansas", "passed": false, "n_tokens": 2}
+{"question_id": "qb_603", "question": "The Strawberry Museum in the town of Wepion is in which country?", "prediction": "Japan", "gold": "Belgium", "passed": false, "n_tokens": 2}
+{"question_id": "qb_606", "question": "The Hotel Matignon is the official residence of the Prime Minister of which European country?", "prediction": "France", "gold": "France", "passed": true, "n_tokens": 2}
+{"question_id": "qb_622", "question": "Which British politician became Member of Parliament for Epping in October 1924?", "prediction": "Winston Churchill", "gold": "Winston Churchill", "passed": true, "n_tokens": 3}
+{"question_id": "qb_628", "question": "\u2018The Crafty Cockney\u2019 was the nickname of which British darts player?", "prediction": "Eric Bristow", "gold": "Eric Bristow", "passed": true, "n_tokens": 5}
+{"question_id": "qb_637", "question": "Which famous jewellers makes the Super Bowl Trophy?", "prediction": "Tiffany & Co", "gold": "Tiffany & Co.", "passed": true, "n_tokens": 4}
+{"question_id": "qb_640", "question": "Bedloe\u2019s Island in New York Harbour, is the former name of which island?", "prediction": "Liberty Island", "gold": "Liberty Island", "passed": true, "n_tokens": 3}
+{"question_id": "qb_650", "question": "What is the name of the Jewish spring festival which celebrates the exodus of the Israelites from Egypt?", "prediction": "Passover", "gold": "Passover", "passed": true, "n_tokens": 3}
+{"question_id": "qb_669", "question": "Sadler\u2019s Wells Ballet and the Vic-Wells Ballet were the previous names of which British ballet company?", "prediction": "Royal Ballet", "gold": "The Royal Ballet", "passed": true, "n_tokens": 3}
+{"question_id": "qb_688", "question": "The roller coaster ride called Rita is located at which English theme park?", "prediction": "Alton Towers", "gold": "Alton Towers", "passed": true, "n_tokens": 4}
+{"question_id": "qb_698", "question": "Which is the first written single word number in which the letter \u2018A\u2019 appears?", "prediction": "One hundred and one", "gold": "Thousand", "passed": false, "n_tokens": 5}
+{"question_id": "qb_711", "question": "In which year did Margaret Thatcher become British Prime Minister?", "prediction": "1979", "gold": "1979", "passed": true, "n_tokens": 4}
+{"question_id": "qb_712", "question": "In January 1957, Russell Endean became the first batsman to be dismissed from a test cricket match for doing what?", "prediction": "Appearing to be drunk", "gold": "Handling the ball", "passed": false, "n_tokens": 6}
+{"question_id": "qb_720", "question": "What type of animal is a dik-dik?", "prediction": "Antelope", "gold": "Antelope", "passed": true, "n_tokens": 3}
+{"question_id": "qb_722", "question": "Isoprene, Butyl and Nitrile are all types of which substance?", "prediction": "Rubber", "gold": "Rubber", "passed": true, "n_tokens": 2}
+{"question_id": "qb_723", "question": "Taka is the basic monetary unit of which country?", "prediction": "Japan", "gold": "Bangladesh", "passed": false, "n_tokens": 2}
+{"question_id": "qb_727", "question": "Who does Emilio Estevez play in the 1988 film \u2018Young Guns\u2019?", "prediction": "Billy the Kid", "gold": "Billy the Kid", "passed": true, "n_tokens": 4}
+{"question_id": "qb_733", "question": "Which Mediterranean island gained independence in 1959 under the presidency of Archbishop Makarios?", "prediction": "Cyprus", "gold": "Cyprus", "passed": true, "n_tokens": 2}
+{"question_id": "qb_744", "question": "In medicine, chromotopsia is the term for abnormally coloured what?", "prediction": "Vision", "gold": "Vision", "passed": true, "n_tokens": 2}
+{"question_id": "qb_748", "question": "Wanlockhead is the highest village in which European country?", "prediction": "Scotland", "gold": "Scotland", "passed": true, "n_tokens": 2}
+{"question_id": "qb_765", "question": "Which European country hosted the 1956 Winter Olympic Games?", "prediction": "Italy", "gold": "Italy", "passed": true, "n_tokens": 2}
+{"question_id": "qb_766", "question": "\u2018Lofsongur\u2019 is the national anthem of which country?", "prediction": "Iceland", "gold": "Iceland", "passed": true, "n_tokens": 2}
+{"question_id": "qb_770", "question": "In Roman mythology, what was the name of the brother slain by Romulus?", "prediction": "Remus", "gold": "Remus", "passed": true, "n_tokens": 3}
+{"question_id": "qb_777", "question": "In 1951, which European country saw the abdication of King Leopold lll in favour of his son Baudouin?", "prediction": "Belgium", "gold": "Belgium", "passed": true, "n_tokens": 2}
+{"question_id": "qb_779", "question": "In medicine the MMR vaccination gives protection against which diseases?", "prediction": "Measles, mumps, rubella", "gold": "Measles, Mumps and Rubella", "passed": false, "n_tokens": 10}
+{"question_id": "qb_801", "question": "A saluki is which type of animal?", "prediction": "Dog", "gold": "Dog", "passed": true, "n_tokens": 2}
+{"question_id": "qb_804", "question": "What disease was Robert the Bruce, King of Scotland, said to have died of in 1329?", "prediction": "Tuberculosis", "gold": "Leprosy", "passed": false, "n_tokens": 3}
+{"question_id": "qb_811", "question": "\u2018Divine Wind\u2019 is the English translation of which Japanese word?", "prediction": "Kamikaze", "gold": "Kamikaze", "passed": true, "n_tokens": 4}
+{"question_id": "qb_815", "question": "Which Flemish Baroque painter\u2019s Antwerp home is now a museum?", "prediction": "Rubens", "gold": "Peter Paul Rubens", "passed": true, "n_tokens": 3}
+{"question_id": "qb_816", "question": "In medicine, epiphora affects which part of the human body?", "prediction": "Eyes", "gold": "Eye", "passed": true, "n_tokens": 2}
+{"question_id": "qb_817", "question": "What nationality was 19th Century author Hans Christian Anderson?", "prediction": "Danish", "gold": "Danish", "passed": true, "n_tokens": 2}
+{"question_id": "qb_853", "question": "Umberto ll was the last king of which European country?", "prediction": "Italy", "gold": "Italy", "passed": true, "n_tokens": 2}
+{"question_id": "qb_866", "question": "Which US singing duo started out under the names Caesar and Cleo?", "prediction": "Sonny and Cher", "gold": "Sonny and Cher", "passed": true, "n_tokens": 5}
+{"question_id": "qb_870", "question": "Fidel Castro, former President of Cuba, ordered which board game to be destroyed when he took power?", "prediction": "Monopoly", "gold": "Monopoly", "passed": true, "n_tokens": 3}
+{"question_id": "qb_883", "question": "Which creature features on the label of a Bacardi rum bottle?", "prediction": "Bat", "gold": "Bat", "passed": true, "n_tokens": 2}
+{"question_id": "qb_891", "question": "According to the Bible, who was the only apostle to witness the crucifixion of Jesus?", "prediction": "John", "gold": "John", "passed": true, "n_tokens": 2}
+{"question_id": "qb_907", "question": "Who played the role of Caligula in the 1976 UK tv series \u2018I, Claudius\u2019?", "prediction": "John Hurt", "gold": "John Hurt", "passed": true, "n_tokens": 3}
+{"question_id": "qb_915", "question": "What colour is the cross on the national flag of Denmark?", "prediction": "White", "gold": "White", "passed": true, "n_tokens": 2}
+{"question_id": "qb_916", "question": "Who wrote the 1963 novel \u2018The Spy Who Came in From the Cold\u2019?", "prediction": "John Le Carr\u00e9", "gold": "John Le Carre", "passed": true, "n_tokens": 5}
+{"question_id": "qb_919", "question": "Composite, Shield and Cinder Cone are all types of what?", "prediction": "Volcanoes", "gold": "Volcano", "passed": true, "n_tokens": 4}
+{"question_id": "qb_921", "question": "Mouldwarp is an old name for which creature?", "prediction": "Hedgehog", "gold": "Mole", "passed": false, "n_tokens": 3}
+{"question_id": "qb_925", "question": "What is the name of Humphrey Bogart\u2019s character in the film \u2018Casablanca\u2019?", "prediction": "Rick Blaine", "gold": "Rick Blaine", "passed": true, "n_tokens": 4}
+{"question_id": "qb_930", "question": "What is the US state capital of Louisiana?", "prediction": "Baton Rouge", "gold": "Baton Rouge", "passed": true, "n_tokens": 3}
+{"question_id": "qb_936", "question": "What is the title of the 1996 Oscar-winning documentary about the Muhammad Ali and George Foreman 1974 \u2018Rumble in the Jungle\u2019 fight in Zaire?", "prediction": "When We Were Kings", "gold": "When We Were Kings", "passed": true, "n_tokens": 5}
+{"question_id": "qb_941", "question": "The Battle of Vimy Ridge took place in which country during World War l?", "prediction": "France", "gold": "France", "passed": true, "n_tokens": 2}
+{"question_id": "qb_950", "question": "What colour is \u2018Mr Man\u2019 Mr Strong\u2019s hat?", "prediction": "Red", "gold": "Green", "passed": false, "n_tokens": 2}
+{"question_id": "qb_956", "question": "What are the first names of art duo Proesch and Passmore?", "prediction": "Peter and Goshka", "gold": "Gilbert and George", "passed": false, "n_tokens": 6}
+{"question_id": "qb_966", "question": "What was is the name of Penelope Pitstop\u2019s car in the children\u2019s tv cartoon series \u2018Wacky Races\u2019?", "prediction": "The Blue Blazer", "gold": "Compact Pussycat", "passed": false, "n_tokens": 5}
+{"question_id": "qb_980", "question": "The Wang River is in which Asian country?", "prediction": "China", "gold": "Thailand", "passed": false, "n_tokens": 2}
+{"question_id": "qb_1009", "question": "Which tennis player was known as the Rockhampton Rocket?", "prediction": "Rod Laver", "gold": "Rod Laver", "passed": true, "n_tokens": 4}
+{"question_id": "qb_1010", "question": "The ports of Puck and Jastarnia are in which European country?", "prediction": "Poland", "gold": "Poland", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1030", "question": "Which famous racehorse won Australia\u2019s Melbourne Cup in 1930?", "prediction": "Phar Lap", "gold": "Phar Lap", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1032", "question": "Amr Shabana from Egypt is famous for playing which sport?", "prediction": "Squash", "gold": "Squash", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1036", "question": "How many pounds are in a UK (long) ton?", "prediction": "2,240", "gold": "2240", "passed": true, "n_tokens": 5}
+{"question_id": "qb_1050", "question": "Cobweb is a fairy in which Shakespeare play?", "prediction": "A Midsummer Night's Dream", "gold": "A Midsummer Night\u2019s Dream", "passed": true, "n_tokens": 7}
+{"question_id": "qb_1068", "question": "Apimania is an obsession with which creatures?", "prediction": "Bees", "gold": "Bees", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1147", "question": "In 1216, English monarch King John was said to have lost the crown jewels while crossing which body of water?", "prediction": "Wash", "gold": "The Wash", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1166", "question": "Which British playwright was killed with a hammer by his lover Keith Haliwell in 1967?", "prediction": "Joe Orton", "gold": "Joe Orton", "passed": true, "n_tokens": 4}
+{"question_id": "qb_1167", "question": "What is the nickname of baseball star Jimmie Foxx?", "prediction": "The Beast", "gold": "Double X", "passed": false, "n_tokens": 3}
+{"question_id": "qb_1172", "question": "The Free Officers Movement was composed of young junior army officers committed to unseating the monarchy of which African country?", "prediction": "Egypt", "gold": "Egypt", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1175", "question": "In which year was the storming of the Bastille, which started the French Revolution?", "prediction": "1789", "gold": "1789", "passed": true, "n_tokens": 4}
+{"question_id": "qb_1179", "question": "Who was the first poet to be buried at Poet\u2019s Corner in London\u2019s Westminster Abbey?", "prediction": "Geoffrey Chaucer", "gold": "Geoffrey Chaucer", "passed": true, "n_tokens": 5}
+{"question_id": "qb_1191", "question": "\u2018The Night of the Long Knives\u2019 refers to which leader eliminating many of his political enemies?", "prediction": "Hitler", "gold": "Adolph Hitler", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1204", "question": "Hans Holbein the Younger was court painter to which English monarch?", "prediction": "Henry VIII", "gold": "Henry VIII", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1209", "question": "Who was the illustrator for most of Roald Dahl\u2019s stories for children?", "prediction": "Quentin Blake", "gold": "Quentin Blake", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1227", "question": "The 1958 film \u2018Gigi\u2019 was based on the novel by which French author?", "prediction": "Colette", "gold": "Colette", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1235", "question": "\u2018Back to Bedlam\u2019 was the debut album for which British singer?", "prediction": "Amy Macdonald", "gold": "James Blunt", "passed": false, "n_tokens": 5}
+{"question_id": "qb_1253", "question": "Which US gangster was released from Alcatraz prison in November 1939?", "prediction": "Al Capone", "gold": "Al Capone", "passed": true, "n_tokens": 4}
+{"question_id": "qb_1261", "question": "The fictional characters William Dobbin and Rawdon Crawley appear in which novel?", "prediction": "Vanity Fair", "gold": "Vanity Fair", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1285", "question": "Who does the commentary in the UK tv programme \u2018Come Dine With Me\u2019?", "prediction": "Giles Coren", "gold": "Dave Lamb", "passed": false, "n_tokens": 4}
+{"question_id": "qb_1294", "question": "Hidrosis is the medical term for which bodily function?", "prediction": "Sweating", "gold": "Sweating", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1299", "question": "The town of Honiton in Devon is famous for producing what?", "prediction": "Lace", "gold": "Lace", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1329", "question": "Which two colours make up the national flag of Greenland?", "prediction": "Red and white", "gold": "White and red", "passed": false, "n_tokens": 4}
+{"question_id": "qb_1340", "question": "Which national team beat Hungary 4-2 to win the 1938 FIFA World Cup?", "prediction": "France", "gold": "Italy", "passed": false, "n_tokens": 2}
+{"question_id": "qb_1367", "question": "Yellow-pine, Uinta and Lodgepole are all types of which animal?", "prediction": "Pine", "gold": "Chipmunk", "passed": false, "n_tokens": 2}
+{"question_id": "qb_1373", "question": "Who plays Daphne in the 2002 film \u2018Scooby-Doo\u2019?", "prediction": "Sarah Michelle Gellar", "gold": "Sarah Michelle Gellar", "passed": true, "n_tokens": 5}
+{"question_id": "qb_1379", "question": "The Euro is divided into how many cents?", "prediction": "100", "gold": "100", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1383", "question": "In the NATO phonetic alphabet which word represents the letter \u2018C\u2019?", "prediction": "Charlie", "gold": "Charlie", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1400", "question": "Which former RAF pilot wrote the novel \u2018Airport\u2019?", "prediction": "Arthur Hailey", "gold": "Arthur Hailey", "passed": true, "n_tokens": 4}
+{"question_id": "qb_1414", "question": "A creance is the name of the long fine cord used in which sport?", "prediction": "Sailing", "gold": "Falconry", "passed": false, "n_tokens": 3}
+{"question_id": "qb_1415", "question": "In the UK tv series \u2018Mr Bean\u2019, what model car does Mr Bean drive?", "prediction": "Mini", "gold": "Mini 1000", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1429", "question": "Rodolfo and Mimi are the main characters in which opera by Giacomo Puccini?", "prediction": "La Boheme", "gold": "La Boheme", "passed": true, "n_tokens": 4}
+{"question_id": "qb_1431", "question": "In which year did it become compulsory to wear seat belts in front seats of cars in the UK?", "prediction": "1983", "gold": "1983", "passed": true, "n_tokens": 4}
+{"question_id": "qb_1435", "question": "Which country was invaded by Iraq in 1990?", "prediction": "Kuwait", "gold": "Kuwait", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1438", "question": "The Oroville Dam is in which US state?", "prediction": "California", "gold": "California", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1448", "question": "What was the name of the Prime Minister of Egypt who was assassinated in 1910?", "prediction": "Boutros Ghali", "gold": "Boutros Ghali", "passed": true, "n_tokens": 5}
+{"question_id": "qb_1455", "question": "The OK Corral is in which US town?", "prediction": "Tombstone", "gold": "Tombstone", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1456", "question": "In Greek mythology, Amphitrite, queen of the sea, was the wife of which god?", "prediction": "Poseidon", "gold": "Poseidon", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1462", "question": "On which part of the body would a mukluk be worn?", "prediction": "Feet", "gold": "Foot", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1494", "question": "Sandygate Road football and cricket stadium is in which English city?", "prediction": "Sheffield", "gold": "Sheffield", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1495", "question": "How many hundredweight are in a UK ton?", "prediction": "20", "gold": "20", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1502", "question": "Smoky, Leaf-nosed and Vesper are all species of which creature?", "prediction": "Bat", "gold": "Bat", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1515", "question": "\u2018Make Them Wait\u2019 is rhyming slang for which Bingo number?", "prediction": "26", "gold": "58", "passed": false, "n_tokens": 3}
+{"question_id": "qb_1522", "question": "How many stars are on the national flag of Liberia?", "prediction": "11", "gold": "One", "passed": false, "n_tokens": 3}
+{"question_id": "qb_1538", "question": "What is the US state capital of Idaho?", "prediction": "Boise", "gold": "Boise", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1541", "question": "In the children\u2019s tv cartoon series, who is Inspector Gadget\u2019s arch enemy?", "prediction": "Dr. Claw", "gold": "Dr Claw", "passed": true, "n_tokens": 4}
+{"question_id": "qb_1556", "question": "Astrakhan is the curly hair of which young animal?", "prediction": "Camel", "gold": "Lamb", "passed": false, "n_tokens": 2}
+{"question_id": "qb_1557", "question": "Nguyen Tan Dung became Prime Minister of which country in June 2006?", "prediction": "Vietnam", "gold": "Vietnam", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1569", "question": "Boll weevil cause damage to which crop?", "prediction": "Cotton", "gold": "Cotton", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1574", "question": "What type of creature is a Dog Face?", "prediction": "Dog", "gold": "Butterfly", "passed": false, "n_tokens": 2}
+{"question_id": "qb_1580", "question": "Which city hosted the 1992 Summer Olympic Games?", "prediction": "Barcelona", "gold": "Barcelona", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1647", "question": "Steve Martin and which other actor hosted the 2010 Academy Awards?", "prediction": "Alec Baldwin", "gold": "Alec Baldwin", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1652", "question": "Which British monarch founded the Yeomen of the Guard, originally as a royal bodyguard?", "prediction": "Henry VIII", "gold": "Henry VII", "passed": false, "n_tokens": 3}
+{"question_id": "qb_1683", "question": "Which member of the British royal family married on the 29th April 2011?", "prediction": "Prince William", "gold": "Prince William", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1688", "question": "Which Italian fashion designer launched the first virtual online museum in December 2011?", "prediction": "Giorgio Armani", "gold": "Valentino", "passed": false, "n_tokens": 6}
+{"question_id": "qb_1750", "question": "In Greek mythology, who was the first wife of Aegeus?", "prediction": "Aethra", "gold": "Meta", "passed": false, "n_tokens": 4}
+{"question_id": "qb_1751", "question": "Which breed of dog is Marley in the 2008 film \u2018Marley and Me\u2019?", "prediction": "Labrador", "gold": "Labrador Retriever", "passed": false, "n_tokens": 2}
+{"question_id": "qb_1752", "question": "\u2018Giovedi\u2019 is the Italian word for which day of the week?", "prediction": "Thursday", "gold": "Thursday", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1757", "question": "How many stars are on the national flag of New Zealand?", "prediction": "4", "gold": "Four", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1762", "question": "Scatology is the scientific study of what?", "prediction": "Feces", "gold": "Excrement", "passed": true, "n_tokens": 4}
+{"question_id": "qb_1767", "question": "La Paz is the administrative capital of which South American country?", "prediction": "Bolivia", "gold": "Bolivia", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1768", "question": "In the game of Bingo, \u2018Get up and run\u2019 represents which number?", "prediction": "75", "gold": "31", "passed": false, "n_tokens": 3}
+{"question_id": "qb_1812", "question": "In February 1938, Roberto M. Ortiz became President of which South American country?", "prediction": "Uruguay", "gold": "Argentina", "passed": false, "n_tokens": 2}
+{"question_id": "qb_1825", "question": "Which poet wrote \u2018The Lake Isle of Innisfree\u2019?", "prediction": "Yeats", "gold": "William Butler Yeats", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1830", "question": "In September 2006 the government of Prime Minister Thaksin Shinawatra was overthrown in which Asian country?", "prediction": "Thailand", "gold": "Thailand", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1850", "question": "Who wrote the 1930\u2019s novel \u2018Tender is the Night\u2019?", "prediction": "F Scott Fitzgerald", "gold": "F. Scott Fitzgerald", "passed": true, "n_tokens": 4}
+{"question_id": "qb_1861", "question": "Maria Fitzherbert was \u2018married\u2019 to which British monarch?", "prediction": "George IV", "gold": "George IV", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1901", "question": "Amarelo is Portuguese for which colour?", "prediction": "Yellow", "gold": "Yellow", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1912", "question": "On a standard dartboard, which number lies opposite number 4?", "prediction": "20", "gold": "16", "passed": false, "n_tokens": 3}
+{"question_id": "qb_1944", "question": "Mount Chimborazo is in which South American country?", "prediction": "Ecuador", "gold": "Ecuador", "passed": true, "n_tokens": 2}
+{"question_id": "qb_1945", "question": "What is the basic monetary unit of Israel?", "prediction": "Shekel", "gold": "Shekel", "passed": true, "n_tokens": 3}
+{"question_id": "qb_1953", "question": "In which European country is Lake Ree?", "prediction": "Scotland", "gold": "Ireland", "passed": false, "n_tokens": 2}
+{"question_id": "qb_1993", "question": "Who wrote the poem \u2018The Lady of the Lake\u2019?", "prediction": "Sir Walter Scott", "gold": "Sir Walter Scott", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2016", "question": "Henry Blake, Charles Winchester and Father Mulcahy are all characters in which US tv series?", "prediction": "M*A*S*H", "gold": "M*A*S*H", "passed": true, "n_tokens": 6}
+{"question_id": "qb_2019", "question": "\u2018Obey your thirst\u2019 is the advertising slogan for which soft drink?", "prediction": "Dr Pepper", "gold": "Sprite", "passed": false, "n_tokens": 3}
+{"question_id": "qb_2020", "question": "Selenology is the scientific study of which celestial body?", "prediction": "Moon", "gold": "The moon", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2037", "question": "\u2018A crutch and a duck\u2019 is the term for which bingo number?", "prediction": "24", "gold": "72", "passed": false, "n_tokens": 3}
+{"question_id": "qb_2038", "question": "Spud, Shot and Hand are all types of what?", "prediction": "Golf clubs", "gold": "Gun", "passed": false, "n_tokens": 3}
+{"question_id": "qb_2047", "question": "In the game \u2018Metal Gear Solid\u2019,who is the twin brother of Solid Snake?", "prediction": "Liquid Snake", "gold": "Liquid Snake", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2071", "question": "What did fictional detective Sherlock Holmes keep in the toe of his Persian slipper?", "prediction": "tobacco", "gold": "Tobacco", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2091", "question": "Which creatures are used as croquet balls in the novel \u2018Alice\u2019s Adventures in Wonderland\u2019?", "prediction": "Hedgehogs", "gold": "Hedgehogs", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2096", "question": "Which Spanish artist painted the series known as \u2018Fantasy and Invention\u2019 in the 18th century?", "prediction": "Francisco Goya", "gold": "Francisco Goya", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2101", "question": "\u2018Mucke\u2019 is the Serbo-Croatian name for which UK tv series?", "prediction": "Muck", "gold": "Only Fools and Horses", "passed": false, "n_tokens": 3}
+{"question_id": "qb_2105", "question": "Comedian, actor and director Melvin Kaminsky is better known by what name?", "prediction": "Red Skelton", "gold": "Mel Brooks", "passed": false, "n_tokens": 5}
+{"question_id": "qb_2122", "question": "The Belgian beer \u2018Kriek\u2019 is flavoured with which fruit?", "prediction": "Cherry", "gold": "Cherry", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2123", "question": "The Forest of Arden is in which English county?", "prediction": "Warwickshire", "gold": "Warwickshire", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2148", "question": "Louis Reard created which two-piece item of clothing in 1946?", "prediction": "Bikini", "gold": "Bikini", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2151", "question": "What colour are the flowers of a hawkbit plant?", "prediction": "Yellow", "gold": "Yellow", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2169", "question": "In which British city is the Jewry Wall Museum?", "prediction": "Leicester", "gold": "Leicester", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2184", "question": "What is the main ingredient of borscht soup?", "prediction": "Beetroot", "gold": "Beetroot", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2199", "question": "Thanatology is the scientific study of what?", "prediction": "Death", "gold": "Death", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2202", "question": "Which author wrote \u2018I came form Des Moines. Somebody had to.\u2019 in their book \u2018The Lost Continent\u2019?", "prediction": "Bill Bryson", "gold": "Bill Bryson", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2215", "question": "Which actor succeeded Marlon Brando as head of the Corleone family in the Godfather films?", "prediction": "Al Pacino", "gold": "Al Pacino", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2221", "question": "Brown, American Rainbow and Cutthroat are all types of which fish?", "prediction": "Trout", "gold": "Trout", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2234", "question": "Who designed St Paul\u2019s Cathedral in London?", "prediction": "Christopher Wren", "gold": "Christopher Wren", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2271", "question": "What colour is the liqueur \u2018Parfait d\u2019Amour\u2019?", "prediction": "Red", "gold": "Purple", "passed": false, "n_tokens": 2}
+{"question_id": "qb_2279", "question": "What is the name of the clarified butter used in Indian cookery?", "prediction": "Ghee", "gold": "Ghee", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2308", "question": "In the 2005 Julian Barnes novel \u2018Arthur and George\u2019, who is Arthur?", "prediction": "Arthur Conan Doyle", "gold": "Arthur Conan Doyle", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2329", "question": "In humans, epicondylitis affects which part of the body?", "prediction": "Elbow", "gold": "Elbow", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2344", "question": "The UEFA (Union of European Football Associations) was founded in which European country in 1954?", "prediction": "Switzerland", "gold": "Switzerland", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2350", "question": "From which 1968 film did English band Duran Duran take their name?", "prediction": "The Guns of Navarone", "gold": "Barbarella", "passed": false, "n_tokens": 7}
+{"question_id": "qb_2359", "question": "The \u2018La Scala Opera House\u2019 is in which European city?", "prediction": "Milan", "gold": "Milan", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2363", "question": "Who is the lead singer of the English band \u2018The Specials\u2019?", "prediction": "Terry Hall", "gold": "Terry Hall", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2364", "question": "Elvis Presley\u2019s manager, Andreas Cornelis van Kujik, was better known by what name?", "prediction": "Colonel Tom Parker", "gold": "Colonel Tom Parker", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2370", "question": "The Transandine Railway runs between which two South American countries?", "prediction": "Argentina and Chile", "gold": "Chile and Argentina", "passed": false, "n_tokens": 4}
+{"question_id": "qb_2377", "question": "Sinology is the study of the language, history and culture of which country?", "prediction": "China", "gold": "China", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2381", "question": "On the human body, a keloid is a type of what?", "prediction": "Scar", "gold": "Scar", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2393", "question": "In the British military, a bombadier is equivalent to which other rank?", "prediction": "Sergeant", "gold": "Corporal", "passed": false, "n_tokens": 2}
+{"question_id": "qb_2397", "question": "What type of animal is Baloo in the novel \u2018The Jungle Book\u2019 by Rudyard Kipling?", "prediction": "Bear", "gold": "Bear", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2428", "question": "Tirana is the capital of which European country?", "prediction": "Albania", "gold": "Albania", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2456", "question": "In our solar system, which is the sixth planet from the sun?", "prediction": "Saturn", "gold": "Saturn", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2457", "question": "Composer Giacomo Puccini died leaving which opera unfinished?", "prediction": "Turandot", "gold": "Turandot", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2461", "question": "King Louie, Akela and Ziggy are all characters in which Disney film?", "prediction": "The Jungle Book", "gold": "The Jungle Book", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2476", "question": "\u2018Impossible is nothing\u2019 is the motto of which sportswear company?", "prediction": "Nike", "gold": "Adidas", "passed": false, "n_tokens": 2}
+{"question_id": "qb_2483", "question": "Who wrote the play \u2018The Iceman Cometh\u2019?", "prediction": "Eugene O\u2019Neill", "gold": "Eugene O\u2019Neill", "passed": true, "n_tokens": 5}
+{"question_id": "qb_2496", "question": "Which children\u2019s playground game is sometimes called \u2018Fivestones\u2019, \u2018Knucklebones\u2019 or \u2018Snobs\u2019?", "prediction": "Jacks", "gold": "Jacks", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2497", "question": "Mr and Mrs Potato Head appear in which film franchise?", "prediction": "Toy Story", "gold": "Toy Story", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2498", "question": "How many square stickers are on each face of a classic Rubik\u2019s Cube?", "prediction": "9", "gold": "Nine", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2514", "question": "Who composed the ballet \u2018Swan Lake\u2019?", "prediction": "Tchaikovsky", "gold": "Pyotr Tchaikovsky", "passed": true, "n_tokens": 5}
+{"question_id": "qb_2537", "question": "In 1818, British obstetrician James Blundell performed the first successful human what?", "prediction": "Blood transfusion", "gold": "Blood transfusion", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2545", "question": "In cooking, 190 degrees Celsius is the equivalent to which Gas Mark?", "prediction": "5", "gold": "5", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2546", "question": "What do the interior angles of a hexagon add up to in degrees?", "prediction": "720", "gold": "720", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2551", "question": "The roe of lumpfish is used as a substitute for which delicacy?", "prediction": "Caviar", "gold": "Caviar", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2556", "question": "In Vermont, USA, there is an old law stating that it is illegal for women to wear what without their husbands written consent?", "prediction": "Pants", "gold": "False teeth", "passed": false, "n_tokens": 2}
+{"question_id": "qb_2563", "question": "In medicine, algology is the study of what?", "prediction": "Pain", "gold": "Pain", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2577", "question": "How many imperial gallons are in a firkin?", "prediction": "9", "gold": "Nine", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2589", "question": "The meibomian gland is found in which part of the human body?", "prediction": "Eyelid", "gold": "Eyelid", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2601", "question": "The Manuel M.Torres Dam is the largest hydro plant in which country?", "prediction": "Spain", "gold": "Mexico", "passed": false, "n_tokens": 2}
+{"question_id": "qb_2604", "question": "Which British swimmer won Olympic Gold Medals in 2008 in the 400 and 800 m freestyle?", "prediction": "Rebecca Adlington", "gold": "Rebecca Adlington", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2621", "question": "In the NATO phonetic alphabet, which word represents the letter I?", "prediction": "India", "gold": "India", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2640", "question": "Which US author wrote \u2018The Naked and the Dead\u2019, based on his military service in World War II?", "prediction": "Norman Mailer", "gold": "Norman Mailer", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2642", "question": "Which Brooklyn-born author had parents named Malachy and Angela?", "prediction": "James Joyce", "gold": "Frank McCourt", "passed": false, "n_tokens": 3}
+{"question_id": "qb_2647", "question": "What is the title of the 1944 film starring Barbara Stanwyck as the wife who seduces an insurance salesman into killing her husband?", "prediction": "Double Indemnity", "gold": "Double Indemnity", "passed": true, "n_tokens": 6}
+{"question_id": "qb_2687", "question": "What is the nickname of Thierry Guetta, the French-born street-artist?", "prediction": "Mr. Brainwash", "gold": "Mr Brainwash", "passed": true, "n_tokens": 5}
+{"question_id": "qb_2689", "question": "Wolf Mankowitz wrote the 1953 novel \u2018A Kid For Two\u2026.\u2019what\u2019?", "prediction": "Arse", "gold": "Farthings", "passed": false, "n_tokens": 3}
+{"question_id": "qb_2701", "question": "What is the name of a triangle which has sides unequal in length?", "prediction": "Scalene", "gold": "Scalene", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2710", "question": "\u2018Quicksilver\u2019 is another name for which metallic element?", "prediction": "Mercury", "gold": "Mercury", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2712", "question": "What is the name of the Japanese dish of bite-sized pieces of raw fish served with dipping sauces, vegetables and wasabi?", "prediction": "Sashimi", "gold": "Sashimi", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2743", "question": "Who is recognised as Britain\u2019s first Prime Minister?", "prediction": "Sir Robert Walpole", "gold": "Robert Walpole", "passed": true, "n_tokens": 5}
+{"question_id": "qb_2760", "question": "In the human body, which bone connects the humerus with the calvicle?", "prediction": "Ulna", "gold": "Scapula (shoulder blade)", "passed": false, "n_tokens": 4}
+{"question_id": "qb_2764", "question": "The Cuatro Torres Business Area is in which European city?", "prediction": "Madrid", "gold": "Madrid", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2774", "question": "The first issue of which British children\u2019s comic was published in April 1950?", "prediction": "Eagle", "gold": "Eagle", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2782", "question": "The 1951 \u2018Treaty of Peace With Japan\u2019 which served to officially end World War II, is commonly known as what?", "prediction": "San Francisco Treaty", "gold": "San Francisco Peace Treaty", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2805", "question": "The Tumut Hydroelectric Power Station is in which Australian state?", "prediction": "New South Wales", "gold": "New South Wales", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2823", "question": "Who always holds the title of the Supreme Governor of the Church of England?", "prediction": "The British Monarch", "gold": "The British monarch", "passed": true, "n_tokens": 5}
+{"question_id": "qb_2833", "question": "How many players are on the field in a baseball team?", "prediction": "9", "gold": "Nine", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2848", "question": "In the poem \u2018Monday\u2019s Child\u2019, what is Wednesday\u2019s child full of?", "prediction": "Wisdom", "gold": "Woe", "passed": false, "n_tokens": 2}
+{"question_id": "qb_2850", "question": "In London in 1788, the \u2018Daily Universal Register\u2019 was relaunched as which newspaper?", "prediction": "The Times", "gold": "The Times", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2853", "question": "Which clothing chain was founded by brothers Clemens and August Brenninkmeijer in 1841?", "prediction": "C&A", "gold": "C&A", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2854", "question": "Falange was the name given to several political movements and parties dating from the 1930\u2019s in which European country?", "prediction": "Spain", "gold": "Spain", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2869", "question": "In the novel \u2018Jane Eyre\u2019 by Charlotte Bronte, what is the name of Mr Rochester\u2019s first wife?", "prediction": "Bertha", "gold": "Bertha Mason", "passed": false, "n_tokens": 3}
+{"question_id": "qb_2870", "question": "Which fictional character is the subject of George Frampton\u2019s bronze statue in Kensington Gardens, London?", "prediction": "Peter Pan", "gold": "Peter Pan", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2880", "question": "Who wrote the novel \u2018The Prime of Miss Jean Brodie\u2019?", "prediction": "Muriel Spark", "gold": "Muriel Spark", "passed": true, "n_tokens": 5}
+{"question_id": "qb_2893", "question": "Sindh is a province of which Asian country?", "prediction": "Pakistan", "gold": "Pakistan", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2899", "question": "Madame de Pompadour and Madame du Barry were mistresses of which French King?", "prediction": "Louis XV", "gold": "Louis XV", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2901", "question": "Odontology is the scientific study of what?", "prediction": "Teeth", "gold": "Teeth", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2902", "question": "The wine \u2018Bull\u2019s Blood\u2019 of Eger is produced in which country?", "prediction": "Hungary", "gold": "Hungary", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2909", "question": "The 1932 film \u2018The Mask of Fu Manchu\u2019 revolves around Fu Manchu\u2019s quest for the sword and mask of which historical figure?", "prediction": "Genghis Khan", "gold": "Genghis Khan", "passed": true, "n_tokens": 5}
+{"question_id": "qb_2922", "question": "The mask worn in the 1996 film \u2018Scream\u2019 is based on a painting by which artist?", "prediction": "Francis Bacon", "gold": "Edvard Munch", "passed": false, "n_tokens": 3}
+{"question_id": "qb_2925", "question": "Which US athlete won a gold medal for the high jump in the 1968 Summer Olympics?", "prediction": "Dick Fosbury", "gold": "Dick Fosbury", "passed": true, "n_tokens": 5}
+{"question_id": "qb_2926", "question": "In which London street does fictional character Sweeney Todd have his barber shop?", "prediction": "Fleet Street", "gold": "Fleet Street", "passed": true, "n_tokens": 3}
+{"question_id": "qb_2928", "question": "The Nullarbor Plain is in which country?", "prediction": "Australia", "gold": "Australia", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2932", "question": "What is the official language of Nicaragua?", "prediction": "Spanish", "gold": "Spanish", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2934", "question": "Who wrote the plays \u2018The Cocktail Party\u2019 and \u2018The Family Reunion\u2019?", "prediction": "T.S. Eliot", "gold": "T.S.Eliot", "passed": true, "n_tokens": 6}
+{"question_id": "qb_2935", "question": "Used in cooking, agar-agar is a gelatin made from what?", "prediction": "Algae", "gold": "Seaweed", "passed": false, "n_tokens": 3}
+{"question_id": "qb_2957", "question": "The fictional character \u2018Disco Stu\u2019 appears in which US cartoon tv Series?", "prediction": "Happy Days", "gold": "The Simpsons", "passed": false, "n_tokens": 3}
+{"question_id": "qb_2975", "question": "Marie Antoinette, Queen of France and Navarre, was born in which country?", "prediction": "Austria", "gold": "Austria", "passed": true, "n_tokens": 2}
+{"question_id": "qb_2981", "question": "The song \u2018Seventy Six Trombones\u2019 is from which musical show?", "prediction": "The Music Man", "gold": "The Music Man", "passed": true, "n_tokens": 4}
+{"question_id": "qb_2990", "question": "Which US President was given the nickname the \u2018Great Engineer\u2019?", "prediction": "Herbert Hoover", "gold": "Herbert Hoover", "passed": true, "n_tokens": 3}
+{"question_id": "qb_3003", "question": "In the human body, what is stored in adipose tissue?", "prediction": "Fat", "gold": "Fat", "passed": true, "n_tokens": 2}
+{"question_id": "qb_3029", "question": "A craniotomy is the surgical removal of a portion of which part of the human body?", "prediction": "Skull", "gold": "Skull", "passed": true, "n_tokens": 2}
+{"question_id": "qb_3042", "question": "Which country will host the 2014 FIFA World Cup?", "prediction": "Brazil", "gold": "Brazil", "passed": true, "n_tokens": 2}
+{"question_id": "qb_3045", "question": "Which country has the internet domain .de?", "prediction": "Germany", "gold": "Germany", "passed": true, "n_tokens": 2}
+{"question_id": "qb_3056", "question": "A sequicentenary is an anniversary of how many years?", "prediction": "250", "gold": "150", "passed": false, "n_tokens": 3}
+{"question_id": "qb_3065", "question": "What is the International Vehicle Registration for Cambodia?", "prediction": "K", "gold": "K", "passed": true, "n_tokens": 2}
+{"question_id": "qb_3068", "question": "Opera singer Leyla Gencer was born in which European country?", "prediction": "Turkey", "gold": "Turkey", "passed": true, "n_tokens": 2}
+{"question_id": "qb_3073", "question": "In which South American country does Angostura Bitters originally come from?", "prediction": "Venezuela", "gold": "Venezuela", "passed": true, "n_tokens": 2}
+{"question_id": "qb_3078", "question": "The Hel Peninsula is part of which European country?", "prediction": "Poland", "gold": "Poland", "passed": true, "n_tokens": 2}
+{"question_id": "qb_3085", "question": "Which US singer released a 2010 album entitled \u2018The Lady Killer\u2019?", "prediction": "Cee Lo Green", "gold": "Cee Lo Green", "passed": true, "n_tokens": 5}
+{"question_id": "qb_3092", "question": "How many months is the gestation period for an elephant?", "prediction": "22", "gold": "22", "passed": true, "n_tokens": 3}
+{"question_id": "qb_3093", "question": "Raclette, Tilsit and Sbrinz are all types of which foodstuff?", "prediction": "Cheese", "gold": "Cheese", "passed": true, "n_tokens": 2}
+{"question_id": "qb_3103", "question": "Adam Richman takes on food challenges in which US television series?", "prediction": "Man v. Food", "gold": "Man v. Food", "passed": true, "n_tokens": 5}
+{"question_id": "qb_3129", "question": "Creme Anglaise is the French version of which English dessert item?", "prediction": "Custard", "gold": "Custard", "passed": true, "n_tokens": 3}
+{"question_id": "qb_3137", "question": "Who was known as the \u2018Waltz King\u2019 of Vienna?", "prediction": "Johann Strauss", "gold": "Johann Strauss II", "passed": true, "n_tokens": 3}
+{"question_id": "qb_3145", "question": "Erotology is the study of what?", "prediction": "Sex", "gold": "Sex", "passed": true, "n_tokens": 2}
+{"question_id": "qb_3147", "question": "\u2018The King of Barataria\u2019 is the subtitle of which Gilbert and Sullivan operetta?", "prediction": "Pirates of Penzance", "gold": "The Gondoliers", "passed": false, "n_tokens": 6}
+{"question_id": "qb_3160", "question": "Sufferers, Locksmen and Dreads are followers of which religion?", "prediction": "Rastafarianism", "gold": "Rastafarian", "passed": true, "n_tokens": 6}
+{"question_id": "qb_3168", "question": "The 1965 film \u2018The Heroes of Telemark\u2019 is set in which European country?", "prediction": "Norway", "gold": "Norway", "passed": true, "n_tokens": 2}
+{"question_id": "qb_3180", "question": "What colour are the two stars on the national flag of Syria?", "prediction": "White", "gold": "Green", "passed": false, "n_tokens": 2}
+{"question_id": "qb_3183", "question": "In humans, Duane Syndrome affects which part of the body?", "prediction": "Eyes", "gold": "Eye", "passed": true, "n_tokens": 2}
+{"question_id": "qb_3191", "question": "Taphephobia is the abnormal fear of being what?", "prediction": "buried", "gold": "Buried alive", "passed": false, "n_tokens": 2}
+{"question_id": "qb_3192", "question": "What relation was Louis XV of France to Louis XIV of France?", "prediction": "Son", "gold": "Great-grandson", "passed": false, "n_tokens": 2}
+{"question_id": "qb_3200", "question": "What type of leaves does a koala feed on?", "prediction": "Eucalyptus", "gold": "Eucalyptus", "passed": true, "n_tokens": 6}
+{"question_id": "qb_3225", "question": "What is the name of the village druid in the comic strip \u2018Asterix\u2019?", "prediction": "Panoramix", "gold": "Getafix", "passed": false, "n_tokens": 4}
+{"question_id": "qb_3248", "question": "In which English county was former British Prime minister Margaret Thatcher born?", "prediction": "Lincolnshire", "gold": "Lincolnshire", "passed": true, "n_tokens": 3}
+{"question_id": "qb_3296", "question": "In the British monarchy, who succeeded Queen Anne to the throne?", "prediction": "George I", "gold": "King George I", "passed": true, "n_tokens": 3}
+{"question_id": "qb_3300", "question": "Who directed the 1941 film \u2018The Maltese Falcon\u2019?", "prediction": "John Huston", "gold": "John Huston", "passed": true, "n_tokens": 4}
+{"question_id": "qb_3320", "question": "The 1981 film \u2018Chariots of Fire\u2019 was based on the stories of which two British athletes?", "prediction": "Harold Abrahams and Eric Liddell", "gold": "Harold Abrahams and Eric Liddell", "passed": true, "n_tokens": 10}

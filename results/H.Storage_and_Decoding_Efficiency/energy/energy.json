@@ -1,0 +1,172 @@
+{
+ "constants": {
+  "e_DRAM_pJ_per_bit": 3.7,
+  "eta_TOPS_per_W": 88.36,
+  "kv_positions": 1024,
+  "linear_weights": 6979321856,
+  "rows": 1376256
+ },
+ "fp16_mJ_per_token": 448.4,
+ "modes": {
+  "AP": {
+   "2": {
+    "b_eff": 2.013,
+    "mJ_per_token": 87.2,
+    "accuracy_pct_of_fp16": 34.21
+   },
+   "3": {
+    "b_eff": 3.025,
+    "mJ_per_token": 113.4,
+    "accuracy_pct_of_fp16": 79.15
+   },
+   "4": {
+    "b_eff": 4.05,
+    "mJ_per_token": 139.8,
+    "accuracy_pct_of_fp16": 95.6
+   }
+  },
+  "AB": {
+   "2": {
+    "b_eff": 2.375,
+    "mJ_per_token": 96.6,
+    "accuracy_pct_of_fp16": 59.0
+   },
+   "3": {
+    "b_eff": 3.5,
+    "mJ_per_token": 125.6,
+    "accuracy_pct_of_fp16": 87.19
+   },
+   "4": {
+    "b_eff": 4.625,
+    "mJ_per_token": 154.7,
+    "accuracy_pct_of_fp16": 95.66
+   }
+  },
+  "MG (2/3/4)": {
+   "2": {
+    "b_eff": 2.25,
+    "mJ_per_token": 93.3,
+    "accuracy_pct_of_fp16": 53.38
+   },
+   "3": {
+    "b_eff": 3.25,
+    "mJ_per_token": 119.2,
+    "accuracy_pct_of_fp16": 84.86
+   },
+   "4": {
+    "b_eff": 4.25,
+    "mJ_per_token": 145.0,
+    "accuracy_pct_of_fp16": 91.42
+   }
+  },
+  "MG (3/4/8)": {
+   "2": {
+    "b_eff": 2.25,
+    "mJ_per_token": 93.3,
+    "accuracy_pct_of_fp16": 34.79
+   },
+   "3": {
+    "b_eff": 3.25,
+    "mJ_per_token": 119.2,
+    "accuracy_pct_of_fp16": 87.37
+   },
+   "4": {
+    "b_eff": 4.25,
+    "mJ_per_token": 145.0,
+    "accuracy_pct_of_fp16": 97.94
+   }
+  },
+  "AR (ours)": {
+   "2": {
+    "b_eff": 2.025,
+    "mJ_per_token": 87.5,
+    "accuracy_pct_of_fp16": 59.65
+   },
+   "2.5": {
+    "b_eff": 2.55,
+    "mJ_per_token": 101.1,
+    "accuracy_pct_of_fp16": 77.97
+   },
+   "3": {
+    "b_eff": 3.101,
+    "mJ_per_token": 115.3,
+    "accuracy_pct_of_fp16": 88.09
+   },
+   "3.5": {
+    "b_eff": 3.702,
+    "mJ_per_token": 130.8,
+    "accuracy_pct_of_fp16": 93.23
+   },
+   "4": {
+    "b_eff": 4.208,
+    "mJ_per_token": 143.9,
+    "accuracy_pct_of_fp16": 96.25
+   }
+  }
+ },
+ "cheapest_mode_at_target": {
+  "55%": {
+   "AP": 3.0,
+   "AB": 2.0,
+   "MG (2/3/4)": 3.0,
+   "MG (3/4/8)": 3.0,
+   "AR (ours)": 2.0
+  },
+  "75%": {
+   "AP": 3.0,
+   "AB": 3.0,
+   "MG (2/3/4)": 3.0,
+   "MG (3/4/8)": 3.0,
+   "AR (ours)": 2.5
+  },
+  "85%": {
+   "AP": 4.0,
+   "AB": 3.0,
+   "MG (2/3/4)": 4.0,
+   "MG (3/4/8)": 3.0,
+   "AR (ours)": 3.0
+  },
+  "90%": {
+   "AP": 4.0,
+   "AB": 4.0,
+   "MG (2/3/4)": 4.0,
+   "MG (3/4/8)": 4.0,
+   "AR (ours)": 3.5
+  }
+ },
+ "energy_saved_by_AR_pct": {
+  "55%": {
+   "AP": 22.78,
+   "AB": 9.35,
+   "MG (2/3/4)": 26.54,
+   "MG (3/4/8)": 26.54
+  },
+  "75%": {
+   "AP": 10.81,
+   "AB": 19.52,
+   "MG (2/3/4)": 15.16,
+   "MG (3/4/8)": 15.16
+  },
+  "85%": {
+   "AP": 17.53,
+   "AB": 8.2,
+   "MG (2/3/4)": 20.46,
+   "MG (3/4/8)": 3.23
+  },
+  "90%": {
+   "AP": 6.44,
+   "AB": 15.41,
+   "MG (2/3/4)": 9.76,
+   "MG (3/4/8)": 9.76
+  }
+ },
+ "saved_range_pct": [
+  3.23,
+  26.54
+ ],
+ "max_change_of_savings_pts_with_3x_e_DRAM_or_eta_div_10": 0.34,
+ "compute_share_of_AR_2bit_pct": {
+  "MACs only": 0.19,
+  "MACs + lookup + decoding": 0.55
+ }
+}

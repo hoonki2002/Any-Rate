@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Any-Rate demo</title>
+<!-- KaTeX 0.16.11 (MIT, static/katex) for the math in the replies, served by app.py: no internet needed -->
+<link rel="stylesheet" href="/static/katex/katex.min.css">
+<script defer src="/static/katex/katex.min.js" onload="rerender()"></script>
+<style>
+  :root {
+    --bg: #f3f4f6; --panel: #ffffff; --side: #ebedf0; --text: #1d2330; --muted: #6b7385; --line: #dfe3ea; --accent: #2f5bea; --user: #dde6fb; --bot: #e9ebef;
+    --gpu: #2f5bea; --cpu: #0c8599; --sum: #8a92a3;
+    --b2: #d9480f; --b25: #e8890c; --b3: #2b8a3e; --b35: #1c7ed6; --b4: #5f3dc4; --b5: #9c36b5; --b6: #c2255c; --b7: #495057; --b8: #212529;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #15181e; --panel: #1c2028; --side: #191c23; --text: #e6e9ef; --muted: #99a1b3; --line: #2c323d; --user: #263457; --bot: #242933; --accent: #7d9bff;
+            --gpu: #7d9bff; --cpu: #3bc9db; --sum: #7c8496;
+            --b2: #ff8a50; --b25: #ffb84d; --b3: #69db7c; --b35: #74c0fc; --b4: #b197fc; --b5: #e599f7; --b6: #faa2c1; --b7: #ced4da; --b8: #f8f9fa; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 system-ui, sans-serif; height: 100vh; display: grid; grid-template-columns: 250px minmax(0, 1fr) 380px; }
+  [hidden] { display: none !important; }
+  button { font: inherit; border: 1px solid var(--line); background: var(--panel); color: var(--text); border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+  button.primary { background: var(--accent); color: #fff; border-color: var(--accent); } button:disabled { opacity: .5; cursor: not-allowed; }
+  .muted { color: var(--muted); } .small { font-size: 12.5px; }
+
+  /* left: conversations */
+  #side { background: var(--side); border-right: 1px solid var(--line); display: flex; flex-direction: column; min-height: 0; }
+  #side .top { display: flex; align-items: center; justify-content: space-between; padding: 14px 12px 8px; }
+  #side .top b { font-size: 15px; }
+  #convs { flex: 1; overflow-y: auto; padding: 0 8px 12px; }
+  .conv { position: relative; padding: 8px 28px 8px 10px; border-radius: 8px; cursor: pointer; margin-bottom: 2px; }
+  .conv:hover { background: rgba(127,127,127,.12); } .conv.on { background: rgba(127,127,127,.22); }
+  .conv .ti { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .conv .tm { font-size: 12px; color: var(--muted); }
+  .conv .del { position: absolute; right: 6px; top: 8px; border: 0; background: none; padding: 0 4px; color: var(--muted); visibility: hidden; }
+  .conv:hover .del { visibility: visible; }
+
+  /* center */
+  main { display: flex; flex-direction: column; min-width: 0; min-height: 0; background: var(--bg); }
+  header { display: flex; align-items: center; gap: 10px; padding: 12px 22px; border-bottom: 1px solid var(--line); background: var(--panel); }
+  header h1 { flex: 1; font-size: 17px; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  select { font: inherit; border: 1px solid var(--line); background: var(--panel); color: var(--text); border-radius: 8px; padding: 6px 10px; cursor: pointer; }
+  #loadingBox { position: fixed; inset: 0; z-index: 20; display: flex; align-items: center; justify-content: center; background: rgba(20,23,29,.45); }
+  #loadingBox > div { background: var(--panel); border-radius: 14px; padding: 22px 28px; max-width: 520px; box-shadow: 0 8px 30px rgba(0,0,0,.25); }
+  #loadingBox b { font-size: 17px; } #loadingBox select { margin-top: 12px; width: 100%; }
+  .bitbar { padding: 12px 26px 14px; border-bottom: 1px solid var(--line); background: var(--panel); }
+  .bitbar .line { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .bitbar .lab { font-weight: 600; } #bitNow { font-size: 26px; font-weight: 700; color: var(--c); }
+  .slider { position: relative; max-width: 820px; margin-top: 6px; padding-bottom: 22px; }
+  input[type=range] { -webkit-appearance: none; appearance: none; width: 100%; height: 22px; background: transparent; margin: 0; cursor: pointer; }
+  input[type=range]::-webkit-slider-runnable-track { height: 6px; border-radius: 3px; background: var(--track); }
+  input[type=range]::-moz-range-track { height: 6px; border-radius: 3px; background: var(--track); }
+  input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 20px; height: 20px; margin-top: -7px; border-radius: 50%; background: #fff; border: 3px solid var(--c); box-shadow: 0 1px 3px rgba(0,0,0,.3); }
+  input[type=range]::-moz-range-thumb { width: 14px; height: 14px; border-radius: 50%; background: #fff; border: 3px solid var(--c); box-shadow: 0 1px 3px rgba(0,0,0,.3); }
+  .tick { position: absolute; top: 24px; transform: translateX(-50%); font-size: 12.5px; color: var(--muted); cursor: pointer; user-select: none; }
+  .tick.on { color: var(--c); font-weight: 700; }
+  .tick::before { content: ""; position: absolute; left: 50%; top: -12px; width: 1px; height: 6px; background: var(--line); }
+  .scroll { flex: 1; overflow-y: auto; padding: 22px 26px; min-height: 0; }
+  .msg { max-width: 880px; margin: 0 auto 14px; display: flex; flex-direction: column; } .msg.user { align-items: flex-end; }
+  .bubble { border-radius: 14px; padding: 10px 16px; white-space: pre-wrap; word-wrap: break-word; max-width: 92%; }
+  .user .bubble { background: var(--user); } .bot .bubble { background: var(--bot); max-width: 100%; }
+  .meta { font-size: 12px; color: var(--muted); margin-top: 6px; white-space: normal; }
+  .empty { color: var(--muted); text-align: center; margin-top: 16vh; }
+  .m2 { --c: var(--b2); } .m25 { --c: var(--b25); } .m3 { --c: var(--b3); } .m35 { --c: var(--b35); } .m4 { --c: var(--b4); }
+  .m5 { --c: var(--b5); } .m6 { --c: var(--b6); } .m7 { --c: var(--b7); } .m8 { --c: var(--b8); }
+  .txt :is(.m2, .m25, .m3, .m35, .m4, .m5, .m6, .m7, .m8):not(.eq) { text-decoration: underline 2px var(--c); text-underline-offset: 4px; }
+  .bot .txt, .out.txt { white-space: normal; }
+  .txt p { margin: 0 0 .7em; } .txt > :last-child { margin-bottom: 0; }
+  .txt h1, .txt h2, .txt h3, .txt h4, .txt h5, .txt h6 { margin: .4em 0 .4em; line-height: 1.3; } .txt h1 { font-size: 1.3em; } .txt h2 { font-size: 1.18em; } .txt h3, .txt h4, .txt h5, .txt h6 { font-size: 1.05em; }
+  .txt .li { display: flex; gap: .45em; margin: 0 0 .35em; } .txt .li .mk { flex: none; min-width: 1.1em; color: var(--muted); }
+  .txt code { font: .9em ui-monospace, Menlo, Consolas, monospace; background: rgba(127,127,127,.14); padding: 0 .3em; border-radius: 4px; }
+  .txt pre { margin: 0 0 .7em; padding: 9px 12px; background: rgba(127,127,127,.14); border-radius: 8px; overflow-x: auto; white-space: pre; }
+  .txt pre code { background: none; padding: 0; }
+  .txt blockquote { margin: 0 0 .7em; padding-left: 10px; border-left: 3px solid var(--line); color: var(--muted); }
+  .txt hr { border: 0; border-top: 1px solid var(--line); margin: .8em 0; }
+  .txt table { border-collapse: collapse; margin: 0 0 .7em; font-size: .95em; width: auto; } .txt th, .txt td { border: 1px solid var(--line); padding: 3px 9px; text-align: left; }
+  .txt .eq { border-bottom: 2px solid var(--c); padding-bottom: 1px; } .txt .eq.disp { display: block; border-bottom: 0; padding: 0; margin: 0 0 .35em; overflow-x: auto; overflow-y: hidden; }
+  .txt .eq.disp > .katex-display { margin: .15em 0; } .txt .eq.disp .katex-html > .ul { display: inline-block; border-bottom: 2px solid var(--c); padding-bottom: 2px; }
+  .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--c); margin-right: 4px; vertical-align: 0; }
+  footer { padding: 12px 26px 16px; border-top: 1px solid var(--line); background: var(--panel); }
+  .inputrow { max-width: 880px; margin: 0 auto; display: flex; gap: 8px; align-items: flex-end; }
+  textarea { flex: 1; resize: none; height: 48px; padding: 11px 12px; font: inherit; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--text); }
+  textarea:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+  #status { max-width: 880px; margin: 0 auto 6px; font-size: 12px; color: var(--muted); min-height: 0; } #status:empty { display: none; }
+  .banner { font-size: 12.5px; border-radius: 8px; padding: 6px 10px; margin-top: 8px; background: rgba(47,91,234,.12); }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+  .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 12px; }
+  .col { border: 1px solid var(--line); border-top: 4px solid var(--c); border-radius: 12px; background: var(--panel); padding: 12px; min-width: 0; }
+  .col h3 { margin: 0 0 2px; font-size: 15px; } .out { white-space: pre-wrap; word-wrap: break-word; min-height: 140px; max-height: 50vh; overflow-y: auto; font-size: 14px; border-top: 1px solid var(--line); padding-top: 8px; margin-top: 6px; }
+  .wrap { max-width: 980px; margin: 0 auto; }
+
+  /* right: model, power, energy, speed */
+  #panel { background: var(--panel); border-left: 1px solid var(--line); overflow-y: auto; padding: 16px 20px 24px; min-height: 0; }
+  #panel h2 { font-size: 16px; margin: 4px 0 8px; } #panel section { margin-bottom: 26px; }
+  .kv { display: grid; grid-template-columns: 1fr auto; gap: 6px 10px; font-size: 13.5px; } .kv span:nth-child(odd) { color: var(--muted); } .kv span:nth-child(even) { text-align: right; font-variant-numeric: tabular-nums; }
+  .bigs { display: flex; gap: 26px; align-items: flex-end; } .big { font-size: 30px; font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .big + .muted, .bigs .muted { font-size: 12.5px; }
+  .parts { display: flex; gap: 22px; margin: 10px 0 4px; } .parts .v { font-size: 20px; font-variant-numeric: tabular-nums; } .parts .muted { font-size: 12.5px; }
+  .slider.plain { margin-top: 2px; padding-bottom: 6px; --c: var(--accent); --track: linear-gradient(90deg, var(--accent) var(--p, 50%), var(--line) var(--p, 50%)); }
+  .chart { position: relative; margin-top: 8px; } .chart canvas { width: 100%; height: 140px; display: block; }
+  .tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; font-size: 12px; white-space: nowrap; box-shadow: 0 2px 8px rgba(0,0,0,.15); z-index: 2; }
+  .legend { display: flex; gap: 14px; font-size: 12px; color: var(--muted); margin-top: 4px; } .legend i { display: inline-block; width: 14px; height: 2px; margin-right: 5px; vertical-align: 3px; background: var(--c); }
+  .legend i.dash { background: repeating-linear-gradient(90deg, var(--c) 0 4px, transparent 4px 7px); }
+  .seg { display: grid; grid-template-columns: 1fr 1fr; background: var(--bg); border-radius: 8px; padding: 2px; margin-bottom: 10px; }
+  .seg button { border: 0; background: none; padding: 5px; } .seg button.on { background: var(--panel); box-shadow: 0 1px 2px rgba(0,0,0,.15); }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-top: 10px; font-variant-numeric: tabular-nums; }
+  td, th { padding: 3px 4px; text-align: right; } td:first-child, th:first-child { text-align: left; } th { color: var(--muted); font-weight: 500; font-size: 12.5px; }
+  .note { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+  @media (max-width: 1250px) { body { grid-template-columns: 210px minmax(0, 1fr) 330px; } }
+  @media (max-width: 980px) {
+    body { display: block; height: auto; } #side { border-right: 0; border-bottom: 1px solid var(--line); } #convs { max-height: 140px; }
+    main { height: 100vh; } #panel { border-left: 0; border-top: 1px solid var(--line); } header, .bitbar, .scroll, footer { padding-left: 16px; padding-right: 16px; }
+  }
+</style>
+</head>
+<body>
+<aside id="side">
+  <div class="top"><b>Any-Rate</b><button id="newChat" title="New chat">New chat</button></div>
+  <div id="convs"></div>
+</aside>
+
+<main>
+  <header><h1 id="title">New chat</h1><select id="modelSel" title="Model (one in VRAM at a time)"></select><button id="viewBtn">Compare bit widths</button></header>
+  <div class="bitbar">
+    <div class="small muted" id="model">&nbsp;</div>
+    <div class="line"><span class="lab">Bit width</span><span id="bitNow">4 bits</span>
+      <span class="small muted">drag at any time, also while a reply is being written</span></div>
+    <div class="slider" id="slider"><input type="range" id="range" min="0" max="8" step="1" aria-label="bit width"></div>
+    <div class="banner" id="dry" hidden>Dry run: no model is loaded, the answers are simulated.</div>
+  </div>
+
+  <div class="scroll" id="chat"></div>
+  <footer id="chatFooter">
+    <div id="status"></div>
+    <div class="inputrow">
+      <textarea id="input" placeholder="Message (Enter to send, Shift+Enter for a new line)"></textarea>
+      <button class="primary" id="send">Send</button>
+    </div>
+  </footer>
+
+  <div class="scroll" id="compare" hidden>
+    <div class="wrap">
+      <div class="row" id="presets"></div>
+      <textarea id="cmpInput" style="width:100%;height:90px" placeholder="One question, answered once in every chosen mode (greedy decoding, fresh context)"></textarea>
+      <div class="row" style="margin-top:8px"><span class="small muted">Modes:</span><span id="cmpModes" class="row" style="margin:0"></span>
+        <button class="primary" id="cmpRun">Run</button><span class="small muted" id="cmpState"></span></div>
+      <div class="cols" id="cmpCols"></div>
+    </div>
+  </div>
+</main>
+
+<aside id="panel">
+  <section>
+    <h2>Model</h2>
+    <div class="kv">
+      <span id="readLab">weights read per token</span><span id="readNow" style="color:var(--c)">-</span>
+      <span id="storedLab">Any-Rate weights, every mode</span><span id="stored">-</span>
+      <span id="fp16Lab">the same weights in FP16</span><span id="fp16">-</span>
+      <span>VRAM used by the demo</span><span id="vram">-</span>
+    </div>
+  </section>
+
+  <section id="moeSec" hidden>
+    <h2>Expert cache</h2>
+    <div class="bigs"><div><div class="big" id="hitNow">-</div><div class="muted">cache hits, last 0.5 s</div></div><div><div class="big" id="ssdNow">-</div><div class="muted">MB read from the SSD per token</div></div></div>
+    <div class="line" style="margin-top:12px"><span class="small"><b>VRAM for experts</b> <span id="cacheGb">-</span></span></div>
+    <div class="slider plain" id="cacheSlider"><input type="range" id="cacheRange" step="0.5" aria-label="expert cache size"></div>
+    <div class="kv small" style="margin-top:2px">
+      <span>experts in the cache</span><span id="cacheN">-</span>
+      <span id="expLab">one expert at this bit width</span><span id="expMb">-</span>
+    </div>
+    <div class="chart"><canvas id="cvSsd"></canvas></div>
+    <div class="note">The experts stay on the SSD and the ones in use are kept in VRAM; a missing one is read with O_DIRECT (no page cache). Raising the
+      bit width reads only the planes a cached expert lacks, lowering it reads nothing new, and a smaller cache holds more experts at fewer bits.</div>
+  </section>
+
+  <section>
+    <h2>Power</h2>
+    <div class="bigs"><div><div class="big" id="pGpu">-</div><div class="muted">GPU</div></div><div><div class="big" id="pAll">-</div><div class="muted">GPU + CPU</div></div></div>
+    <div class="chart"><canvas id="cvPower"></canvas></div>
+    <div class="legend"><span style="--c:var(--gpu)"><i></i>GPU</span><span style="--c:var(--cpu)"><i></i>CPU package</span><span style="--c:var(--sum)"><i class="dash"></i>GPU + CPU</span></div>
+    <div class="note" id="sensorNote">GPU: NVML energy counter · CPU: RAPL package counter · the rest of the PC (DRAM, disk, fans, power supply) is not measured</div>
+  </section>
+
+  <section>
+    <h2>Energy per token and TPS</h2>
+    <div class="seg" id="eSeg"><button data-k="gpu" class="on">GPU</button><button data-k="all">GPU + CPU</button></div>
+    <div class="bigs"><div><div class="big" id="eNow">-</div><div class="muted small">mJ per token, last 0.5 s</div></div>
+      <div><div class="big" id="sNow">-</div><div class="muted small">TPS, last 0.5 s</div></div></div>
+    <div class="chart"><canvas id="cvEnergy"></canvas></div>
+    <table id="eTable"></table>
+    <div class="row" style="justify-content:space-between;margin:6px 0 0"><span class="note" style="margin:0">averages since the last reset</span><button id="eReset" class="small">Reset</button></div>
+    <div class="note">energy of each 0.5 s spent decoding, divided by the tokens decoded in it; the averages count the windows decoded in one mode</div>
+  </section>
+
+</aside>
+
+<div id="loadingBox" hidden><div><b id="loadingTitle">Loading</b><div class="small muted" id="loadingMsg" style="margin-top:6px"></div><select id="modelSel2" hidden></select></div></div>
+<script>
+let MODES = [2, 2.5, 3, 3.5, 4, 5, 6, 7, 8]; const cls = b => "m" + String(b).replace(".", ""), cvar = b => `var(--b${String(b).replace(".", "")})`;
+let INFO = null, bits = 4, busy = false, eKey = "gpu", TEL = null, convs = [], cur = null;
+const $ = id => document.getElementById(id);
+const GREEDY = new URLSearchParams(location.search).has("greedy");      // ?greedy: the chat decodes greedily (reproducible replies)
+const gb = x => x >= 1 ? x.toFixed(2) + " GB" : (x * 1024).toFixed(0) + " MB";
+const esc = s => s.replace(/[&<>]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;"}[c]));
+const fmt = (x, d = 1) => x == null || !isFinite(x) ? "-" : x.toFixed(d);
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+/* ---------- conversations (kept in this browser) ---------- */
+function load() { try { convs = JSON.parse(localStorage.getItem("anyrate.convs") || "[]"); } catch (e) { convs = []; } }
+function save() { try { localStorage.setItem("anyrate.convs", JSON.stringify(convs.slice(0, 50))); } catch (e) {} }
+function ago(t) {
+  const s = (Date.now() - t) / 1000;
+  return s < 10 ? "now" : s < 60 ? Math.round(s) + " seconds ago" : s < 3600 ? Math.round(s / 60) + " minutes ago" : s < 86400 ? Math.round(s / 3600) + " hours ago" : new Date(t).toLocaleDateString();
+}
+function renderConvs() {
+  $("convs").innerHTML = convs.map(c => `<div class="conv ${cur && c.id === cur.id ? "on" : ""}" data-id="${c.id}"><div class="ti"></div><div class="tm">${ago(c.t)}</div><button class="del" title="Delete">&times;</button></div>`).join("");
+  $("convs").querySelectorAll(".conv").forEach((d, i) => {
+    d.querySelector(".ti").textContent = convs[i].title;
+    d.onclick = () => { if (!busy) openConv(convs[i]); };
+    d.querySelector(".del").onclick = e => { e.stopPropagation(); if (busy) return; const c = convs[i]; convs.splice(i, 1); save(); if (cur && c.id === cur.id) newConv(); else renderConvs(); };
+  });
+}
+function newConv() { cur = {id: Date.now().toString(36), title: "New chat", t: Date.now(), msgs: []}; showConv(); }
+function openConv(c) { cur = c; showConv(); }
+function showConv() {
+  $("title").textContent = cur.title; $("chat").innerHTML = "";
+  if (!cur.msgs.length) $("chat").innerHTML = '<div class="empty">Ask something. Drag the bit width at any time.</div>';
+  cur.msgs.forEach(m => { const d = addMsg(m.role); if (m.role === "user") d.txt.textContent = m.content; else { show(d.txt, m.spans || [[bits, m.content]]); d.meta.innerHTML = m.meta || ""; } });
+  renderConvs(); showView("chat");
+}
+
+/* ---------- bit width ---------- */
+function showBits() {
+  const i = MODES.indexOf(bits), pct = 100 * i / (MODES.length - 1);
+  $("range").value = i; $("slider").className = "slider " + cls(bits); $("bitNow").className = cls(bits); $("bitNow").textContent = bits + " bits";
+  $("slider").style.setProperty("--track", `linear-gradient(90deg, var(--c) ${pct}%, var(--line) ${pct}%)`);
+  $("slider").querySelectorAll(".tick").forEach(t => t.classList.toggle("on", +t.dataset.b === bits));
+  const s = INFO.sizes, moe = INFO.moe; $("readLab").textContent = `${moe ? "weights used" : "weights read"} per token (${bits} bits)`;
+  if (moe) { $("storedLab").textContent = "Any-Rate model on the SSD, every mode"; $("fp16Lab").textContent = "the same model in BF16";
+             $("expLab").textContent = `one expert at ${bits} bits`; $("expMb").textContent = fmt(moe.expert_mb[String(bits)], 2) + " MB"; } $("readNow").parentElement.className = "kv " + cls(bits);
+  $("readNow").textContent = gb(s.read_gb[String(bits)]); $("stored").textContent = gb(s.stored_gb); $("fp16").textContent = gb(s.fp16_gb);
+  $("vram").textContent = gb(INFO.vram_gb) + (INFO.gpu ? " of " + INFO.gpu.total_gb + " GB" : "");
+}
+async function setBits(b) { if (b === bits) return; bits = b; showBits(); await fetch("/api/bits", {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify({bits: b})}); }
+
+/* ---------- chat ---------- */
+async function stream(body, onToken, onStatus) {
+  const r = await fetch("/api/generate", {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(body)});
+  if (!r.ok) { const e = await r.json().catch(() => ({})); throw new Error(e.error || r.statusText); }
+  const rd = r.body.getReader(), dec = new TextDecoder(); let buf = "", done = null;
+  for (;;) {
+    const {value, done: end} = await rd.read(); if (end) break; buf += dec.decode(value, {stream: true});
+    let i; while ((i = buf.indexOf("\n\n")) >= 0) {
+      const line = buf.slice(0, i); buf = buf.slice(i + 2); if (!line.startsWith("data: ")) continue; const ev = JSON.parse(line.slice(6));
+      if (ev.type === "token") onToken(ev.text, ev.bits); else if (ev.type === "status") onStatus(ev.text);
+      else if (ev.type === "error") throw new Error(ev.text); else if (ev.type === "done") done = ev;
+    }
+  }
+  return done;
+}
+function addMsg(role) {
+  const e = $("chat").querySelector(".empty"); if (e) e.remove();
+  const d = document.createElement("div"); d.className = "msg " + (role === "user" ? "user" : "bot");
+  d.innerHTML = `<div class="bubble"><div class="txt"></div>${role === "user" ? "" : '<div class="meta"></div>'}</div>`; $("chat").appendChild(d);
+  $("chat").scrollTop = $("chat").scrollHeight; return {txt: d.querySelector(".txt"), meta: d.querySelector(".meta")};
+}
+
+/* Markdown and math of a reply, keeping the mode of every character: spans = [[bits, text], ...] in the order written. The markers
+   (**, `, $ ...) are dropped, the text between them keeps its mode underline; a formula is underlined in the mode of its first character. */
+function md(spans, live = false) {                               // live: the reply is still being written
+  let S = "", M = [];
+  for (const [b, t] of spans) { S += t; for (let k = 0; k < t.length; k++) M.push(b); }
+  if (live) {                                                      // an inline formula still being written on the last line: shown once closed
+    const l0 = S.lastIndexOf("\n") + 1, d = [...S.slice(l0).matchAll(/(?<![$\\])\$(?!\$)/g)].map(x => l0 + x.index);
+    if (d.length % 2) { S = S.slice(0, d[d.length - 1]); M = M.slice(0, S.length); }
+  }
+  const run = (a, z) => { let h = ""; for (let i = a; i < z;) { let j = i; while (j < z && M[j] === M[i]) j++; h += `<span class="${cls(M[i])}">${esc(S.slice(i, j))}</span>`; i = j; } return h; };
+  const math = (a, z, disp, r0, r1, tex) => {                    // formula S[a, z) (or tex), written as S[r0, r1)
+    if (!window.katex) return run(r0, r1);
+    try { return `<span class="eq ${disp ? "disp " : ""}${cls(M[a])}">${katex.renderToString(tex ?? S.slice(a, z), {displayMode: disp, throwOnError: true})}</span>`; }
+    catch (e) { return run(r0, r1); }
+  };
+  const inline = (a, z) => {
+    let h = "", s = a, i = a;
+    const find = (str, from) => { const k = S.indexOf(str, from); return k >= 0 && k + str.length <= z ? k : -1; };
+    const close = i => {                                            // the closing $ of an inline formula opened at i: $...$, or $ ... $ with a space
+      if (!(i + 1 < z && S[i] === "$" && S[i + 1] !== "$" && S[i - 1] !== "\\")) return -1;  // inside both markers (never "$3 and $5")
+      const sp = /\s/.test(S[i + 1]); let k = i + 1;
+      while ((k = find("$", k + 1)) > 0 && ((sp ? !/\s/.test(S[k - 1]) : /\s|\\/.test(S[k - 1])) || /\d/.test(S[k + 1] || ""))) {}
+      return k > i + 1 && S.slice(i + 1, k).trim() ? k : -1;
+    };
+    const emit = (i0, html, i1) => { if (i0 > s) h += run(s, i0); h += html; s = i = i1; };
+    while (i < z) {
+      const c = S[i]; let k;
+      if (c === "\\" && (S[i + 1] === "(" || S[i + 1] === "[") && (k = find(S[i + 1] === "(" ? "\\)" : "\\]", i + 2)) > i + 2) { emit(i, math(i + 2, k, S[i + 1] === "[", i, k + 2), k + 2); continue; }
+      if (c === "`" && (k = find("`", i + 1)) > i + 1) { emit(i, `<code>${run(i + 1, k)}</code>`, k + 1); continue; }
+      if (S.startsWith("$$", i) && (k = find("$$", i + 2)) > i + 2) { emit(i, math(i + 2, k, true, i, k + 2), k + 2); continue; }
+      if (c === "$" && (k = close(i)) > 0) {                       // $a$ → $b$ (an arrow between formulas) becomes one formula
+        let tex = S.slice(i + 1, k), end = k + 1, m2;
+        while ((m2 = /^\s*(→|⇒|⟶|->|=>)\s*(?=\$)/.exec(S.slice(end, z))) && (k = close(end + m2[0].length)) > 0) {
+          tex += (/⇒|=>/.test(m2[1]) ? " \\Rightarrow " : " \\to ") + S.slice(end + m2[0].length + 1, k); end = k + 1;
+        }
+        emit(i, math(i + 1, end - 1, false, i, end, tex), end); continue;
+      }
+      if ((S.startsWith("**", i) || S.startsWith("__", i)) && (k = find(S.slice(i, i + 2), i + 2)) > i + 2) { emit(i, `<strong>${inline(i + 2, k)}</strong>`, k + 2); continue; }
+      if ((c === "*" || (c === "_" && !/\w/.test(S[i - 1] || ""))) && i + 1 < z && !/\s/.test(S[i + 1])) {
+        k = i; while ((k = find(c, k + 1)) > 0 && (/\s/.test(S[k - 1]) || (c === "_" && /\w/.test(S[k + 1] || "")))) {}
+        if (k > i + 1) { emit(i, `<em>${inline(i + 1, k)}</em>`, k + 1); continue; }
+      }
+      i++;
+    }
+    if (z > s) h += run(s, z); return h;
+  };
+  const lines = []; for (let i = 0; i <= S.length;) { let j = S.indexOf("\n", i); if (j < 0) j = S.length; lines.push([i, j]); i = j + 1; }
+  const line = n => S.slice(lines[n][0], lines[n][1]);
+  const cells = (a, z) => { const p = []; for (let i = a; i < z; i++) if (S[i] === "|" && S[i - 1] !== "\\") p.push(i); const c = [];
+    for (let k = 0; k + 1 < p.length; k++) c.push([p[k] + 1, p[k + 1]]); if (p.length && S.slice(p[p.length - 1] + 1, z).trim()) c.push([p[p.length - 1] + 1, z]); return c; };
+  let h = "", para = [];
+  const endPara = () => { if (para.length) h += `<p>${para.map(([a, z]) => inline(a, z)).join("<br>")}</p>`; para = []; };
+  for (let n = 0; n < lines.length; n++) {
+    const [a, z] = lines[n], L = line(n), t = L.trim(); let m;
+    if (t.startsWith("```")) {                                    // code block (open until its closing line arrives)
+      endPara(); m = n + 1; while (m < lines.length && !line(m).trim().startsWith("```")) m++;
+      const ca = n + 1 < lines.length ? lines[n + 1][0] : z, cz = m < lines.length ? lines[m][0] - 1 : S.length;
+      h += `<pre><code>${ca < cz ? run(ca, cz) : ""}</code></pre>`; n = m; continue;
+    }
+    if (t === "$$" || t === "\\[") {                              // display formula over several lines
+      const close = t === "$$" ? "$$" : "\\]"; m = n + 1; while (m < lines.length && !line(m).trim().endsWith(close)) m++;
+      if (m < lines.length) { endPara(); const ia = lines[n][1] + 1, iz = S.lastIndexOf(close, lines[m][1]); h += math(ia, iz, true, a, iz + 2); n = m; continue; }
+      if (live) break;                                                 // still being written: shown once it is closed
+    }
+    if (t.length > 4 && t.startsWith("$$") && t.endsWith("$$") && t.indexOf("$$", 2) === t.length - 2) {     // a line that is one display formula
+      endPara(); const ia = a + L.indexOf("$$") + 2, iz = a + L.lastIndexOf("$$"); h += math(ia, iz, true, a, iz + 2); continue;
+    }
+    if ((m = t.match(/^\\begin\{(align|aligned|equation|gather|alignat|multline|eqnarray)(\*?)\}/))) {    // a bare display environment
+      const end = `\\end{${m[1]}${m[2]}}`; let q = n; while (q < lines.length && !line(q).includes(end)) q++;
+      if (q < lines.length) { endPara(); const ia = a + L.indexOf("\\begin"), iz = S.indexOf(end, lines[q][0]) + end.length; h += math(ia, iz, true, a, iz); n = q; continue; }
+      if (live) break;
+    }
+    if (t.startsWith("|") && n + 1 < lines.length && /^\s*\|?\s*:?-{2,}/.test(line(n + 1))) {     // table
+      endPara(); m = n; const rows = []; while (m < lines.length && line(m).trim().startsWith("|")) { if (m !== n + 1) rows.push(lines[m]); m++; }
+      h += "<table>" + rows.map(([x, y], r) => "<tr>" + cells(x, y).map(([p, q]) => `<${r ? "td" : "th"}>${inline(p, q)}</${r ? "td" : "th"}>`).join("") + "</tr>").join("") + "</table>";
+      n = m - 1; continue;
+    }
+    if ((m = L.match(/^(#{1,6})\s+/))) { endPara(); h += `<h${m[1].length}>${inline(a + m[0].length, z)}</h${m[1].length}>`; continue; }
+    if (/^\s*([-*_])(\s*\1){2,}\s*$/.test(L)) { endPara(); h += "<hr>"; continue; }
+    if ((m = L.match(/^(\s*)([-*+]|\d+[.)])\s+/))) {
+      endPara(); const mk = /\d/.test(m[2]) ? esc(m[2]) : "&bull;";
+      h += `<div class="li" style="margin-left:${(m[1].length / 2).toFixed(1)}em"><span class="mk">${mk}</span><div>${inline(a + m[0].length, z)}</div></div>`; continue;
+    }
+    if ((m = L.match(/^\s*>\s?/))) { endPara(); h += `<blockquote>${inline(a + m[0].length, z)}</blockquote>`; continue; }
+    if (!t) { endPara(); continue; }
+    para.push([a, z]);
+  }
+  endPara(); return h;
+}
+function underline(el) {                                       // one underline under a whole display formula (its pieces in one box, the \tag outside)
+  el.querySelectorAll(".eq.disp .katex-html").forEach(h => {
+    const w = document.createElement("span"); w.className = "ul"; [...h.children].filter(c => c.classList.contains("base")).forEach(c => w.appendChild(c)); h.insertBefore(w, h.firstChild);
+  });
+}
+function rerender() { document.querySelectorAll(".txt").forEach(el => { if (el._spans) { el.innerHTML = md(el._spans); underline(el); } }); }
+function show(txt, spans, live = false) { txt._spans = spans; txt.innerHTML = md(spans, live); underline(txt); }
+function metaHtml(st, path) {
+  const e = st.energy_j || {}, per = j => j == null ? "" : ` (${(1e3 * j / Math.max(st.tokens, 1)).toFixed(0)} mJ/token)`;
+  return path.map(b => `<span class="${cls(b)}"><span class="dot"></span>${b}</span>`).join(" &rarr; ") +
+    ` bits &middot; ${st.tokens} tokens, ${st.tokens_per_s.toFixed(1)} TPS &middot; prompt ${st.prompt_tokens} tokens in ${st.prefill_s.toFixed(2)} s` +
+    (e.gpu != null ? ` &middot; GPU ${e.gpu.toFixed(1)} J${per(e.gpu)}` : "") + (e.all != null && e.cpu != null ? ` &middot; GPU + CPU ${e.all.toFixed(1)} J${per(e.all)}` : "");
+}
+async function send() {
+  if (busy) { fetch("/api/stop", {method: "POST"}); return; }
+  const text = $("input").value.trim(); if (!text) return;
+  busy = true; $("send").textContent = "Stop"; $("input").value = "";
+  if (!cur.msgs.length) { cur.title = text.length > 48 ? text.slice(0, 48) + "..." : text; $("title").textContent = cur.title; convs.unshift(cur); }
+  else { convs.splice(convs.indexOf(cur), 1); convs.unshift(cur); }
+  cur.t = Date.now(); cur.msgs.push({role: "user", content: text}); save(); renderConvs();
+  const u = addMsg("user"); u.txt.textContent = text; const d = addMsg("bot");
+  const history = cur.msgs.map(m => ({role: m.role, content: m.content})); let reply = "", spans = [], last = null, drawing = false;
+  $("model").textContent = INFO.label + " · Generating";
+  try {
+    const done = await stream({messages: history, max_new_tokens: 768, greedy: GREEDY}, (t, b) => {
+      reply += t; if (b !== last) { spans.push([b, ""]); last = b; } spans[spans.length - 1][1] += t;
+      if (!drawing) { drawing = true; requestAnimationFrame(() => { drawing = false; show(d.txt, spans, true); $("chat").scrollTop = $("chat").scrollHeight; }); } }, s => $("status").textContent = "");
+    show(d.txt, spans);
+    const path = spans.map(s => s[0]).filter((b, i, a) => i === 0 || b !== a[i - 1]);
+    const meta = done ? metaHtml(done.stats, path) : "stopped"; d.meta.innerHTML = meta;
+    if (done) { INFO.vram_gb = done.vram_gb; showBits(); }
+    cur.msgs.push({role: "assistant", content: reply || " ", spans, meta}); $("status").textContent = "";
+  } catch (e) { $("status").textContent = "Error: " + e.message; cur.msgs.pop(); }
+  cur.t = Date.now(); save(); renderConvs(); busy = false; $("send").textContent = "Send"; $("model").textContent = INFO.label + " · Ready";
+}
+
+/* ---------- compare ---------- */
+async function compare() {
+  const q = $("cmpInput").value.trim(); const sel = [...$("cmpModes").querySelectorAll("input:checked")].map(x => +x.value);
+  if (!q || !sel.length || busy) return; busy = true; $("cmpRun").disabled = true;
+  $("cmpCols").innerHTML = sel.map(b => `<div class="col ${cls(b)}" id="c${cls(b)}"><h3>${b} bits</h3><div class="small muted">${gb(INFO.sizes.read_gb[String(b)])} ${INFO.moe ? "used" : "read"} per token</div><div class="small muted st">waiting</div><div class="out txt"></div></div>`).join("");
+  for (const b of sel) {
+    const c = $("c" + cls(b)), out = c.querySelector(".out"); c.querySelector(".st").textContent = "generating ...";
+    try {
+      const sp = [[b, ""]]; const done = await stream({messages: [{role: "user", content: q}], bits: b, greedy: true, max_new_tokens: 384}, t => { sp[0][1] += t; show(out, sp, true); out.scrollTop = out.scrollHeight; }, () => {}); show(out, sp);
+      if (done) { const st = done.stats; c.querySelector(".st").textContent = `${st.tokens} tokens, ${st.tokens_per_s.toFixed(1)} TPS`; }
+    } catch (e) { c.querySelector(".st").textContent = "Error: " + e.message; }
+  }
+  busy = false; $("cmpRun").disabled = false;
+}
+function showView(v) {
+  $("chat").hidden = $("chatFooter").hidden = v !== "chat"; $("compare").hidden = v !== "compare";
+  $("viewBtn").textContent = v === "chat" ? "Compare bit widths" : "Back to chat"; $("title").textContent = v === "chat" ? cur.title : "Compare bit widths";
+}
+
+/* ---------- charts: the last 60 s, 0.5 s windows ---------- */
+const hover = {};
+function chart(cv, o) {
+  const dpr = devicePixelRatio || 1, W = cv.clientWidth, H = cv.clientHeight; if (!W) return;
+  if (cv.width !== W * dpr) { cv.width = W * dpr; cv.height = H * dpr; }
+  const g = cv.getContext("2d"); g.setTransform(dpr, 0, 0, dpr, 0, 0); g.clearRect(0, 0, W, H);
+  const L = 2, R = W - 40, T = 8, B = H - 20, win = 60, now = TEL.now, X = t => L + (R - L) * (t - (now - win)) / win;
+  const vals = o.series.flatMap(s => TEL.samples.map(s.y)).filter(v => v != null && isFinite(v));
+  let top = Math.max(o.min, ...vals) * 1.1; const step = Math.pow(10, Math.floor(Math.log10(top / 4))), m = [1, 2, 2.5, 5, 10].find(k => k * step * 4 >= top); top = m * step * 4;
+  const Y = v => B - (B - T) * v / top;
+  g.font = "11px system-ui, sans-serif"; g.fillStyle = css("--muted"); g.strokeStyle = css("--line"); g.lineWidth = 1; g.textBaseline = "middle";
+  for (let k = 0; k <= 4; k++) { const y = Math.round(Y(top * k / 4)) + .5; g.beginPath(); g.moveTo(L, y); g.lineTo(R, y); g.stroke(); g.fillText((top * k / 4).toLocaleString(), R + 6, y); }
+  g.textBaseline = "top"; g.textAlign = "center";
+  for (const s of [-60, -45, -30, -15]) { const x = Math.round(X(now + s)) + .5; g.setLineDash([2, 3]); g.beginPath(); g.moveTo(x, T); g.lineTo(x, B); g.stroke(); g.setLineDash([]); g.fillText(s + " s", Math.max(x, L + 16), B + 5); }
+  g.textAlign = "left";
+  g.save(); g.beginPath(); g.rect(L, 0, R - L, H); g.clip();
+  for (const s of o.series) {
+    g.strokeStyle = g.fillStyle = s.color ? css(s.color) : "";
+    if (s.bars) {
+      for (const p of TEL.samples) { const v = s.y(p); if (v == null || !isFinite(v) || !p.tokens) continue;
+        g.fillStyle = css(p.bits === "mixed" ? "--sum" : `--b${p.bits.replace(".", "")}`); const x0 = X(p.t - p.dt), x1 = X(p.t); g.fillRect(x0 + 1, Y(v), Math.max(2, x1 - x0 - 2), B - Y(v)); }
+    } else {
+      g.lineWidth = 2; g.setLineDash(s.dash ? [5, 4] : []); g.beginPath(); let on = false;
+      for (const p of TEL.samples) { const v = s.y(p); if (v == null) { on = false; continue; } const x = X(p.t), y = Y(v); on ? g.lineTo(x, y) : g.moveTo(x, y); on = true; }
+      g.stroke(); g.setLineDash([]);
+    }
+  }
+  g.restore();
+  const h = hover[cv.id], tip = cv.parentElement.querySelector(".tip");
+  if (h != null && TEL.samples.length) {
+    const t = now - win + win * (h - L) / (R - L); let best = null;
+    for (const p of TEL.samples) if (best == null || Math.abs(p.t - p.dt / 2 - t) < Math.abs(best.t - best.dt / 2 - t)) best = p;
+    const x = Math.round(X(best.t - best.dt / 2)) + .5; g.strokeStyle = css("--muted"); g.beginPath(); g.moveTo(x, T); g.lineTo(x, B); g.stroke();
+    tip.hidden = false; tip.innerHTML = `${(best.t - now).toFixed(1)} s · ` + o.tip(best); tip.style.left = Math.min(Math.max(0, x - tip.offsetWidth / 2), W - tip.offsetWidth) + "px"; tip.style.top = "-30px";
+  } else if (tip) tip.hidden = true;
+}
+const perTok = (p, k) => p.tokens && p.full && p[k + "_w"] != null ? 1e3 * p[k + "_w"] * p.dt / p.tokens : null;
+const modeTag = p => p.bits == null ? "idle" : p.bits === "mixed" ? "mixed modes" : p.bits + " bits";
+const CHARTS = {
+  cvPower: {min: 20, series: [{y: p => p.all_w, color: "--sum", dash: true}, {y: p => p.gpu_w, color: "--gpu"}, {y: p => p.cpu_w, color: "--cpu"}],
+            tip: p => `GPU ${fmt(p.gpu_w)} W · CPU ${fmt(p.cpu_w)} W · ${modeTag(p)}`},
+  cvEnergy: {min: 100, series: [{y: p => perTok(p, eKey), bars: true}], tip: p => p.tokens && p.full ? `${fmt(perTok(p, eKey), 0)} mJ/token · ${p.tokens} tokens · ${modeTag(p)}` : p.tokens ? "start or end of a reply (not a full window)" : "no tokens"},
+  cvSsd: {min: 10, series: [{y: p => p.tokens && p.ssd_mb != null ? p.ssd_mb / p.tokens : null, bars: true}],
+          tip: p => p.tokens ? `${fmt(p.ssd_mb / p.tokens)} MB/token · hits ${p.hit}/${p.hit + p.miss} · ${modeTag(p)}` : "no tokens"},
+};
+for (const id in CHARTS) {
+  const cv = $(id), tip = document.createElement("div"); tip.className = "tip"; tip.hidden = true; cv.parentElement.appendChild(tip);
+  cv.onmousemove = e => { hover[id] = e.offsetX; if (TEL) chart(cv, CHARTS[id]); }; cv.onmouseleave = () => { hover[id] = null; if (TEL) chart(cv, CHARTS[id]); };
+}
+function renderTel() {
+  const S = TEL.samples, p = S[S.length - 1] || {}, lastTok = [...S].reverse().find(x => x.tokens) || null;
+  $("pGpu").textContent = p.gpu_w != null ? fmt(p.gpu_w) + " W" : "-"; $("pAll").textContent = p.all_w != null ? fmt(p.all_w) + " W" : "-";
+  $("eNow").textContent = fmt(perTok(p, eKey), 0); $("sNow").textContent = p.dt ? fmt(p.tokens / p.dt) : "-";
+  if (!TEL.sensors.gpu || !TEL.sensors.cpu) $("sensorNote").textContent = "Sensors: " + (TEL.sensors.gpu ? "GPU (NVML)" : "no GPU energy counter") + ", " + (TEL.sensors.cpu ? "CPU (RAPL)" : "CPU package not readable") + " · the rest of the PC is not measured";
+  const moe = TEL.moe;
+  if (moe) {
+    const n = (p.hit || 0) + (p.miss || 0); $("hitNow").textContent = n ? Math.round(100 * p.hit / n) + "%" : "-";
+    $("ssdNow").textContent = p.tokens ? fmt(p.ssd_mb / p.tokens) : "-";
+    $("cacheN").textContent = `${moe.experts.toLocaleString()} of ${moe.experts_total.toLocaleString()} (${fmt(moe.used_gb, 2)} GB)`;
+    if (document.activeElement !== $("cacheRange")) { $("cacheRange").value = moe.budget_gb; cacheLabel(); }
+  }
+  for (const id in CHARTS) chart($(id), CHARTS[id]);
+  const rows = MODES.filter(b => TEL.modes[String(b)]), ssd = !!moe;
+  $("eTable").innerHTML = `<tr><th>bits</th><th>mJ/token</th><th>TPS</th><th>W</th>${ssd ? "<th>SSD MB/tok</th>" : ""}</tr>` + (rows.length ? rows.map(b => { const m = TEL.modes[String(b)];
+    return `<tr><td class="${cls(b)}"><span class="dot"></span>${b}</td><td><b>${fmt(m[eKey + "_mj"], 0)}</b></td><td>${fmt(m.tokens_per_s)}</td><td>${fmt(m[eKey + "_w"])}</td>${ssd ? `<td>${fmt(m.ssd_mb)}</td>` : ""}</tr>`; }).join("")
+    : `<tr><td colspan="${ssd ? 5 : 4}" class="muted" style="text-align:left">no replies yet</td></tr>`);
+}
+function cacheLabel() {
+  const r = $("cacheRange"), v = +r.value; $("cacheGb").textContent = v.toFixed(1) + " GB";
+  $("cacheSlider").style.setProperty("--p", (100 * (v - +r.min) / (+r.max - +r.min)).toFixed(1) + "%");
+}
+async function poll() { try { TEL = await (await fetch("/api/telemetry")).json(); renderTel(); } catch (e) {} setTimeout(poll, 500); }
+
+/* ---------- start ---------- */
+/* ---------- models: one in VRAM at a time; choosing another one unloads this one and reloads the page when the new one is ready ---------- */
+function fillModels(sel, info) {
+  sel.innerHTML = info.models.map(m => `<option value="${m.key}" ${m.available ? "" : "disabled"} title="${esc(m.note)}">${esc(m.label)}${m.available ? "" : " (not set up)"}</option>`).join("");
+  sel.value = info.model_key || ""; sel.onchange = () => chooseModel(sel, info);
+}
+async function chooseModel(sel, info) {
+  const key = sel.value; if (key === info.model_key && !info.error) return;
+  if (busy) { sel.value = info.model_key; return; }
+  const r = await fetch("/api/model", {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify({model: key})});
+  const j = await r.json(); if (!r.ok) { alert(j.error); sel.value = info.model_key; return; }
+  waitModel(info.models.find(m => m.key === key).label);
+}
+async function waitModel(label) {
+  $("loadingBox").hidden = false; $("modelSel2").hidden = true; $("loadingTitle").textContent = "Loading " + label;
+  $("loadingMsg").textContent = "The previous model leaves VRAM first; a checkpoint chosen for the first time is downloaded from Hugging Face.";
+  for (;;) {
+    await new Promise(r => setTimeout(r, 1000));
+    const i = await fetch("/api/info").then(r => r.json()).catch(() => null); if (!i || i.loading) continue;
+    if (i.error || !i.sizes) { $("loadingTitle").textContent = "Loading failed"; $("loadingMsg").textContent = i.error || ""; fillModels($("modelSel2"), i); $("modelSel2").hidden = false; return; }
+    location.reload(); return;
+  }
+}
+
+async function init() {
+  INFO = await (await fetch("/api/info")).json();
+  if (!INFO.sizes) { fillModels($("modelSel"), INFO); if (INFO.loading) waitModel(INFO.models.find(m => m.key === INFO.loading).label);
+                     else { $("loadingBox").hidden = false; $("loadingTitle").textContent = "No model loaded"; $("loadingMsg").textContent = INFO.error || ""; fillModels($("modelSel2"), INFO); $("modelSel2").hidden = false; }
+                     return; }
+  fillModels($("modelSel"), INFO); bits = INFO.bits; MODES = INFO.modes; $("range").max = MODES.length - 1;
+  INFO.label = INFO.model + (INFO.gpu ? " · " + INFO.gpu.name.replace(/^NVIDIA (GeForce )?/, "") : "");
+  $("model").textContent = INFO.label + " · Ready"; $("dry").hidden = !INFO.dry_run;
+  $("slider").insertAdjacentHTML("beforeend", MODES.map((b, i) => `<span class="tick ${cls(b)}" data-b="${b}" style="left:calc(10px + ${i / (MODES.length - 1)} * (100% - 20px))">${b}</span>`).join(""));
+  $("slider").querySelectorAll(".tick").forEach(t => t.onclick = () => setBits(+t.dataset.b));
+  $("range").oninput = () => setBits(MODES[+$("range").value]);
+  $("presets").innerHTML = INFO.examples.map((e, i) => `<button data-i="${i}">Example ${i + 1}</button>`).join("");
+  $("presets").querySelectorAll("button").forEach(x => x.onclick = () => $("cmpInput").value = INFO.examples[+x.dataset.i]);
+  $("cmpInput").value = INFO.examples[0];
+  $("cmpModes").innerHTML = MODES.map(b => `<label class="${cls(b)}"><input type="checkbox" value="${b}" ${[2, 3, 4, 8].includes(b) ? "checked" : ""}> <span class="dot"></span>${b}</label>`).join("");
+  if (INFO.moe) {
+    const m = INFO.moe, r = $("cacheRange"); $("moeSec").hidden = false; r.min = Math.ceil(m.min_gb * 2) / 2; r.max = m.max_gb; r.value = m.budget_gb; cacheLabel();
+    r.oninput = cacheLabel; r.onchange = () => fetch("/api/cache", {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify({gb: +r.value})});
+  }
+  load(); newConv(); showBits(); poll();
+  setInterval(renderConvs, 15000); setInterval(() => fetch("/api/hardware").then(r => r.json()).then(h => { INFO.vram_gb = h.vram_gb; showBits(); }).catch(() => {}), 10000);
+}
+$("send").onclick = send; $("cmpRun").onclick = compare; $("newChat").onclick = () => { if (!busy) newConv(); };
+$("viewBtn").onclick = () => showView($("compare").hidden ? "compare" : "chat");
+$("eSeg").querySelectorAll("button").forEach(x => x.onclick = () => { eKey = x.dataset.k; $("eSeg").querySelectorAll("button").forEach(y => y.classList.toggle("on", y === x)); if (TEL) renderTel(); });
+$("eReset").onclick = () => fetch("/api/telemetry/reset", {method: "POST"});
+$("input").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey && !e.isComposing) { e.preventDefault(); send(); } });
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+torch>=2.11
+transformers==4.51.0
+datasets
+safetensors
+accelerate
+huggingface_hub
+diffusers==0.34.0
+soundfile
+pyarrow
+Pillow
+lm_eval==0.4.5
+jiwer
+scipy
+imageio
+imageio-ffmpeg

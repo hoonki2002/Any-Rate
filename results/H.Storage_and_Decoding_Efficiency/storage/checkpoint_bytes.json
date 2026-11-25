@@ -1,0 +1,39 @@
+{
+ "note": "bytes of the tensors of the 224 decoder linear layers of Llama-3.1-8B-Instruct, counted from the checkpoint files",
+ "AP, 4-bit parent (seed 2)": {
+  "qweight": 3489660928,
+  "lut2": 11010048,
+  "lut3": 22020096,
+  "lut4": 44040192
+ },
+ "AB, 2-4 bits": {
+  "qweight": 3489660928,
+  "alpha_2": 218103808,
+  "alpha_3": 327155712,
+  "alpha_4": 436207616,
+  "beta_2": 109051904,
+  "beta_3": 109051904,
+  "beta_4": 109051904,
+  "q_bias": 109051904
+ },
+ "MG, 8-bit master": {
+  "qweight": 6979321856,
+  "scale": 109051904,
+  "zero": 109051904,
+  "perm": 9961472
+ },
+ "AR (ours), 2-8 bits (released checkpoint Llama-3.1-8B-Instruct-AR2to8)": {
+  "ar.plane0": 872415232,
+  "ar.plane1": 436207616,
+  "ar.plane2": 436207616,
+  "ar.plane3": 436207616,
+  "ar.plane4": 436207616,
+  "ar.plane5": 436207616,
+  "ar.plane6": 436207616,
+  "ar.table_codes": 176160768,
+  "ar.table_lo": 2752512,
+  "ar.table_step": 2752512,
+  "ar.res_planes": 3489660928,
+  "ar.res_lev": 82575360
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "note": "bytes of the Any-Rate tensors of the 252 linear layers in the released checkpoint Qwen2.5-3B-AR2to8, counted from the safetensors headers",
+ "bytes": {
+  "ar.plane0": 346816512,
+  "ar.plane1": 173408256,
+  "ar.plane2": 173408256,
+  "ar.plane3": 173408256,
+  "ar.plane4": 173408256,
+  "ar.plane5": 173408256,
+  "ar.plane6": 173408256,
+  "ar.table_codes": 132120576,
+  "ar.table_lo": 2064384,
+  "ar.table_step": 2064384,
+  "ar.res_planes": 1387266048,
+  "ar.res_lev": 61931520
+ }
+}

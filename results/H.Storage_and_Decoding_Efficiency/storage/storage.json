@@ -1,0 +1,27 @@
+{
+ "linear_weights": 6979321856,
+ "rows": 1376256,
+ "table": {
+  "AP": {
+   "optimized_bits": "2-8",
+   "modes": 7,
+   "bits_per_weight": 9.602764423076923
+  },
+  "AB": {
+   "optimized_bits": "2-8",
+   "modes": 7,
+   "bits_per_weight": 13.375
+  },
+  "MG (3/4/8)": {
+   "optimized_bits": "3, 4, 8",
+   "modes": "7 (sliced)",
+   "bits_per_weight": 8.26141826923077
+  },
+  "AR (ours)": {
+   "optimized_bits": "2-4 (by 0.5), 5-8",
+   "modes": 9,
+   "bits_per_weight": 8.302884615384615,
+   "ladder_only_bits_per_weight": 4.208233173076923
+  }
+ }
+}
