@@ -2,7 +2,7 @@
 
 Official PyTorch implementation of **Any-Rate**.
 
-[[Paper](https://arxiv.org/abs/2611.34402)]
+[![arXiv](https://img.shields.io/badge/arXiv-2611.34402-b31b1b.svg)](https://arxiv.org/abs/2611.34402)
 
 > **Note on collaboration.** This codebase was developed jointly by
 > [Hoonki Lee](https://github.com/hoonki2002) and [Haechan Shin](https://github.com/hcvir).
