@@ -2,7 +2,7 @@
 
 Official PyTorch implementation of **Any-Rate**.
 
-[Paper (coming soon)]
+[Paper https://arxiv.org/abs/2611.34402]
 
 > **Note on collaboration.** This codebase was developed jointly by
 > [Hoonki Lee](https://github.com/hoonki2002) and [Haechan Shin](https://github.com/hcvir).
@@ -115,6 +115,12 @@ All numbers and outputs reported in the paper are in [results/](results/), one f
 
 ## Citation
 
-```bibtex
-TODO
-```
+@misc{lee2026anyrate,
+  title = {Any-Rate: Half-Bit Multi-Precision LLM Quantization with Coded Bit-Planes},
+  author = {Hoonki Lee and Haechan Shin and Hyuntaek Jung and Yeonu Choi and Sangyeob Kim},
+  year = {2026},
+  eprint = {2611.34402},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.LG},
+  url = {https://arxiv.org/abs/2611.34402}
+}
